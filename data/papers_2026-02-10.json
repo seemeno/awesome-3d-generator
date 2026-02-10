@@ -17,18 +17,18 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "dynamic",
-      "ar",
       "4d",
-      "vr",
-      "reflection",
-      "geometry",
       "head",
+      "dynamic",
+      "vr",
+      "high-fidelity",
       "motion",
+      "geometry",
+      "ar",
+      "semantic",
+      "reflection",
       "3d gaussian",
-      "gaussian splatting",
-      "semantic"
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -59,10 +59,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
-      "3d gaussian",
       "compact",
+      "ar",
+      "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -92,10 +92,10 @@
     ],
     "github_url": "https://github.com/DanielMing123/TFusionOcc",
     "keywords": [
-      "efficient",
       "3d gaussian",
-      "ar",
-      "semantic"
+      "efficient",
+      "semantic",
+      "ar"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -125,14 +125,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "human",
-      "dynamic",
-      "ar",
       "4d",
-      "motion",
+      "dynamic",
+      "high-fidelity",
       "deformation",
-      "gaussian splatting"
+      "gaussian splatting",
+      "ar",
+      "human",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -162,16 +162,16 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "dynamic",
-      "ar",
-      "animation",
-      "geometry",
-      "face",
-      "3d reconstruction",
-      "avatar",
       "head",
+      "dynamic",
+      "high-fidelity",
+      "face",
+      "animation",
       "motion",
+      "3d reconstruction",
+      "geometry",
+      "avatar",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -199,13 +199,13 @@
     "github_url": "",
     "keywords": [
       "dynamic",
-      "ar",
       "face",
       "3d reconstruction",
       "segmentation",
+      "ar",
+      "semantic",
       "3d gaussian",
-      "fast",
-      "semantic"
+      "fast"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -235,8 +235,8 @@
     "github_url": "",
     "keywords": [
       "lighting",
-      "nerf",
       "ar",
+      "nerf",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -265,10 +265,10 @@
     ],
     "github_url": "https://github.com/whesense/XSIM",
     "keywords": [
-      "ar",
       "dynamic",
       "geometry",
       "autonomous driving",
+      "ar",
       "3d gaussian"
     ],
     "citations": 0,
@@ -298,14 +298,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "human",
-      "body",
       "dynamic",
-      "ar",
+      "high-fidelity",
+      "body",
       "real-time rendering",
-      "motion",
-      "gaussian splatting"
+      "gaussian splatting",
+      "ar",
+      "human",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -334,11 +334,11 @@
     ],
     "github_url": "https://github.com/gwilczynski95/QuantumGS",
     "keywords": [
-      "ar",
-      "neural rendering",
-      "reflection",
-      "geometry",
       "real-time rendering",
+      "neural rendering",
+      "geometry",
+      "ar",
+      "reflection",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -397,8 +397,8 @@
     ],
     "github_url": "https://github.com/BlueDyee/VecSet-Edit",
     "keywords": [
-      "high-fidelity",
       "3d gaussian",
+      "high-fidelity",
       "ar",
       "gaussian splatting"
     ],
@@ -429,15 +429,15 @@
     ],
     "github_url": "https://github.com/MiliLab/JOintGS",
     "keywords": [
-      "high-fidelity",
-      "human",
-      "body",
-      "dynamic",
-      "ar",
       "illumination",
+      "dynamic",
+      "high-fidelity",
+      "body",
+      "deformation",
       "real-time rendering",
       "avatar",
-      "deformation",
+      "ar",
+      "human",
       "3d gaussian"
     ],
     "citations": 0,
@@ -468,12 +468,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "4d",
-      "motion",
+      "dynamic",
       "deformation",
-      "3d gaussian"
+      "ar",
+      "3d gaussian",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -507,18 +507,18 @@
     ],
     "github_url": "",
     "keywords": [
-      "mapping",
+      "localization",
       "dynamic",
-      "ar",
-      "efficient",
-      "tracking",
       "face",
+      "tracking",
       "survey",
-      "motion",
+      "gaussian splatting",
+      "ar",
+      "mapping",
       "3d gaussian",
       "slam",
-      "gaussian splatting",
-      "localization"
+      "efficient",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -577,9 +577,9 @@
     ],
     "github_url": "https://github.com/joaxkal/AnyStyle",
     "keywords": [
+      "3d reconstruction",
       "3d gaussian",
       "ar",
-      "3d reconstruction",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -612,13 +612,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "dynamic",
-      "ar",
       "4d",
-      "motion",
+      "dynamic",
+      "high-fidelity",
       "compression",
-      "gaussian splatting"
+      "gaussian splatting",
+      "ar",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -645,13 +645,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "nerf",
       "sparse-view",
       "real-time rendering",
-      "motion",
+      "gaussian splatting",
+      "ar",
+      "nerf",
       "3d gaussian",
-      "gaussian splatting"
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -683,9 +683,9 @@
     "github_url": "",
     "keywords": [
       "dynamic",
+      "geometry",
       "ar",
       "efficient",
-      "geometry",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -716,13 +716,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "4d",
-      "real-time rendering",
-      "motion",
       "compact",
-      "gaussian splatting"
+      "dynamic",
+      "real-time rendering",
+      "gaussian splatting",
+      "ar",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -756,9 +756,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "body",
       "3d gaussian",
       "ar",
+      "body",
       "dynamic"
     ],
     "citations": 0,
@@ -789,9 +789,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "robotics",
       "survey",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -825,12 +825,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
       "dynamic",
-      "ar",
-      "efficient",
+      "high-fidelity",
       "real-time rendering",
+      "ar",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -864,10 +864,10 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "ar",
-      "geometry",
       "face",
       "3d reconstruction",
+      "geometry",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -900,11 +900,11 @@
     ],
     "github_url": "https://github.com/whynot-zyl/CloDS",
     "keywords": [
-      "mapping",
       "dynamic",
-      "ar",
-      "geometry",
       "deformation",
+      "geometry",
+      "ar",
+      "mapping",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -934,12 +934,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "mapping",
-      "ar",
-      "vr",
       "head",
+      "vr",
       "avatar",
-      "3d gaussian"
+      "ar",
+      "3d gaussian",
+      "mapping"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -970,14 +970,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "dynamic",
-      "ar",
       "4d",
-      "efficient",
+      "dynamic",
+      "high-fidelity",
       "face",
       "motion",
+      "ar",
       "3d gaussian",
+      "efficient",
       "fast",
       "gaussian splatting"
     ],
@@ -1010,12 +1010,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "body",
-      "ar",
-      "vr",
-      "tracking",
       "head",
+      "vr",
+      "body",
+      "tracking",
       "avatar",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -1051,11 +1051,11 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "ar",
-      "efficient",
       "geometry",
-      "gaussian splatting",
-      "semantic"
+      "ar",
+      "semantic",
+      "efficient",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -1084,8 +1084,8 @@
     "keywords": [
       "high-fidelity",
       "ar",
-      "lighting",
       "3d gaussian",
+      "lighting",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -1115,12 +1115,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "segmentation",
+      "ar",
+      "semantic",
       "3d gaussian",
       "fast",
-      "gaussian splatting",
-      "semantic"
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -1147,8 +1147,8 @@
     "keywords": [
       "3d gaussian",
       "ar",
-      "gaussian splatting",
-      "ray tracing"
+      "ray tracing",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -1177,11 +1177,11 @@
     ],
     "github_url": "",
     "keywords": [
+      "compact",
       "dynamic",
+      "compression",
       "ar",
       "efficient",
-      "compression",
-      "compact",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -1244,12 +1244,12 @@
     ],
     "github_url": "",
     "keywords": [
+      "vr",
       "high-fidelity",
       "ar",
-      "vr",
+      "semantic",
       "3d gaussian",
-      "gaussian splatting",
-      "semantic"
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -1283,11 +1283,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "large scene",
-      "ar",
-      "efficient",
       "head",
+      "ar",
       "3d gaussian",
+      "large scene",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -1321,12 +1321,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "light transport",
-      "efficient",
-      "nerf",
-      "geometry",
       "illumination",
+      "light transport",
+      "geometry",
+      "ar",
+      "nerf",
+      "efficient",
       "path tracing"
     ],
     "citations": 0,
@@ -1357,11 +1357,11 @@
     ],
     "github_url": "",
     "keywords": [
+      "vr",
       "high-fidelity",
       "ar",
-      "vr",
-      "motion",
-      "3d gaussian"
+      "3d gaussian",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -1392,8 +1392,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "understanding",
+      "ar",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -1423,12 +1423,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "nerf",
-      "geometry",
       "illumination",
+      "shadow",
       "3d reconstruction",
-      "shadow"
+      "geometry",
+      "ar",
+      "nerf"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -1453,15 +1453,15 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
-      "geometry",
-      "face",
-      "autonomous driving",
       "head",
+      "face",
+      "geometry",
+      "autonomous driving",
+      "ar",
+      "semantic",
       "3d gaussian",
-      "understanding",
-      "semantic"
+      "efficient",
+      "understanding"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -1494,10 +1494,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
       "geometry",
       "3d reconstruction",
+      "ar",
+      "efficient",
       "fast",
       "gaussian splatting"
     ],
@@ -1530,14 +1530,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "medical",
-      "ar",
-      "lightweight",
-      "vr",
-      "path tracing",
       "head",
       "understanding",
-      "gaussian splatting"
+      "vr",
+      "lightweight",
+      "medical",
+      "gaussian splatting",
+      "ar",
+      "path tracing"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -1567,12 +1567,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
-      "segmentation",
       "3d reconstruction",
+      "segmentation",
+      "ar",
       "mapping",
-      "3d gaussian"
+      "3d gaussian",
+      "efficient"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -1603,9 +1603,9 @@
     ],
     "github_url": "",
     "keywords": [
+      "4d",
       "dynamic",
       "ar",
-      "4d",
       "3d gaussian",
       "fast",
       "gaussian splatting"
@@ -1639,16 +1639,16 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "ar",
-      "lightweight",
-      "efficient",
-      "nerf",
-      "neural rendering",
-      "face",
       "head",
+      "compact",
+      "high-fidelity",
+      "lightweight",
+      "face",
       "compression",
-      "compact"
+      "neural rendering",
+      "ar",
+      "nerf",
+      "efficient"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -1678,8 +1678,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "face",
       "3d gaussian",
+      "face",
       "ar",
       "gaussian splatting"
     ],
@@ -1711,12 +1711,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
-      "acceleration",
       "head",
       "ray tracing",
+      "acceleration",
+      "ar",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -1747,11 +1747,11 @@
     ],
     "github_url": "https://github.com/GVGScode/GVGS",
     "keywords": [
-      "ar",
-      "efficient",
-      "geometry",
       "face",
+      "geometry",
+      "ar",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -1812,11 +1812,11 @@
     ],
     "github_url": "",
     "keywords": [
+      "real-time rendering",
+      "3d reconstruction",
+      "geometry",
       "ar",
       "nerf",
-      "geometry",
-      "3d reconstruction",
-      "real-time rendering",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -1878,14 +1878,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "fast",
-      "ar",
       "head",
-      "3d gaussian",
       "compact",
-      "gaussian splatting",
-      "slam"
+      "high-fidelity",
+      "ar",
+      "3d gaussian",
+      "slam",
+      "fast",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -1915,11 +1915,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "ar",
-      "vr",
       "head",
+      "vr",
+      "high-fidelity",
       "medical",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -1950,10 +1950,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "recognition",
-      "3d gaussian",
       "compact",
+      "recognition",
+      "ar",
+      "3d gaussian",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -1987,9 +1987,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "face",
       "deformation",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -2022,12 +2022,12 @@
     ],
     "github_url": "",
     "keywords": [
+      "understanding",
       "high-fidelity",
+      "geometry",
       "ar",
       "nerf",
-      "geometry",
       "3d gaussian",
-      "understanding",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -2055,12 +2055,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "4d",
-      "face",
       "head",
-      "motion",
-      "deformation"
+      "face",
+      "deformation",
+      "ar",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -2089,13 +2089,13 @@
     ],
     "github_url": "https://github.com/stonewalking/Splat-portrait",
     "keywords": [
-      "ar",
-      "animation",
-      "3d reconstruction",
-      "avatar",
       "head",
-      "motion",
-      "gaussian splatting"
+      "animation",
+      "avatar",
+      "3d reconstruction",
+      "gaussian splatting",
+      "ar",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -2129,16 +2129,16 @@
     ],
     "github_url": "https://github.com/zaixiabalala/ExoGS",
     "keywords": [
-      "human",
+      "4d",
       "dynamic",
       "lightweight",
-      "4d",
-      "efficient",
-      "ar",
       "geometry",
+      "ar",
+      "semantic",
+      "human",
       "3d gaussian",
-      "gaussian splatting",
-      "semantic"
+      "efficient",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -2170,14 +2170,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "dynamic",
-      "ar",
-      "efficient",
       "sparse-view",
-      "motion",
+      "dynamic",
+      "high-fidelity",
+      "gaussian splatting",
+      "ar",
       "3d gaussian",
-      "gaussian splatting"
+      "efficient",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -2205,10 +2205,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
       "geometry",
       "shape reconstruction",
+      "ar",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -2239,9 +2239,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "geometry",
       "face",
+      "geometry",
+      "ar",
       "3d gaussian",
       "fast",
       "gaussian splatting"
@@ -2272,13 +2272,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "ar",
-      "efficient",
-      "geometry",
-      "face",
-      "3d gaussian",
       "compact",
+      "high-fidelity",
+      "face",
+      "geometry",
+      "ar",
+      "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -2319,11 +2319,11 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
+      "geometry",
       "ar",
       "efficient",
-      "lighting",
-      "geometry",
       "3d gaussian",
+      "lighting",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -2351,11 +2351,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "few-shot",
-      "ar",
-      "geometry",
       "sparse-view",
+      "few-shot",
       "3d reconstruction",
+      "geometry",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -2390,8 +2390,8 @@
     "github_url": "",
     "keywords": [
       "3d gaussian",
-      "ar",
       "understanding",
+      "ar",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -2424,11 +2424,11 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "human",
       "body",
-      "ar",
-      "geometry",
       "avatar",
+      "geometry",
+      "ar",
+      "human",
       "3d gaussian"
     ],
     "citations": 0,
@@ -2454,10 +2454,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "vr",
       "head",
+      "vr",
       "avatar",
+      "ar",
       "3d gaussian"
     ],
     "citations": 0,
@@ -2490,11 +2490,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
-      "face",
       "head",
-      "3d gaussian"
+      "face",
+      "ar",
+      "3d gaussian",
+      "efficient"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -2526,17 +2526,17 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "4d",
-      "efficient",
-      "geometry",
       "urban scene",
-      "autonomous driving",
+      "dynamic",
       "motion",
+      "geometry",
+      "autonomous driving",
+      "ar",
+      "semantic",
       "3d gaussian",
-      "gaussian splatting",
-      "semantic"
+      "efficient",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -2566,12 +2566,12 @@
     "github_url": "",
     "keywords": [
       "dynamic",
-      "ar",
-      "lighting",
       "geometry",
+      "ar",
+      "semantic",
       "3d gaussian",
-      "gaussian splatting",
-      "semantic"
+      "lighting",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -2603,13 +2603,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "quality enhancement",
       "dynamic",
-      "ar",
-      "efficient",
       "compression",
-      "gaussian splatting",
-      "semantic"
+      "ar",
+      "semantic",
+      "quality enhancement",
+      "efficient",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -2672,13 +2672,13 @@
     ],
     "github_url": "https://github.com/RockyXu66/splatbus",
     "keywords": [
-      "high-fidelity",
-      "ar",
       "robotics",
-      "lighting",
-      "autonomous driving",
+      "high-fidelity",
       "real-time rendering",
+      "autonomous driving",
+      "ar",
       "3d gaussian",
+      "lighting",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -2711,12 +2711,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "relightable",
-      "ar",
-      "lighting",
-      "illumination",
       "relighting",
+      "illumination",
+      "ar",
+      "relightable",
       "3d gaussian",
+      "lighting",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -2749,8 +2749,8 @@
     "github_url": "",
     "keywords": [
       "3d gaussian",
-      "ar",
-      "urban scene"
+      "urban scene",
+      "ar"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -2778,13 +2778,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
+      "head",
       "dynamic",
-      "ar",
+      "high-fidelity",
       "animation",
       "real-time rendering",
-      "head",
       "avatar",
+      "ar",
       "3d gaussian"
     ],
     "citations": 0,
@@ -2812,12 +2812,12 @@
     ],
     "github_url": "",
     "keywords": [
+      "compression",
       "ar",
       "efficient",
-      "lighting",
       "nerf",
       "3d gaussian",
-      "compression",
+      "lighting",
       "fast",
       "gaussian splatting"
     ],
@@ -2846,12 +2846,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
-      "nerf",
-      "real-time rendering",
-      "mapping",
       "compression",
+      "real-time rendering",
+      "ar",
+      "nerf",
+      "mapping",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -2876,12 +2876,12 @@
     ],
     "github_url": "",
     "keywords": [
+      "head",
       "dynamic",
       "ar",
-      "efficient",
-      "head",
+      "semantic",
       "3d gaussian",
-      "semantic"
+      "efficient"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -2915,8 +2915,8 @@
     "github_url": "",
     "keywords": [
       "motion",
-      "ar",
       "3d reconstruction",
+      "ar",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -2949,8 +2949,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
       "3d gaussian",
+      "high-fidelity",
       "ar",
       "gaussian splatting"
     ],
@@ -2982,17 +2982,17 @@
     ],
     "github_url": "",
     "keywords": [
-      "few-shot",
-      "dynamic",
-      "lightweight",
-      "animation",
-      "efficient",
-      "ar",
-      "geometry",
-      "avatar",
       "head",
+      "dynamic",
+      "few-shot",
+      "lightweight",
       "deformation",
+      "animation",
+      "avatar",
+      "geometry",
+      "ar",
       "3d gaussian",
+      "efficient",
       "fast"
     ],
     "citations": 0,
@@ -3024,20 +3024,20 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "dynamic",
-      "lightweight",
-      "ar",
-      "neural rendering",
-      "lighting",
-      "geometry",
       "illumination",
+      "dynamic",
+      "high-fidelity",
+      "lightweight",
       "face",
       "3d reconstruction",
+      "neural rendering",
+      "geometry",
+      "semantic",
+      "ar",
       "mapping",
       "3d gaussian",
-      "gaussian splatting",
-      "semantic"
+      "lighting",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -3104,12 +3104,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
-      "nerf",
-      "geometry",
       "survey",
+      "geometry",
+      "ar",
+      "nerf",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -3140,16 +3140,16 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
+      "understanding",
       "lightweight",
-      "efficient",
+      "compression",
       "real-time rendering",
       "segmentation",
+      "ar",
+      "semantic",
       "3d gaussian",
-      "compression",
-      "understanding",
-      "gaussian splatting",
-      "semantic"
+      "efficient",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -3177,10 +3177,10 @@
     ],
     "github_url": "https://github.com/CyberAgentAILab/KaoLRM",
     "keywords": [
-      "ar",
-      "geometry",
-      "face",
       "compact",
+      "face",
+      "geometry",
+      "ar",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -3208,9 +3208,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "efficient",
       "3d gaussian",
       "segmentation",
+      "efficient",
       "ar"
     ],
     "citations": 0,
@@ -3237,17 +3237,17 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "ar",
-      "efficient",
       "robotics",
-      "lighting",
+      "high-fidelity",
       "3d reconstruction",
       "segmentation",
+      "ar",
+      "efficient",
+      "semantic",
       "mapping",
       "3d gaussian",
-      "gaussian splatting",
-      "semantic"
+      "lighting",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -3276,18 +3276,18 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "relightable",
-      "ar",
-      "light transport",
-      "efficient",
-      "neural rendering",
-      "lighting",
-      "geometry",
-      "illumination",
-      "face",
       "relighting",
-      "shadow"
+      "illumination",
+      "light transport",
+      "shadow",
+      "high-fidelity",
+      "face",
+      "neural rendering",
+      "geometry",
+      "ar",
+      "efficient",
+      "relightable",
+      "lighting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -3314,11 +3314,11 @@
     ],
     "github_url": "",
     "keywords": [
+      "gaussian splatting",
       "ar",
-      "lighting",
       "3d gaussian",
-      "understanding",
-      "gaussian splatting"
+      "lighting",
+      "understanding"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -3347,17 +3347,17 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
+      "head",
       "dynamic",
-      "ar",
-      "efficient",
       "vr",
+      "high-fidelity",
       "face",
       "avatar",
-      "head",
-      "motion",
+      "gaussian splatting",
+      "ar",
       "3d gaussian",
-      "gaussian splatting"
+      "efficient",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -3388,13 +3388,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "geometry",
       "face",
-      "motion",
       "deformation",
+      "geometry",
+      "gaussian splatting",
+      "ar",
       "3d gaussian",
-      "gaussian splatting"
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -3422,12 +3422,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
+      "compact",
       "lightweight",
-      "efficient",
+      "ar",
       "mapping",
       "3d gaussian",
-      "compact",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -3455,11 +3455,11 @@
     ],
     "github_url": "",
     "keywords": [
+      "head",
       "high-fidelity",
-      "ar",
       "lightweight",
       "face",
-      "head",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -3491,14 +3491,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "dynamic",
-      "ar",
-      "vr",
       "robotics",
-      "lighting",
+      "dynamic",
+      "vr",
+      "high-fidelity",
       "real-time rendering",
+      "ar",
       "3d gaussian",
+      "lighting",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -3553,14 +3553,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "quality enhancement",
-      "ar",
-      "efficient",
-      "geometry",
-      "motion",
       "deformation",
+      "geometry",
+      "gaussian splatting",
+      "ar",
+      "quality enhancement",
       "3d gaussian",
-      "gaussian splatting"
+      "efficient",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -3586,10 +3586,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "autonomous driving",
       "3d reconstruction",
-      "gaussian splatting",
-      "ar"
+      "autonomous driving",
+      "ar",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -3619,17 +3619,17 @@
     ],
     "github_url": "",
     "keywords": [
-      "human",
-      "body",
       "dynamic",
-      "lightweight",
-      "ar",
       "vr",
-      "avatar",
-      "motion",
+      "lightweight",
+      "body",
       "deformation",
+      "avatar",
+      "gaussian splatting",
+      "ar",
+      "human",
       "3d gaussian",
-      "gaussian splatting"
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -3657,11 +3657,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "lightweight",
-      "efficient",
       "neural rendering",
+      "ar",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -3689,12 +3689,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "lightweight",
       "light transport",
-      "efficient",
+      "lightweight",
       "neural rendering",
-      "geometry"
+      "geometry",
+      "ar",
+      "efficient"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -3722,13 +3722,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "lightweight",
       "vr",
+      "lightweight",
       "geometry",
-      "motion",
+      "gaussian splatting",
+      "ar",
       "3d gaussian",
-      "gaussian splatting"
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -3786,13 +3786,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "robotics",
+      "localization",
+      "dynamic",
       "3d reconstruction",
-      "mapping",
+      "ar",
       "slam",
-      "localization"
+      "mapping"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -3820,9 +3820,9 @@
     ],
     "github_url": "",
     "keywords": [
+      "3d reconstruction",
       "3d gaussian",
       "ar",
-      "3d reconstruction",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -3850,13 +3850,13 @@
     ],
     "github_url": "https://github.com/RockyXu66/LayerGS",
     "keywords": [
-      "high-fidelity",
-      "human",
-      "body",
-      "ar",
       "4d",
-      "geometry",
+      "high-fidelity",
+      "body",
       "avatar",
+      "geometry",
+      "ar",
+      "human",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -3886,15 +3886,15 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
       "tracking",
       "segmentation",
+      "ar",
+      "semantic",
       "mapping",
       "3d gaussian",
       "slam",
-      "gaussian splatting",
-      "semantic"
+      "efficient",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -3922,13 +3922,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "head",
-      "motion",
+      "dynamic",
       "deformation",
+      "gaussian splatting",
+      "ar",
       "3d gaussian",
-      "gaussian splatting"
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -3958,14 +3958,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
       "dynamic",
-      "ar",
-      "animation",
-      "recognition",
+      "high-fidelity",
       "face",
-      "segmentation",
+      "recognition",
+      "animation",
       "avatar",
+      "segmentation",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -3997,12 +3997,12 @@
     ],
     "github_url": "",
     "keywords": [
+      "compact",
       "high-fidelity",
       "ar",
-      "efficient",
+      "semantic",
       "3d gaussian",
-      "compact",
-      "semantic"
+      "efficient"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -4031,17 +4031,17 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
+      "compact",
       "dynamic",
+      "high-fidelity",
+      "tracking",
+      "deformation",
+      "real-time rendering",
+      "motion",
+      "geometry",
+      "segmentation",
       "ar",
       "efficient",
-      "compact",
-      "tracking",
-      "geometry",
-      "real-time rendering",
-      "segmentation",
-      "motion",
-      "deformation",
       "fast",
       "gaussian splatting"
     ],
@@ -4100,12 +4100,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "dynamic",
-      "ar",
       "4d",
-      "motion",
-      "3d gaussian"
+      "dynamic",
+      "high-fidelity",
+      "ar",
+      "3d gaussian",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -4130,8 +4130,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
       "3d gaussian",
+      "high-fidelity",
       "ar",
       "gaussian splatting"
     ],
@@ -4159,15 +4159,15 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
-      "geometry",
-      "understanding",
       "head",
+      "understanding",
+      "geometry",
+      "ar",
+      "semantic",
       "3d gaussian",
+      "efficient",
       "fast",
-      "gaussian splatting",
-      "semantic"
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -4197,9 +4197,9 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
+      "compression",
       "ar",
       "3d gaussian",
-      "compression",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -4265,14 +4265,14 @@
     ],
     "github_url": "",
     "keywords": [
+      "understanding",
       "localization",
-      "ar",
       "geometry",
       "segmentation",
+      "ar",
+      "semantic",
       "3d gaussian",
-      "understanding",
-      "gaussian splatting",
-      "semantic"
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -4304,16 +4304,16 @@
     ],
     "github_url": "",
     "keywords": [
-      "relightable",
-      "mapping",
-      "ar",
-      "lighting",
-      "illumination",
       "relighting",
-      "avatar",
+      "illumination",
       "head",
       "high quality",
+      "avatar",
+      "ar",
+      "mapping",
+      "relightable",
       "3d gaussian",
+      "lighting",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -4343,14 +4343,14 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "ar",
-      "efficient",
-      "geometry",
       "motion",
+      "geometry",
+      "ar",
+      "semantic",
       "3d gaussian",
+      "efficient",
       "fast",
-      "gaussian splatting",
-      "semantic"
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -4377,10 +4377,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
       "sparse-view",
+      "ar",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -4410,13 +4410,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
-      "geometry",
       "face",
-      "avatar",
       "deformation",
+      "avatar",
+      "geometry",
+      "ar",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -4445,11 +4445,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "motion",
-      "3d gaussian",
       "gaussian splatting",
-      "semantic"
+      "ar",
+      "semantic",
+      "3d gaussian",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -4476,12 +4476,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "geometry",
       "segmentation",
+      "ar",
+      "semantic",
       "3d gaussian",
-      "fast",
-      "semantic"
+      "fast"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -4513,13 +4513,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "lighting",
-      "illumination",
-      "real-time rendering",
       "relighting",
+      "illumination",
       "head",
+      "real-time rendering",
+      "ar",
       "3d gaussian",
+      "lighting",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -4549,15 +4549,15 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
       "robotics",
-      "neural rendering",
-      "efficient rendering",
+      "sparse view",
       "face",
       "3d reconstruction",
-      "sparse view",
+      "neural rendering",
+      "ar",
+      "efficient rendering",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -4588,15 +4588,15 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "human",
-      "mapping",
-      "ar",
-      "geometry",
       "avatar",
-      "motion",
-      "3d gaussian",
+      "geometry",
       "gaussian splatting",
-      "semantic"
+      "ar",
+      "semantic",
+      "human",
+      "3d gaussian",
+      "mapping",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -4623,8 +4623,8 @@
     "github_url": "",
     "keywords": [
       "efficient",
-      "dynamic",
       "ar",
+      "dynamic",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -4653,16 +4653,16 @@
     ],
     "github_url": "",
     "keywords": [
-      "motion",
-      "ar",
-      "animation",
-      "efficient",
-      "face",
       "head",
+      "face",
       "high quality",
       "deformation",
+      "animation",
+      "gaussian splatting",
+      "ar",
       "3d gaussian",
-      "gaussian splatting"
+      "efficient",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -4693,14 +4693,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "dynamic",
-      "ar",
-      "avatar",
       "head",
-      "motion",
+      "dynamic",
+      "high-fidelity",
+      "avatar",
+      "ar",
       "3d gaussian",
-      "fast"
+      "fast",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -4728,15 +4728,15 @@
     ],
     "github_url": "",
     "keywords": [
-      "mapping",
-      "dynamic",
-      "ar",
-      "lighting",
-      "illumination",
       "relighting",
-      "avatar",
-      "3d gaussian",
+      "illumination",
+      "dynamic",
       "shadow",
+      "avatar",
+      "ar",
+      "mapping",
+      "3d gaussian",
+      "lighting",
       "fast",
       "gaussian splatting"
     ],
@@ -4767,15 +4767,15 @@
     ],
     "github_url": "",
     "keywords": [
-      "ray marching",
-      "ar",
-      "efficient",
-      "efficient rendering",
       "illumination",
       "sparse-view",
-      "3d reconstruction",
-      "3d gaussian",
       "shadow",
+      "ray marching",
+      "3d reconstruction",
+      "ar",
+      "efficient rendering",
+      "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -4813,14 +4813,14 @@
     ],
     "github_url": "https://github.com/wm-research/ParkGaussian",
     "keywords": [
-      "ar",
+      "localization",
+      "3d reconstruction",
       "geometry",
       "autonomous driving",
-      "3d reconstruction",
-      "mapping",
+      "ar",
       "3d gaussian",
-      "gaussian splatting",
-      "localization"
+      "mapping",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -4849,13 +4849,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "human",
+      "4d",
       "dynamic",
       "ar",
-      "4d",
-      "motion",
+      "human",
       "3d gaussian",
-      "fast"
+      "fast",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -4883,9 +4883,9 @@
     "github_url": "https://github.com/haiantyz/JGA-LBD",
     "keywords": [
       "high-fidelity",
-      "human",
-      "ar",
       "geometry",
+      "ar",
+      "human",
       "3d gaussian"
     ],
     "citations": 0,
@@ -4912,13 +4912,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "4d",
+      "dynamic",
       "sparse view",
-      "motion",
       "deformation",
-      "gaussian splatting"
+      "gaussian splatting",
+      "ar",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -4943,14 +4943,14 @@
     ],
     "github_url": "https://github.com/smlab-niser/clean-gs",
     "keywords": [
-      "ar",
-      "vr",
-      "segmentation",
       "outdoor",
-      "3d gaussian",
+      "vr",
       "compression",
-      "gaussian splatting",
-      "semantic"
+      "segmentation",
+      "ar",
+      "semantic",
+      "3d gaussian",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -4980,12 +4980,12 @@
     ],
     "github_url": "",
     "keywords": [
+      "4d",
       "dynamic",
       "lightweight",
-      "4d",
+      "face",
       "animation",
       "ar",
-      "face",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -5015,14 +5015,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
-      "nerf",
-      "segmentation",
-      "3d gaussian",
       "understanding",
-      "gaussian splatting",
-      "semantic"
+      "segmentation",
+      "ar",
+      "semantic",
+      "nerf",
+      "3d gaussian",
+      "efficient",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -5091,12 +5091,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "geometry",
-      "compression",
       "compact",
-      "gaussian splatting",
-      "semantic"
+      "compression",
+      "geometry",
+      "ar",
+      "semantic",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -5121,13 +5121,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
-      "lighting",
-      "geometry",
       "illumination",
-      "3d gaussian",
+      "dynamic",
       "shadow",
+      "geometry",
+      "ar",
+      "3d gaussian",
+      "lighting",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -5191,13 +5191,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "fast",
-      "ar",
-      "lightweight",
-      "efficient",
-      "segmentation",
-      "compression",
       "compact",
+      "lightweight",
+      "compression",
+      "segmentation",
+      "ar",
+      "efficient",
+      "fast",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -5263,11 +5263,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "geometry",
+      "localization",
       "face",
-      "gaussian splatting",
-      "localization"
+      "geometry",
+      "ar",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -5326,8 +5326,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "sparse-view",
       "ar",
+      "sparse-view",
       "dynamic"
     ],
     "citations": 0,
@@ -5357,14 +5357,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
-      "efficient rendering",
+      "medical",
       "3d reconstruction",
       "segmentation",
-      "medical",
+      "ar",
+      "efficient rendering",
+      "semantic",
       "3d gaussian",
-      "semantic"
+      "efficient"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -5391,14 +5391,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
-      "segmentation",
-      "deformation",
-      "3d gaussian",
       "understanding",
-      "gaussian splatting",
-      "semantic"
+      "dynamic",
+      "deformation",
+      "segmentation",
+      "ar",
+      "semantic",
+      "3d gaussian",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -5425,12 +5425,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
+      "localization",
       "geometry",
-      "mapping",
+      "ar",
       "slam",
-      "gaussian splatting",
-      "localization"
+      "mapping",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -5459,12 +5459,12 @@
     "github_url": "",
     "keywords": [
       "dynamic",
-      "ar",
-      "lighting",
-      "autonomous driving",
+      "shadow",
       "high quality",
+      "autonomous driving",
+      "ar",
       "3d gaussian",
-      "shadow"
+      "lighting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -5491,8 +5491,8 @@
     ],
     "github_url": "https://github.com/tekotan/video-gmae",
     "keywords": [
-      "mapping",
       "tracking",
+      "mapping",
       "ar",
       "dynamic"
     ],
@@ -5528,8 +5528,8 @@
     "keywords": [
       "3d gaussian",
       "ar",
-      "understanding",
-      "dynamic"
+      "dynamic",
+      "understanding"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -5558,15 +5558,15 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "ar",
-      "efficient",
-      "geometry",
-      "avatar",
       "head",
+      "high-fidelity",
       "deformation",
+      "avatar",
+      "geometry",
+      "ar",
+      "semantic",
       "3d gaussian",
-      "semantic"
+      "efficient"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -5597,13 +5597,13 @@
     ],
     "github_url": "",
     "keywords": [
+      "4d",
+      "head",
       "dynamic",
       "lightweight",
-      "4d",
-      "efficient",
       "ar",
-      "head",
       "3d gaussian",
+      "efficient",
       "fast",
       "gaussian splatting"
     ],
@@ -5633,12 +5633,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
+      "compression",
       "real-time rendering",
       "segmentation",
+      "ar",
       "3d gaussian",
-      "compression",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -5671,13 +5671,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "ar",
       "vr",
+      "high-fidelity",
       "acceleration",
-      "motion",
+      "gaussian splatting",
+      "ar",
       "3d gaussian",
-      "gaussian splatting"
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -5705,10 +5705,10 @@
     ],
     "github_url": "https://github.com/lif314/SmartSplat",
     "keywords": [
-      "ar",
-      "efficient",
-      "3d gaussian",
       "compression",
+      "ar",
+      "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -5740,9 +5740,9 @@
     ],
     "github_url": "",
     "keywords": [
+      "3d reconstruction",
       "3d gaussian",
       "ar",
-      "3d reconstruction",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -5774,10 +5774,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "vr",
-      "nerf",
       "face",
+      "ar",
+      "nerf",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -5808,11 +5808,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "geometry",
+      "ar",
+      "semantic",
       "3d gaussian",
-      "understanding",
-      "semantic"
+      "understanding"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -5840,10 +5840,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
+      "geometry",
       "ar",
-      "gaussian splatting",
-      "geometry"
+      "dynamic",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -5869,14 +5869,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "4d",
-      "efficient",
-      "real-time rendering",
-      "motion",
+      "dynamic",
       "deformation",
-      "gaussian splatting"
+      "real-time rendering",
+      "gaussian splatting",
+      "ar",
+      "efficient",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -5976,8 +5976,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "efficient",
       "3d gaussian",
+      "efficient",
       "ar",
       "gaussian splatting"
     ],
@@ -6005,13 +6005,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "lighting",
-      "geometry",
       "illumination",
-      "3d reconstruction",
       "sparse view",
-      "3d gaussian"
+      "3d reconstruction",
+      "geometry",
+      "ar",
+      "3d gaussian",
+      "lighting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -6040,12 +6040,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "geometry",
-      "understanding",
-      "3d reconstruction",
       "ray tracing",
+      "understanding",
       "motion",
+      "3d reconstruction",
+      "geometry",
+      "ar",
       "3d gaussian",
       "fast",
       "gaussian splatting"
@@ -6074,8 +6074,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "motion",
-      "ar"
+      "ar",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -6102,13 +6102,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "relightable",
-      "ar",
-      "lighting",
-      "geometry",
       "relighting",
-      "3d reconstruction",
       "ray tracing",
+      "3d reconstruction",
+      "geometry",
+      "ar",
+      "relightable",
+      "lighting",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -6144,12 +6144,12 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "ar",
-      "efficient",
       "segmentation",
+      "ar",
+      "semantic",
       "3d gaussian",
-      "gaussian splatting",
-      "semantic"
+      "efficient",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -6180,8 +6180,8 @@
     "keywords": [
       "3d gaussian",
       "ar",
-      "gaussian splatting",
-      "geometry"
+      "geometry",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -6211,14 +6211,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "ar",
-      "efficient",
-      "geometry",
       "head",
+      "high-fidelity",
+      "geometry",
+      "ar",
+      "semantic",
       "3d gaussian",
-      "gaussian splatting",
-      "semantic"
+      "efficient",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -6246,12 +6246,12 @@
     ],
     "github_url": "https://github.com/zb12138/VoxelGS",
     "keywords": [
+      "compact",
       "high-fidelity",
-      "fast",
-      "ar",
       "lightweight",
       "compression",
-      "compact",
+      "ar",
+      "fast",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -6282,9 +6282,9 @@
     ],
     "github_url": "",
     "keywords": [
+      "illumination",
       "high-fidelity",
       "ar",
-      "illumination",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -6317,16 +6317,16 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "human",
-      "dynamic",
-      "ar",
-      "efficient",
-      "geometry",
-      "avatar",
       "head",
-      "motion",
-      "3d gaussian"
+      "dynamic",
+      "high-fidelity",
+      "avatar",
+      "geometry",
+      "ar",
+      "human",
+      "3d gaussian",
+      "efficient",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -6355,9 +6355,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "motion",
       "ar",
-      "dynamic"
+      "dynamic",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -6386,17 +6386,17 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "lightweight",
       "4d",
-      "animation",
-      "efficient",
-      "face",
-      "avatar",
       "head",
-      "motion",
+      "lightweight",
+      "face",
+      "animation",
+      "avatar",
+      "gaussian splatting",
+      "ar",
+      "efficient",
       "fast",
-      "gaussian splatting"
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -6428,12 +6428,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "human",
-      "ar",
       "lightweight",
       "geometry",
-      "motion",
-      "3d gaussian"
+      "ar",
+      "human",
+      "3d gaussian",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -6460,10 +6460,10 @@
     ],
     "github_url": "",
     "keywords": [
+      "ray tracing",
+      "face",
       "ar",
       "nerf",
-      "face",
-      "ray tracing",
       "3d gaussian",
       "fast",
       "gaussian splatting"
@@ -6495,16 +6495,16 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "human",
-      "relightable",
-      "ar",
-      "lighting",
-      "nerf",
-      "geometry",
       "face",
+      "geometry",
       "segmentation",
-      "gaussian splatting",
-      "semantic"
+      "ar",
+      "semantic",
+      "nerf",
+      "relightable",
+      "human",
+      "lighting",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -6534,13 +6534,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
-      "efficient rendering",
-      "face",
       "head",
+      "face",
       "avatar",
+      "ar",
+      "efficient rendering",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -6572,10 +6572,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
       "3d reconstruction",
+      "ar",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -6610,10 +6610,10 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "ar",
       "lightweight",
-      "efficient",
+      "ar",
       "3d gaussian",
+      "efficient",
       "fast",
       "gaussian splatting"
     ],
@@ -6642,10 +6642,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "sparse-view",
-      "segmentation",
       "3d reconstruction",
+      "segmentation",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -6706,9 +6706,9 @@
     ],
     "github_url": "",
     "keywords": [
+      "ar",
       "dynamic",
       "nerf",
-      "ar",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -6741,15 +6741,15 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
-      "efficient",
-      "vr",
-      "nerf",
-      "real-time rendering",
-      "deformation",
-      "3d gaussian",
       "compact",
+      "dynamic",
+      "vr",
+      "deformation",
+      "real-time rendering",
+      "ar",
+      "nerf",
+      "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -6785,14 +6785,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
-      "geometry",
       "illumination",
       "urban scene",
       "face",
       "3d reconstruction",
+      "geometry",
+      "ar",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -6822,9 +6822,9 @@
     "github_url": "",
     "keywords": [
       "ar",
-      "efficient",
       "reflection",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -6862,15 +6862,15 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "4d",
-      "nerf",
+      "dynamic",
       "tracking",
       "segmentation",
+      "ar",
+      "semantic",
+      "nerf",
       "3d gaussian",
-      "understanding",
-      "semantic"
+      "understanding"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -6898,9 +6898,9 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "ar",
-      "geometry",
       "3d reconstruction",
+      "geometry",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -6932,8 +6932,8 @@
     "keywords": [
       "high-fidelity",
       "ar",
-      "efficient",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -6965,10 +6965,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
+      "outdoor",
       "compact",
       "geometry",
-      "outdoor",
+      "ar",
       "3d gaussian",
       "fast",
       "gaussian splatting"
@@ -6997,11 +6997,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
-      "segmentation",
-      "3d gaussian",
       "shadow",
+      "segmentation",
+      "ar",
+      "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -7028,12 +7028,12 @@
     ],
     "github_url": "https://github.com/nagonch/LiFT-6DoF",
     "keywords": [
-      "ar",
       "robotics",
-      "reflection",
       "tracking",
       "autonomous driving",
-      "semantic"
+      "ar",
+      "semantic",
+      "reflection"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -7099,10 +7099,10 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "ar",
       "lightweight",
-      "efficient",
       "real-time rendering",
+      "ar",
+      "efficient",
       "fast",
       "gaussian splatting"
     ],
@@ -7132,11 +7132,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
-      "nerf",
+      "compact",
       "neural rendering",
-      "compact"
+      "ar",
+      "nerf",
+      "efficient"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -7176,13 +7176,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "light transport",
       "global illumination",
-      "efficient",
       "illumination",
+      "light transport",
+      "ar",
       "mapping",
-      "3d gaussian"
+      "3d gaussian",
+      "efficient"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -7211,11 +7211,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "ar",
-      "compact",
-      "real-time rendering",
       "ray tracing",
+      "compact",
+      "high-fidelity",
+      "real-time rendering",
+      "ar",
       "3d gaussian",
       "fast",
       "gaussian splatting"
@@ -7248,14 +7248,14 @@
     ],
     "github_url": "https://github.com/m-dannecker/Gaussian-Primitives-for-Fast-SVR",
     "keywords": [
-      "high-fidelity",
-      "ar",
       "vr",
-      "3d reconstruction",
+      "high-fidelity",
       "medical",
-      "motion",
+      "3d reconstruction",
+      "ar",
       "3d gaussian",
-      "fast"
+      "fast",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -7284,11 +7284,11 @@
     "github_url": "",
     "keywords": [
       "dynamic",
-      "ar",
       "geometry",
       "segmentation",
-      "motion",
-      "gaussian splatting"
+      "gaussian splatting",
+      "ar",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -7314,10 +7314,10 @@
     ],
     "github_url": "https://github.com/Qi-Yangsjtu/LGSCV",
     "keywords": [
-      "ar",
       "lightweight",
-      "3d gaussian",
       "compression",
+      "ar",
+      "3d gaussian",
       "fast",
       "gaussian splatting"
     ],
@@ -7347,11 +7347,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "mapping",
-      "ar",
-      "tracking",
       "head",
+      "tracking",
       "avatar",
+      "ar",
+      "mapping",
       "fast",
       "gaussian splatting"
     ],
@@ -7421,10 +7421,10 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "mapping",
-      "ar",
       "face",
       "deformation",
+      "ar",
+      "mapping",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -7452,12 +7452,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "mapping",
       "dynamic",
-      "ar",
-      "motion",
       "deformation",
-      "gaussian splatting"
+      "gaussian splatting",
+      "ar",
+      "mapping",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -7488,13 +7488,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "ar",
-      "3d reconstruction",
       "sparse view",
-      "motion",
+      "high-fidelity",
+      "3d reconstruction",
+      "gaussian splatting",
+      "ar",
       "3d gaussian",
-      "gaussian splatting"
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -7520,10 +7520,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "nerf",
+      "medical",
       "ar",
-      "gaussian splatting",
-      "medical"
+      "nerf",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -7551,10 +7551,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "lightweight",
-      "real-time rendering",
       "compression",
+      "real-time rendering",
+      "ar",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -7584,13 +7584,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
+      "ray tracing",
       "dynamic",
+      "high-fidelity",
+      "3d reconstruction",
+      "geometry",
       "ar",
       "reflection",
-      "geometry",
-      "3d reconstruction",
-      "ray tracing",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -7619,13 +7619,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "light transport",
-      "lighting",
-      "geometry",
-      "sparse-view",
       "relighting",
+      "light transport",
+      "sparse-view",
+      "geometry",
       "segmentation",
+      "ar",
+      "lighting",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -7659,13 +7659,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
-      "efficient rendering",
-      "face",
       "sparse-view",
+      "face",
       "3d reconstruction",
+      "ar",
+      "efficient rendering",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -7695,14 +7695,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "human",
-      "ar",
-      "recognition",
-      "mapping",
-      "3d gaussian",
       "compact",
-      "gaussian splatting",
-      "localization"
+      "localization",
+      "recognition",
+      "ar",
+      "human",
+      "3d gaussian",
+      "mapping",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -7728,9 +7728,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "motion",
+      "efficient",
       "ar",
-      "efficient"
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -7758,11 +7758,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "4d",
-      "lighting",
+      "ar",
       "3d gaussian",
-      "slam"
+      "slam",
+      "lighting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -7792,18 +7792,18 @@
     ],
     "github_url": "",
     "keywords": [
-      "mapping",
-      "dynamic",
-      "ar",
       "4d",
-      "efficient",
+      "localization",
+      "dynamic",
       "tracking",
-      "geometry",
       "motion",
+      "geometry",
+      "ar",
+      "mapping",
       "3d gaussian",
       "slam",
-      "gaussian splatting",
-      "localization"
+      "efficient",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -7834,19 +7834,19 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "human",
-      "body",
-      "relightable",
-      "dynamic",
-      "ar",
-      "nerf",
-      "lighting",
       "relighting",
+      "dynamic",
+      "high-fidelity",
+      "body",
+      "deformation",
       "avatar",
       "motion",
-      "deformation",
+      "ar",
+      "nerf",
+      "relightable",
+      "human",
       "3d gaussian",
+      "lighting",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -7876,14 +7876,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "4d",
-      "efficient",
+      "dynamic",
+      "deformation",
       "real-time rendering",
       "motion",
-      "deformation",
+      "ar",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -7913,15 +7913,15 @@
     ],
     "github_url": "",
     "keywords": [
-      "relightable",
-      "mapping",
-      "ar",
-      "efficient",
-      "lighting",
-      "geometry",
       "relighting",
       "head",
       "avatar",
+      "geometry",
+      "ar",
+      "efficient",
+      "mapping",
+      "relightable",
+      "lighting",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -7950,19 +7950,19 @@
     ],
     "github_url": "",
     "keywords": [
-      "localization",
-      "ar",
-      "vr",
       "robotics",
+      "understanding",
+      "localization",
+      "vr",
       "tracking",
       "geometry",
       "segmentation",
+      "ar",
+      "semantic",
+      "3d gaussian",
       "slam",
       "mapping",
-      "3d gaussian",
-      "understanding",
-      "gaussian splatting",
-      "semantic"
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -7994,11 +7994,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "lightweight",
-      "efficient",
       "3d reconstruction",
+      "ar",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -8048,14 +8048,14 @@
     ],
     "github_url": "",
     "keywords": [
+      "4d",
       "dynamic",
       "lightweight",
-      "4d",
-      "efficient",
-      "ar",
-      "neural rendering",
       "avatar",
+      "neural rendering",
+      "ar",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -8086,11 +8086,11 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
+      "acceleration",
+      "face",
       "ar",
       "nerf",
       "reflection",
-      "face",
-      "acceleration",
       "3d gaussian",
       "fast",
       "gaussian splatting"
@@ -8121,11 +8121,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "segmentation",
+      "ar",
+      "semantic",
       "3d gaussian",
-      "gaussian splatting",
-      "semantic"
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -8153,12 +8153,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "human",
-      "ar",
       "geometry",
+      "ar",
+      "semantic",
+      "human",
       "3d gaussian",
-      "understanding",
-      "semantic"
+      "understanding"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -8187,10 +8187,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "fast",
+      "compact",
       "ar",
       "3d gaussian",
-      "compact",
+      "fast",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -8229,10 +8229,10 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "ar",
-      "nerf",
+      "3d reconstruction",
       "geometry",
-      "3d reconstruction"
+      "ar",
+      "nerf"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -8261,11 +8261,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
-      "face",
       "sparse-view",
+      "dynamic",
+      "face",
       "deformation",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -8296,8 +8296,8 @@
     "github_url": "",
     "keywords": [
       "ar",
-      "gaussian splatting",
-      "semantic"
+      "semantic",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -8359,12 +8359,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "3d reconstruction",
-      "3d gaussian",
-      "understanding",
       "gaussian splatting",
-      "semantic"
+      "ar",
+      "semantic",
+      "3d gaussian",
+      "understanding"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -8393,16 +8393,16 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "dynamic",
-      "ar",
       "4d",
-      "efficient",
-      "survey",
-      "3d reconstruction",
-      "3d gaussian",
-      "compression",
       "compact",
+      "dynamic",
+      "high-fidelity",
+      "survey",
+      "compression",
+      "3d reconstruction",
+      "ar",
+      "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -8431,12 +8431,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "lightweight",
-      "efficient",
-      "sparse-view",
       "head",
+      "sparse-view",
+      "lightweight",
+      "ar",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -8465,13 +8465,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "relightable",
-      "ar",
-      "lighting",
-      "geometry",
-      "face",
       "relighting",
+      "face",
+      "geometry",
+      "ar",
+      "relightable",
       "3d gaussian",
+      "lighting",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -8502,10 +8502,10 @@
     "keywords": [
       "dynamic",
       "lightweight",
-      "efficient",
+      "compression",
       "ar",
       "3d gaussian",
-      "compression",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -8540,15 +8540,15 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "vr",
-      "efficient",
-      "nerf",
-      "neural rendering",
-      "geometry",
       "face",
       "real-time rendering",
+      "neural rendering",
+      "geometry",
+      "ar",
+      "nerf",
       "3d gaussian",
+      "efficient",
       "fast",
       "gaussian splatting"
     ],
@@ -8581,8 +8581,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "efficient",
       "3d gaussian",
+      "efficient",
       "ar",
       "gaussian splatting"
     ],
@@ -8613,9 +8613,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "3d reconstruction",
+      "ar",
+      "dynamic",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -8644,16 +8644,16 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "human",
-      "dynamic",
-      "lightweight",
-      "ar",
-      "vr",
-      "nerf",
-      "avatar",
       "head",
+      "dynamic",
+      "vr",
+      "high-fidelity",
+      "lightweight",
       "deformation",
+      "avatar",
+      "ar",
+      "nerf",
+      "human",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -8682,9 +8682,9 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "ar",
-      "geometry",
       "face",
+      "geometry",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -8716,13 +8716,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "4d",
-      "animation",
+      "dynamic",
       "tracking",
-      "motion",
-      "gaussian splatting"
+      "animation",
+      "gaussian splatting",
+      "ar",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -8748,8 +8748,8 @@
     ],
     "github_url": "https://github.com/Maryousefi/GeoVAE-3D",
     "keywords": [
-      "ar",
-      "head"
+      "head",
+      "ar"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -8778,15 +8778,15 @@
     ],
     "github_url": "",
     "keywords": [
+      "4d",
+      "compact",
       "dynamic",
       "lightweight",
-      "4d",
-      "efficient",
-      "ar",
       "deformation",
-      "3d gaussian",
       "compression",
-      "compact",
+      "ar",
+      "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -8818,10 +8818,10 @@
     ],
     "github_url": "",
     "keywords": [
+      "compact",
       "high-fidelity",
       "ar",
       "3d gaussian",
-      "compact",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -8850,12 +8850,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "dynamic",
-      "ar",
       "head",
-      "motion",
-      "gaussian splatting"
+      "dynamic",
+      "high-fidelity",
+      "gaussian splatting",
+      "ar",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -8887,14 +8887,14 @@
     ],
     "github_url": "https://github.com/hustvl/4DLangVGGT",
     "keywords": [
-      "dynamic",
-      "ar",
       "4d",
-      "nerf",
-      "geometry",
       "understanding",
-      "gaussian splatting",
-      "semantic"
+      "dynamic",
+      "geometry",
+      "ar",
+      "semantic",
+      "nerf",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -8927,12 +8927,12 @@
     ],
     "github_url": "",
     "keywords": [
+      "illumination",
       "dynamic",
       "ar",
-      "illumination",
+      "semantic",
       "3d gaussian",
-      "gaussian splatting",
-      "semantic"
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -8963,8 +8963,8 @@
     "github_url": "",
     "keywords": [
       "ar",
-      "gaussian splatting",
-      "semantic"
+      "semantic",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -8989,10 +8989,10 @@
     ],
     "github_url": "",
     "keywords": [
+      "face",
+      "geometry",
       "ar",
       "nerf",
-      "geometry",
-      "face",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -9023,10 +9023,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "geometry",
-      "real-time rendering",
       "ray tracing",
+      "real-time rendering",
+      "geometry",
+      "ar",
       "3d gaussian"
     ],
     "citations": 0,
@@ -9056,13 +9056,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "dynamic",
-      "ar",
       "4d",
-      "nerf",
-      "geometry",
+      "dynamic",
+      "high-fidelity",
       "motion",
+      "geometry",
+      "ar",
+      "nerf",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -9094,13 +9094,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
       "dynamic",
-      "ar",
-      "geometry",
+      "high-fidelity",
       "face",
       "avatar",
       "motion",
+      "geometry",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -9138,14 +9138,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
-      "understanding",
-      "segmentation",
       "head",
-      "sparse view",
-      "3d gaussian",
       "compact",
+      "understanding",
+      "sparse view",
+      "segmentation",
+      "ar",
+      "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -9176,8 +9176,8 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "ar",
       "geometry",
+      "ar",
       "3d gaussian",
       "fast"
     ],
@@ -9236,16 +9236,16 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "4d",
+      "understanding",
+      "dynamic",
       "tracking",
       "geometry",
-      "segmentation",
-      "motion",
-      "understanding",
       "gaussian splatting",
-      "semantic"
+      "segmentation",
+      "semantic",
+      "ar",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -9283,17 +9283,17 @@
     ],
     "github_url": "",
     "keywords": [
-      "localization",
-      "ar",
       "robotics",
-      "nerf",
+      "understanding",
+      "localization",
       "survey",
+      "ar",
+      "semantic",
+      "nerf",
+      "3d gaussian",
       "slam",
       "mapping",
-      "3d gaussian",
-      "understanding",
-      "gaussian splatting",
-      "semantic"
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -9325,15 +9325,15 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "4d",
-      "efficient",
-      "robotics",
-      "nerf",
-      "motion",
       "outdoor",
+      "robotics",
+      "dynamic",
+      "motion",
+      "ar",
+      "nerf",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -9371,15 +9371,15 @@
     ],
     "github_url": "",
     "keywords": [
+      "4d",
+      "head",
       "dynamic",
       "lightweight",
-      "4d",
-      "ar",
       "autonomous driving",
-      "head",
-      "motion",
+      "ar",
       "3d gaussian",
-      "fast"
+      "fast",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -9408,11 +9408,11 @@
     ],
     "github_url": "",
     "keywords": [
+      "head",
+      "illumination",
       "dynamic",
       "ar",
       "efficient",
-      "illumination",
-      "head",
       "fast"
     ],
     "citations": 0,
@@ -9441,13 +9441,13 @@
     "github_url": "",
     "keywords": [
       "dynamic",
-      "ar",
-      "efficient",
       "vr",
+      "real-time rendering",
       "geometry",
       "autonomous driving",
-      "real-time rendering",
+      "ar",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -9477,15 +9477,15 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "ar",
-      "efficient",
-      "nerf",
-      "reflection",
-      "efficient rendering",
-      "geometry",
       "face",
       "real-time rendering",
+      "geometry",
+      "ar",
+      "efficient rendering",
+      "nerf",
+      "reflection",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -9513,13 +9513,13 @@
     ],
     "github_url": "https://github.com/JHXion9/PoreTrack3D",
     "keywords": [
-      "high-fidelity",
       "dynamic",
-      "ar",
-      "tracking",
+      "high-fidelity",
       "face",
-      "3d reconstruction",
+      "tracking",
       "motion",
+      "3d reconstruction",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -9550,10 +9550,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
+      "real-time rendering",
       "geometry",
       "3d reconstruction",
-      "real-time rendering",
+      "ar",
       "mapping",
       "gaussian splatting"
     ],
@@ -9586,9 +9586,9 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
+      "deformation",
       "ar",
       "nerf",
-      "deformation",
       "fast",
       "gaussian splatting"
     ],
@@ -9620,13 +9620,13 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "mapping",
-      "ar",
       "tracking",
-      "motion",
+      "gaussian splatting",
+      "ar",
       "3d gaussian",
       "slam",
-      "gaussian splatting"
+      "mapping",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -9658,9 +9658,9 @@
     ],
     "github_url": "",
     "keywords": [
+      "geometry",
       "ar",
       "nerf",
-      "geometry",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -9698,11 +9698,11 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "ar",
       "face",
+      "gaussian splatting",
+      "ar",
       "3d gaussian",
-      "understanding",
-      "gaussian splatting"
+      "understanding"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -9732,12 +9732,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "4d",
-      "animation",
-      "tracking",
+      "dynamic",
       "face",
+      "tracking",
+      "animation",
+      "ar",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -9770,11 +9770,11 @@
     "keywords": [
       "dynamic",
       "lightweight",
-      "efficient",
-      "ar",
       "face",
-      "motion",
-      "3d gaussian"
+      "ar",
+      "3d gaussian",
+      "efficient",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -9802,16 +9802,16 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
-      "nerf",
-      "tracking",
-      "geometry",
       "face",
+      "tracking",
       "3d reconstruction",
+      "geometry",
+      "ar",
+      "nerf",
       "mapping",
       "3d gaussian",
       "slam",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -9842,11 +9842,11 @@
     ],
     "github_url": "https://github.com/binisalegend/LISA-3D",
     "keywords": [
-      "ar",
-      "efficient",
-      "geometry",
+      "3d reconstruction",
       "segmentation",
-      "3d reconstruction"
+      "ar",
+      "geometry",
+      "efficient"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -9878,12 +9878,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "head",
-      "motion",
+      "dynamic",
+      "gaussian splatting",
+      "ar",
       "3d gaussian",
-      "gaussian splatting"
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -9915,15 +9915,15 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
-      "segmentation",
       "head",
+      "compact",
+      "segmentation",
+      "ar",
+      "semantic",
       "mapping",
       "3d gaussian",
-      "compact",
-      "gaussian splatting",
-      "semantic"
+      "efficient",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -9954,10 +9954,10 @@
     ],
     "github_url": "",
     "keywords": [
+      "compact",
+      "compression",
       "ar",
       "3d gaussian",
-      "compression",
-      "compact",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -9984,14 +9984,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
-      "understanding",
-      "3d gaussian",
-      "compression",
       "compact",
-      "gaussian splatting",
-      "semantic"
+      "understanding",
+      "compression",
+      "ar",
+      "semantic",
+      "3d gaussian",
+      "efficient",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -10019,9 +10019,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "geometry",
       "face",
+      "geometry",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -10053,11 +10053,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
       "4d",
+      "dynamic",
+      "gaussian splatting",
       "nerf",
-      "motion",
-      "gaussian splatting"
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -10085,20 +10085,20 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "human",
-      "mapping",
       "dynamic",
-      "ar",
       "vr",
-      "geometry",
+      "high-fidelity",
       "face",
-      "motion",
       "deformation",
+      "motion",
+      "geometry",
+      "ar",
+      "semantic",
+      "human",
       "3d gaussian",
+      "mapping",
       "fast",
-      "gaussian splatting",
-      "semantic"
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -10126,11 +10126,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
       "sparse-view",
       "sparse view",
+      "ar",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -10159,15 +10159,15 @@
     ],
     "github_url": "",
     "keywords": [
-      "human",
       "dynamic",
-      "ar",
       "animation",
+      "ar",
+      "semantic",
       "nerf",
+      "human",
       "3d gaussian",
       "fast",
-      "gaussian splatting",
-      "semantic"
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -10197,12 +10197,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "geometry",
       "head",
       "compact",
-      "gaussian splatting",
-      "semantic"
+      "geometry",
+      "ar",
+      "semantic",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -10233,21 +10233,21 @@
     ],
     "github_url": "",
     "keywords": [
-      "human",
-      "body",
-      "relightable",
-      "dynamic",
-      "ar",
-      "efficient",
-      "lighting",
-      "tracking",
-      "geometry",
+      "relighting",
       "illumination",
       "sparse-view",
-      "relighting",
+      "dynamic",
       "sparse view",
-      "motion",
-      "3d gaussian"
+      "body",
+      "tracking",
+      "geometry",
+      "ar",
+      "efficient",
+      "human",
+      "relightable",
+      "3d gaussian",
+      "lighting",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -10277,9 +10277,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "deformation",
       "efficient",
       "ar",
+      "deformation",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -10309,11 +10309,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "dynamic",
       "tracking",
-      "mapping",
-      "slam"
+      "ar",
+      "slam",
+      "mapping"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -10342,10 +10342,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "4d",
+      "dynamic",
       "geometry",
+      "ar",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -10377,9 +10377,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "face",
       "real-time rendering",
+      "ar",
       "3d gaussian",
       "slam",
       "gaussian splatting"
@@ -10442,14 +10442,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
-      "lighting",
-      "tracking",
       "illumination",
+      "dynamic",
+      "tracking",
       "segmentation",
+      "ar",
+      "semantic",
       "slam",
-      "semantic"
+      "lighting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -10475,10 +10475,10 @@
     ],
     "github_url": "https://github.com/yscheng04/DenoiseGS",
     "keywords": [
+      "motion",
+      "geometry",
       "ar",
       "nerf",
-      "geometry",
-      "motion",
       "3d gaussian",
       "fast",
       "gaussian splatting"
@@ -10509,11 +10509,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "lighting",
       "geometry",
+      "ar",
+      "semantic",
       "3d gaussian",
-      "semantic"
+      "lighting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -10542,12 +10542,12 @@
     ],
     "github_url": "https://github.com/Nbhavyasai/GSpaRC-WirelessGaussianSplatting.git",
     "keywords": [
-      "ar",
+      "head",
+      "compact",
       "lightweight",
       "face",
-      "head",
+      "ar",
       "3d gaussian",
-      "compact",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -10579,10 +10579,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "human",
+      "geometry",
       "ar",
-      "gaussian splatting",
-      "geometry"
+      "human",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -10647,9 +10647,9 @@
     ],
     "github_url": "",
     "keywords": [
+      "4d",
       "high-fidelity",
       "ar",
-      "4d",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -10685,8 +10685,8 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "ar",
       "geometry",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -10717,8 +10717,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "nerf",
-      "ar"
+      "ar",
+      "nerf"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -10749,9 +10749,9 @@
     ],
     "github_url": "",
     "keywords": [
+      "3d reconstruction",
       "3d gaussian",
       "ar",
-      "3d reconstruction",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -10781,11 +10781,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "vr",
-      "motion",
+      "gaussian splatting",
+      "ar",
       "3d gaussian",
-      "gaussian splatting"
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -10812,12 +10812,12 @@
     ],
     "github_url": "",
     "keywords": [
+      "head",
       "dynamic",
-      "ar",
-      "efficient",
       "face",
       "3d reconstruction",
-      "head",
+      "ar",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -10845,14 +10845,14 @@
     ],
     "github_url": "",
     "keywords": [
+      "4d",
       "dynamic",
       "lightweight",
-      "4d",
+      "motion",
+      "geometry",
       "ar",
       "nerf",
       "reflection",
-      "geometry",
-      "motion",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -10880,8 +10880,8 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "ar",
       "geometry",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -10914,9 +10914,9 @@
     ],
     "github_url": "https://github.com/wangyuanbiubiubiu/FaithFusion",
     "keywords": [
+      "geometry",
       "face",
-      "ar",
-      "geometry"
+      "ar"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -10951,12 +10951,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "ar",
+      "outdoor",
       "urban scene",
-      "geometry",
+      "high-fidelity",
       "3d reconstruction",
-      "outdoor"
+      "geometry",
+      "ar"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -10986,9 +10986,9 @@
     "github_url": "",
     "keywords": [
       "3d gaussian",
+      "localization",
       "ar",
-      "gaussian splatting",
-      "localization"
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -11016,13 +11016,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "geometry",
       "face",
       "3d reconstruction",
+      "geometry",
+      "ar",
+      "semantic",
       "3d gaussian",
-      "gaussian splatting",
-      "semantic"
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -11071,12 +11071,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
-      "motion",
-      "3d gaussian",
       "gaussian splatting",
-      "semantic"
+      "ar",
+      "semantic",
+      "3d gaussian",
+      "efficient",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -11103,15 +11103,15 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "dynamic",
-      "ar",
-      "avatar",
       "head",
-      "motion",
+      "dynamic",
+      "high-fidelity",
       "deformation",
+      "avatar",
+      "gaussian splatting",
+      "ar",
       "3d gaussian",
-      "gaussian splatting"
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -11139,10 +11139,10 @@
     "github_url": "",
     "keywords": [
       "ar",
-      "efficient",
+      "semantic",
       "3d gaussian",
-      "gaussian splatting",
-      "semantic"
+      "efficient",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -11171,15 +11171,15 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "human",
       "dynamic",
-      "ar",
+      "high-fidelity",
       "tracking",
+      "gaussian splatting",
       "autonomous driving",
-      "motion",
+      "ar",
+      "human",
       "3d gaussian",
-      "gaussian splatting"
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -11209,10 +11209,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "vr",
-      "efficient",
+      "ar",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -11243,12 +11243,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "human",
       "body",
-      "ar",
-      "efficient",
+      "avatar",
       "geometry",
-      "avatar"
+      "ar",
+      "human",
+      "efficient"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -11283,10 +11283,10 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "ar",
-      "efficient",
       "geometry",
+      "ar",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -11313,11 +11313,11 @@
     ],
     "github_url": "https://github.com/kjae0/SpLap",
     "keywords": [
-      "ar",
-      "nerf",
-      "face",
       "head",
-      "deformation"
+      "face",
+      "deformation",
+      "ar",
+      "nerf"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -11346,12 +11346,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "4d",
-      "efficient",
+      "dynamic",
       "geometry",
+      "ar",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -11387,11 +11387,11 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "ar",
-      "efficient",
       "tracking",
+      "ar",
       "3d gaussian",
       "slam",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -11430,14 +11430,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "relightable",
-      "ar",
-      "neural rendering",
-      "lighting",
-      "illumination",
       "relighting",
+      "illumination",
+      "shadow",
+      "neural rendering",
+      "ar",
+      "relightable",
       "3d gaussian",
-      "shadow"
+      "lighting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -11465,12 +11465,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "geometry",
-      "3d reconstruction",
       "outdoor",
-      "3d gaussian",
       "understanding",
+      "3d reconstruction",
+      "geometry",
+      "ar",
+      "3d gaussian",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -11504,12 +11504,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "geometry",
       "outdoor",
+      "geometry",
+      "ar",
+      "semantic",
       "fast",
-      "gaussian splatting",
-      "semantic"
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -11537,8 +11537,8 @@
     ],
     "github_url": "https://github.com/loryruta/recogs",
     "keywords": [
-      "nerf",
       "ar",
+      "nerf",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -11567,15 +11567,15 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
+      "compact",
       "understanding",
       "3d reconstruction",
       "segmentation",
+      "ar",
+      "semantic",
       "3d gaussian",
-      "compact",
-      "gaussian splatting",
-      "semantic"
+      "efficient",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -11605,10 +11605,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "4d",
+      "dynamic",
       "real-time rendering",
+      "ar",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -11639,9 +11639,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "dynamic",
       "sparse view",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -11677,9 +11677,9 @@
     "github_url": "",
     "keywords": [
       "4d",
-      "motion",
       "3d gaussian",
-      "ar"
+      "ar",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -11707,9 +11707,9 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
+      "geometry",
       "ar",
       "nerf",
-      "geometry",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -11737,9 +11737,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "few-shot",
       "3d gaussian",
       "ar",
+      "few-shot",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -11772,14 +11772,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
-      "lighting",
-      "geometry",
-      "understanding",
       "compact",
-      "gaussian splatting",
-      "semantic"
+      "understanding",
+      "dynamic",
+      "geometry",
+      "ar",
+      "semantic",
+      "lighting",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -11808,14 +11808,14 @@
     "github_url": "",
     "keywords": [
       "dynamic",
-      "ar",
-      "efficient",
-      "geometry",
       "face",
       "avatar",
-      "motion",
+      "geometry",
+      "gaussian splatting",
+      "ar",
       "3d gaussian",
-      "gaussian splatting"
+      "efficient",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -11845,11 +11845,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "ar",
       "vr",
-      "geometry",
+      "high-fidelity",
       "face",
+      "geometry",
+      "ar",
       "3d gaussian"
     ],
     "citations": 0,
@@ -11914,9 +11914,9 @@
     "github_url": "",
     "keywords": [
       "dynamic",
-      "ar",
       "acceleration",
       "motion",
+      "ar",
       "3d gaussian",
       "fast",
       "gaussian splatting"
@@ -11947,8 +11947,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "efficient",
       "face",
+      "efficient",
       "ar",
       "gaussian splatting"
     ],
@@ -11981,13 +11981,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "few-shot",
-      "ar",
-      "face",
       "sparse-view",
+      "sparse view",
+      "few-shot",
+      "face",
       "3d reconstruction",
       "segmentation",
-      "sparse view",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -12020,11 +12020,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "geometry",
       "face",
-      "motion",
-      "gaussian splatting"
+      "geometry",
+      "gaussian splatting",
+      "ar",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -12053,10 +12053,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "efficient",
       "3d gaussian",
-      "ar",
-      "semantic"
+      "efficient",
+      "semantic",
+      "ar"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -12081,12 +12081,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "mapping",
-      "ar",
+      "compact",
       "face",
       "deformation",
+      "ar",
       "3d gaussian",
-      "compact",
+      "mapping",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -12115,11 +12115,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "human",
-      "ar",
       "head",
-      "3d gaussian",
       "compact",
+      "ar",
+      "human",
+      "3d gaussian",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -12155,15 +12155,15 @@
     ],
     "github_url": "",
     "keywords": [
+      "dynamic",
       "high-fidelity",
+      "motion",
+      "geometry",
+      "ar",
       "human",
       "mapping",
-      "dynamic",
-      "ar",
-      "efficient",
-      "geometry",
-      "motion",
       "3d gaussian",
+      "efficient",
       "fast",
       "gaussian splatting"
     ],
@@ -12193,10 +12193,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "4d",
-      "neural rendering",
       "real-time rendering",
+      "neural rendering",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -12224,8 +12224,8 @@
     "github_url": "https://github.com/zeyuanyin/TRIM",
     "keywords": [
       "3d gaussian",
-      "ar",
-      "lightweight"
+      "lightweight",
+      "ar"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -12254,8 +12254,8 @@
     "github_url": "",
     "keywords": [
       "3d gaussian",
-      "nerf",
       "ar",
+      "nerf",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -12287,12 +12287,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "robotics",
-      "neural rendering",
+      "localization",
       "tracking",
-      "slam",
-      "localization"
+      "neural rendering",
+      "ar",
+      "slam"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -12318,11 +12318,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "lightweight",
       "segmentation",
-      "gaussian splatting",
-      "semantic"
+      "ar",
+      "semantic",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -12357,8 +12357,8 @@
     "keywords": [
       "ar",
       "efficient",
-      "mapping",
       "3d gaussian",
+      "mapping",
       "fast",
       "gaussian splatting"
     ],
@@ -12390,17 +12390,17 @@
     ],
     "github_url": "",
     "keywords": [
-      "localization",
-      "ar",
-      "tracking",
-      "understanding",
-      "slam",
       "head",
-      "mapping",
-      "3d gaussian",
       "compact",
-      "gaussian splatting",
-      "semantic"
+      "understanding",
+      "localization",
+      "tracking",
+      "ar",
+      "semantic",
+      "3d gaussian",
+      "slam",
+      "mapping",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -12428,9 +12428,9 @@
     ],
     "github_url": "https://github.com/tho-kn/cem-4dgs",
     "keywords": [
+      "4d",
       "dynamic",
       "ar",
-      "4d",
       "mapping",
       "gaussian splatting"
     ],
@@ -12464,16 +12464,16 @@
     ],
     "github_url": "",
     "keywords": [
+      "4d",
+      "outdoor",
+      "localization",
       "dynamic",
       "ar",
-      "4d",
-      "lighting",
       "mapping",
-      "outdoor",
       "3d gaussian",
       "slam",
-      "gaussian splatting",
-      "localization"
+      "lighting",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -12504,13 +12504,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "ar",
-      "efficient",
       "sparse-view",
-      "3d reconstruction",
       "sparse view",
+      "high-fidelity",
+      "3d reconstruction",
+      "ar",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -12539,12 +12539,12 @@
     "github_url": "",
     "keywords": [
       "body",
-      "ar",
-      "efficient",
+      "deformation",
       "animation",
-      "neural rendering",
       "real-time rendering",
-      "deformation"
+      "neural rendering",
+      "ar",
+      "efficient"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -12600,13 +12600,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "4d",
-      "motion",
-      "3d gaussian",
+      "dynamic",
       "gaussian splatting",
-      "semantic"
+      "ar",
+      "semantic",
+      "3d gaussian",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -12637,13 +12637,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
-      "nerf",
-      "geometry",
-      "face",
       "sparse-view",
+      "face",
+      "geometry",
+      "ar",
+      "nerf",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -12672,14 +12672,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "4d",
-      "lighting",
-      "geometry",
-      "motion",
+      "dynamic",
       "deformation",
+      "motion",
+      "geometry",
+      "ar",
       "3d gaussian",
+      "lighting",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -12734,11 +12734,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
-      "face",
       "head",
+      "face",
+      "ar",
       "3d gaussian",
+      "efficient",
       "fast",
       "gaussian splatting"
     ],
@@ -12773,9 +12773,9 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "ar",
-      "geometry",
       "face",
+      "geometry",
+      "ar",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -12808,15 +12808,15 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "ar",
-      "geometry",
       "illumination",
-      "face",
-      "sparse-view",
-      "3d reconstruction",
-      "3d gaussian",
       "compact",
+      "sparse-view",
+      "high-fidelity",
+      "face",
+      "3d reconstruction",
+      "geometry",
+      "ar",
+      "3d gaussian",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -12849,9 +12849,9 @@
     ],
     "github_url": "",
     "keywords": [
+      "3d reconstruction",
       "high-fidelity",
       "ar",
-      "3d reconstruction",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -12880,8 +12880,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "compact",
+      "ar",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -12914,9 +12914,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "few-shot",
       "3d gaussian",
       "ar",
+      "few-shot",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -12945,14 +12945,14 @@
     ],
     "github_url": "https://github.com/pythongod-exe/iGaussian",
     "keywords": [
-      "ar",
-      "robotics",
-      "lighting",
-      "nerf",
-      "tracking",
       "head",
+      "robotics",
+      "tracking",
+      "ar",
+      "nerf",
       "3d gaussian",
       "slam",
+      "lighting",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -13014,18 +13014,18 @@
     ],
     "github_url": "",
     "keywords": [
+      "relighting",
+      "illumination",
+      "outdoor",
       "high-fidelity",
+      "face",
+      "geometry",
+      "segmentation",
       "ar",
       "efficient",
+      "semantic",
       "lighting",
-      "geometry",
-      "illumination",
-      "face",
-      "relighting",
-      "segmentation",
-      "outdoor",
-      "gaussian splatting",
-      "semantic"
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -13052,10 +13052,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "dynamic",
-      "efficient",
+      "ar",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -13085,10 +13085,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "lightweight",
-      "geometry",
       "face",
+      "geometry",
+      "ar",
       "3d gaussian",
       "fast",
       "gaussian splatting"
@@ -13182,12 +13182,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
-      "geometry",
       "illumination",
+      "dynamic",
       "face",
       "3d reconstruction",
+      "geometry",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -13218,10 +13218,10 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
+      "real-time rendering",
+      "geometry",
       "ar",
       "reflection",
-      "geometry",
-      "real-time rendering",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -13250,11 +13250,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "sparse-view",
+      "ar",
+      "semantic",
       "3d gaussian",
-      "gaussian splatting",
-      "semantic"
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -13316,12 +13316,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "vr",
-      "efficient",
-      "tracking",
       "acceleration",
+      "tracking",
+      "ar",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -13351,10 +13351,10 @@
     "github_url": "",
     "keywords": [
       "dynamic",
-      "ar",
       "3d reconstruction",
-      "mapping",
+      "ar",
       "3d gaussian",
+      "mapping",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -13419,10 +13419,10 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
+      "face",
+      "geometry",
       "ar",
       "nerf",
-      "geometry",
-      "face",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -13455,10 +13455,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "autonomous driving",
       "3d reconstruction",
-      "gaussian splatting",
-      "ar"
+      "autonomous driving",
+      "ar",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -13485,9 +13485,9 @@
     ],
     "github_url": "",
     "keywords": [
+      "head",
       "high-fidelity",
       "ar",
-      "head",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -13518,13 +13518,13 @@
     "github_url": "",
     "keywords": [
       "few-shot",
-      "ar",
-      "geometry",
       "real-time rendering",
-      "motion",
-      "3d gaussian",
+      "geometry",
       "gaussian splatting",
-      "semantic"
+      "ar",
+      "semantic",
+      "3d gaussian",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -13554,11 +13554,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "4d",
-      "motion",
-      "gaussian splatting"
+      "dynamic",
+      "gaussian splatting",
+      "ar",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -13591,11 +13591,11 @@
     ],
     "github_url": "https://github.com/SpatialAILab/PINGS-X",
     "keywords": [
+      "4d",
       "dynamic",
       "ar",
-      "4d",
-      "efficient",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -13657,12 +13657,12 @@
     "github_url": "",
     "keywords": [
       "dynamic",
-      "ar",
       "face",
       "medical",
-      "motion",
+      "ar",
+      "semantic",
       "3d gaussian",
-      "semantic"
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -13689,10 +13689,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "geometry",
-      "face",
       "head",
+      "face",
+      "geometry",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -13723,14 +13723,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "human",
-      "ar",
       "animation",
-      "geometry",
       "avatar",
-      "motion",
+      "geometry",
+      "gaussian splatting",
+      "ar",
+      "human",
       "3d gaussian",
-      "gaussian splatting"
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -13758,12 +13758,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
-      "lighting",
-      "geometry",
       "illumination",
-      "3d gaussian"
+      "dynamic",
+      "geometry",
+      "ar",
+      "3d gaussian",
+      "lighting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -13801,12 +13801,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
-      "3d reconstruction",
       "head",
-      "motion",
-      "gaussian splatting"
+      "dynamic",
+      "3d reconstruction",
+      "gaussian splatting",
+      "ar",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -13837,12 +13837,12 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "ar",
-      "efficient",
       "segmentation",
+      "ar",
+      "semantic",
       "3d gaussian",
-      "gaussian splatting",
-      "semantic"
+      "efficient",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -13868,9 +13868,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "human",
       "3d gaussian",
       "ar",
+      "human",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -13905,8 +13905,8 @@
     "keywords": [
       "high-fidelity",
       "ar",
-      "lighting",
       "3d gaussian",
+      "lighting",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -13939,13 +13939,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
       "dynamic",
+      "high-fidelity",
+      "face",
       "ar",
       "nerf",
-      "face",
-      "mapping",
-      "3d gaussian"
+      "3d gaussian",
+      "mapping"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -13977,11 +13977,11 @@
     ],
     "github_url": "https://github.com/Bean-Young/UltraGS",
     "keywords": [
-      "ar",
       "lightweight",
+      "gaussian splatting",
+      "ar",
       "efficient",
-      "motion",
-      "gaussian splatting"
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -14010,11 +14010,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
+      "compact",
       "geometry",
-      "motion",
+      "ar",
       "3d gaussian",
-      "compact"
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -14078,8 +14078,8 @@
     "github_url": "",
     "keywords": [
       "4d",
-      "dynamic",
       "ar",
+      "dynamic",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -14112,12 +14112,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "few-shot",
-      "dynamic",
-      "ar",
       "4d",
-      "nerf",
+      "dynamic",
+      "few-shot",
       "deformation",
+      "ar",
+      "nerf",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -14149,11 +14149,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "quality enhancement",
-      "ar",
-      "efficient",
-      "3d gaussian",
       "compression",
+      "ar",
+      "quality enhancement",
+      "3d gaussian",
+      "efficient",
       "fast",
       "gaussian splatting"
     ],
@@ -14183,8 +14183,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "human",
       "ar",
+      "human",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -14213,10 +14213,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
       "geometry",
+      "ar",
       "3d gaussian",
+      "efficient",
       "fast",
       "gaussian splatting"
     ],
@@ -14250,10 +14250,10 @@
     ],
     "github_url": "https://github.com/justinyeah/normal_shape.git",
     "keywords": [
-      "high-fidelity",
-      "ar",
-      "geometry",
       "outdoor",
+      "high-fidelity",
+      "geometry",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -14285,10 +14285,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "ar",
       "dynamic",
       "vr",
+      "high-fidelity",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -14319,12 +14319,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "human",
-      "dynamic",
-      "ar",
       "4d",
       "urban scene",
+      "dynamic",
       "autonomous driving",
+      "ar",
+      "human",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -14355,11 +14355,11 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "ar",
-      "efficient",
-      "nerf",
       "segmentation",
+      "ar",
+      "nerf",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -14392,13 +14392,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "4d",
-      "efficient",
-      "geometry",
+      "dynamic",
       "motion",
+      "geometry",
+      "ar",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -14427,13 +14427,13 @@
     "github_url": "https://github.com/kkkzh/StreamSTGS",
     "keywords": [
       "dynamic",
-      "ar",
       "face",
-      "motion",
       "deformation",
-      "3d gaussian",
       "compression",
-      "gaussian splatting"
+      "gaussian splatting",
+      "ar",
+      "3d gaussian",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -14462,17 +14462,17 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "4d",
-      "efficient",
-      "nerf",
-      "neural rendering",
-      "geometry",
-      "segmentation",
-      "motion",
+      "dynamic",
       "deformation",
+      "motion",
+      "geometry",
+      "neural rendering",
+      "segmentation",
+      "ar",
+      "nerf",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -14501,9 +14501,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "deformation",
-      "dynamic",
       "ar",
+      "dynamic",
+      "deformation",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -14533,9 +14533,9 @@
     "keywords": [
       "high-fidelity",
       "ar",
-      "efficient",
       "nerf",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -14568,10 +14568,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "large scene",
-      "ar",
       "head",
+      "ar",
       "3d gaussian",
+      "large scene",
       "fast",
       "gaussian splatting"
     ],
@@ -14635,14 +14635,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "lightweight",
-      "efficient",
-      "nerf",
       "recognition",
-      "geometry",
       "3d reconstruction",
+      "geometry",
+      "ar",
+      "nerf",
       "3d gaussian",
+      "efficient",
       "fast",
       "gaussian splatting"
     ],
@@ -14679,9 +14679,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "body",
       "3d gaussian",
       "ar",
+      "body",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -14710,19 +14710,19 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
-      "efficient",
-      "nerf",
-      "face",
-      "acceleration",
-      "sparse-view",
       "head",
+      "localization",
+      "sparse-view",
+      "dynamic",
+      "acceleration",
+      "face",
+      "ar",
+      "nerf",
       "mapping",
       "3d gaussian",
+      "efficient",
       "fast",
-      "gaussian splatting",
-      "localization"
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -14750,13 +14750,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "vr",
       "geometry",
       "segmentation",
+      "gaussian splatting",
+      "ar",
       "3d gaussian",
-      "understanding",
-      "gaussian splatting"
+      "understanding"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -14788,9 +14788,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "3d reconstruction",
       "sparse view",
+      "3d reconstruction",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -14818,13 +14818,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
+      "head",
       "lightweight",
       "geometry",
       "segmentation",
-      "head",
-      "gaussian splatting",
-      "semantic"
+      "ar",
+      "semantic",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -14856,12 +14856,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
       "dynamic",
+      "high-fidelity",
+      "3d reconstruction",
+      "neural rendering",
       "ar",
       "nerf",
-      "neural rendering",
-      "3d reconstruction",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -14896,10 +14896,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
-      "face",
       "head",
+      "dynamic",
+      "face",
+      "ar",
       "3d gaussian",
       "fast"
     ],
@@ -14933,8 +14933,8 @@
     "keywords": [
       "3d gaussian",
       "ar",
-      "understanding",
-      "dynamic"
+      "dynamic",
+      "understanding"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -14959,16 +14959,16 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "4d",
-      "efficient",
       "compact",
-      "efficient rendering",
-      "real-time rendering",
       "head",
+      "dynamic",
       "deformation",
+      "real-time rendering",
+      "ar",
+      "efficient rendering",
       "3d gaussian",
+      "efficient",
       "fast",
       "gaussian splatting"
     ],
@@ -15004,13 +15004,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "4d",
-      "efficient",
+      "dynamic",
       "geometry",
-      "motion",
-      "3d gaussian"
+      "ar",
+      "3d gaussian",
+      "efficient",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -15038,13 +15038,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "human",
-      "ar",
       "4d",
-      "motion",
       "deformation",
+      "ar",
+      "semantic",
+      "human",
       "3d gaussian",
-      "semantic"
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -15078,11 +15078,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "dynamic",
-      "ar",
       "4d",
+      "dynamic",
+      "high-fidelity",
       "face",
+      "ar",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -15113,11 +15113,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "4d",
-      "nerf",
+      "dynamic",
       "deformation",
+      "ar",
+      "nerf",
       "3d gaussian",
       "fast",
       "gaussian splatting"
@@ -15147,12 +15147,12 @@
     ],
     "github_url": "",
     "keywords": [
+      "localization",
       "ar",
-      "mapping",
       "3d gaussian",
       "slam",
-      "gaussian splatting",
-      "localization"
+      "mapping",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -15211,13 +15211,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "robotics",
-      "motion",
+      "dynamic",
       "deformation",
+      "gaussian splatting",
+      "ar",
       "3d gaussian",
-      "gaussian splatting"
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -15243,12 +15243,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "body",
-      "dynamic",
-      "ar",
       "4d",
-      "efficient",
+      "dynamic",
+      "body",
+      "ar",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -15277,15 +15277,15 @@
     ],
     "github_url": "",
     "keywords": [
-      "mapping",
-      "ar",
-      "geometry",
-      "motion",
       "outdoor",
-      "3d gaussian",
       "understanding",
+      "geometry",
       "gaussian splatting",
-      "slam"
+      "ar",
+      "3d gaussian",
+      "slam",
+      "mapping",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -15316,8 +15316,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
       "ar",
+      "dynamic",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -15381,15 +15381,15 @@
     ],
     "github_url": "",
     "keywords": [
-      "human",
-      "ar",
       "4d",
-      "animation",
       "face",
-      "avatar",
-      "motion",
       "deformation",
-      "3d gaussian"
+      "animation",
+      "avatar",
+      "ar",
+      "human",
+      "3d gaussian",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -15419,10 +15419,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "urban scene",
       "geometry",
       "autonomous driving",
+      "ar",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -15454,12 +15454,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "urban scene",
       "face",
       "3d reconstruction",
-      "gaussian splatting",
-      "semantic"
+      "ar",
+      "semantic",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -15522,11 +15522,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
+      "localization",
       "dynamic",
+      "ar",
       "3d gaussian",
-      "gaussian splatting",
-      "localization"
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -15555,17 +15555,17 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "localization",
-      "ar",
-      "efficient",
       "robotics",
+      "localization",
+      "high-fidelity",
       "survey",
+      "ar",
+      "semantic",
       "mapping",
       "3d gaussian",
       "slam",
-      "gaussian splatting",
-      "semantic"
+      "efficient",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -15594,12 +15594,12 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "ar",
-      "efficient",
-      "geometry",
       "face",
+      "geometry",
       "segmentation",
+      "ar",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -15628,10 +15628,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "motion",
-      "ar",
       "3d reconstruction",
-      "dynamic"
+      "ar",
+      "dynamic",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -15660,8 +15660,8 @@
     "github_url": "",
     "keywords": [
       "3d gaussian",
-      "compression",
-      "ar"
+      "ar",
+      "compression"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -15691,8 +15691,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "segmentation",
+      "ar",
       "3d gaussian",
       "fast",
       "gaussian splatting"
@@ -15726,10 +15726,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "vr",
-      "autonomous driving",
       "sparse view",
+      "autonomous driving",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -15764,12 +15764,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "4d",
-      "nerf",
-      "3d reconstruction",
+      "dynamic",
       "motion",
+      "3d reconstruction",
+      "ar",
+      "nerf",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -15837,13 +15837,13 @@
     ],
     "github_url": "https://github.com/Arlo0o/UniScene-Unified-Occupancy-centric-Driving-Scene-Generation",
     "keywords": [
-      "high-fidelity",
-      "dynamic",
-      "ar",
       "4d",
+      "dynamic",
+      "high-fidelity",
       "autonomous driving",
-      "gaussian splatting",
-      "semantic"
+      "ar",
+      "semantic",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -15869,12 +15869,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "human",
-      "ar",
-      "efficient",
-      "3d gaussian",
-      "compression",
       "compact",
+      "compression",
+      "ar",
+      "human",
+      "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -15905,12 +15905,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "lightweight",
-      "efficient",
-      "geometry",
-      "3d gaussian",
       "compression",
+      "geometry",
+      "ar",
+      "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -15976,15 +15976,15 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "human",
-      "dynamic",
-      "ar",
-      "segmentation",
-      "mapping",
       "outdoor",
+      "dynamic",
+      "high-fidelity",
+      "segmentation",
+      "ar",
+      "human",
       "3d gaussian",
       "slam",
+      "mapping",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -16014,16 +16014,16 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "localization",
-      "ar",
-      "tracking",
       "illumination",
-      "mapping",
+      "localization",
+      "high-fidelity",
+      "tracking",
+      "ar",
+      "semantic",
       "3d gaussian",
       "slam",
-      "gaussian splatting",
-      "semantic"
+      "mapping",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -16049,12 +16049,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "4d",
+      "dynamic",
       "animation",
-      "geometry",
       "motion",
+      "geometry",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -16084,15 +16084,15 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
       "4d",
-      "animation",
       "compact",
+      "dynamic",
       "face",
-      "motion",
+      "animation",
+      "gaussian splatting",
+      "ar",
       "fast",
-      "gaussian splatting"
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -16122,13 +16122,13 @@
     ],
     "github_url": "https://github.com/jiangguangan/STG-Avatar",
     "keywords": [
-      "high-fidelity",
-      "human",
       "dynamic",
-      "ar",
+      "high-fidelity",
+      "deformation",
       "real-time rendering",
       "avatar",
-      "deformation",
+      "ar",
+      "human",
       "3d gaussian"
     ],
     "citations": 0,
@@ -16164,12 +16164,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "face",
       "real-time rendering",
+      "ar",
+      "semantic",
       "3d gaussian",
-      "gaussian splatting",
-      "semantic"
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -16205,8 +16205,8 @@
     "github_url": "",
     "keywords": [
       "3d gaussian",
-      "robotics",
       "ar",
+      "robotics",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -16237,13 +16237,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "efficient",
-      "geometry",
+      "compact",
       "3d reconstruction",
-      "motion",
+      "geometry",
+      "ar",
       "3d gaussian",
-      "compact"
+      "efficient",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -16271,8 +16271,8 @@
     "github_url": "",
     "keywords": [
       "3d gaussian",
-      "nerf",
-      "ar"
+      "ar",
+      "nerf"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -16303,11 +16303,11 @@
     ],
     "github_url": "",
     "keywords": [
+      "gaussian splatting",
       "ar",
-      "lighting",
-      "motion",
       "3d gaussian",
-      "gaussian splatting"
+      "lighting",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -16338,11 +16338,11 @@
     ],
     "github_url": "https://github.com/Runsong123/COS3D",
     "keywords": [
-      "ar",
-      "efficient",
       "robotics",
       "segmentation",
+      "ar",
       "mapping",
+      "efficient",
       "understanding"
     ],
     "citations": 0,
@@ -16370,10 +16370,10 @@
     ],
     "github_url": "",
     "keywords": [
+      "3d reconstruction",
+      "geometry",
       "ar",
       "nerf",
-      "geometry",
-      "3d reconstruction",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -16405,17 +16405,17 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "ar",
-      "lightweight",
-      "efficient",
-      "geometry",
-      "face",
-      "autonomous driving",
       "head",
+      "high-fidelity",
+      "lightweight",
+      "face",
+      "geometry",
+      "autonomous driving",
+      "ar",
+      "semantic",
+      "efficient",
       "fast",
-      "gaussian splatting",
-      "semantic"
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -16446,12 +16446,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "4d",
-      "nerf",
-      "geometry",
       "survey",
       "motion",
+      "geometry",
+      "ar",
+      "nerf",
       "3d gaussian",
       "fast",
       "gaussian splatting"
@@ -16483,9 +16483,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "dynamic",
       "lightweight",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -16519,8 +16519,8 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "ar",
       "face",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -16554,12 +16554,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "dynamic",
-      "ar",
-      "tracking",
-      "geometry",
       "illumination",
+      "dynamic",
+      "tracking",
       "3d reconstruction",
+      "geometry",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -16622,8 +16622,8 @@
     "github_url": "",
     "keywords": [
       "4d",
-      "dynamic",
       "ar",
+      "dynamic",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -16653,14 +16653,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "robotics",
-      "autonomous driving",
       "segmentation",
-      "3d gaussian",
-      "understanding",
       "gaussian splatting",
-      "semantic"
+      "semantic",
+      "autonomous driving",
+      "ar",
+      "3d gaussian",
+      "understanding"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -16690,17 +16690,17 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "animation",
-      "efficient",
-      "lighting",
-      "efficient rendering",
       "face",
       "survey",
-      "3d reconstruction",
       "real-time rendering",
+      "3d reconstruction",
+      "animation",
       "avatar",
+      "efficient rendering",
+      "efficient",
+      "ar",
       "3d gaussian",
+      "lighting",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -16729,9 +16729,9 @@
     ],
     "github_url": "",
     "keywords": [
+      "3d reconstruction",
       "3d gaussian",
       "ar",
-      "3d reconstruction",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -16825,13 +16825,13 @@
     ],
     "github_url": "https://github.com/zss171999645/ItG-GS",
     "keywords": [
-      "ar",
-      "nerf",
       "sparse-view",
       "sparse view",
-      "motion",
+      "gaussian splatting",
+      "ar",
+      "nerf",
       "3d gaussian",
-      "gaussian splatting"
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -16862,10 +16862,10 @@
     "github_url": "",
     "keywords": [
       "dynamic",
-      "ar",
-      "geometry",
       "face",
+      "geometry",
       "segmentation",
+      "ar",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -16894,12 +16894,12 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "ar",
-      "lighting",
-      "face",
       "head",
+      "high-fidelity",
+      "face",
+      "ar",
       "3d gaussian",
+      "lighting",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -16964,18 +16964,18 @@
     ],
     "github_url": "",
     "keywords": [
-      "human",
-      "dynamic",
-      "ar",
-      "efficient",
       "compact",
-      "avatar",
-      "motion",
-      "3d gaussian",
+      "dynamic",
       "compression",
-      "fast",
+      "avatar",
       "gaussian splatting",
-      "semantic"
+      "ar",
+      "semantic",
+      "human",
+      "3d gaussian",
+      "efficient",
+      "fast",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -17005,14 +17005,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "human",
-      "ar",
       "robotics",
+      "localization",
       "segmentation",
-      "3d gaussian",
-      "understanding",
       "gaussian splatting",
-      "localization"
+      "ar",
+      "human",
+      "3d gaussian",
+      "understanding"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -17040,11 +17040,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "human",
       "dynamic",
       "ar",
-      "efficient",
       "efficient rendering",
+      "human",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -17074,10 +17074,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "motion",
-      "face",
       "3d reconstruction",
-      "ar"
+      "face",
+      "ar",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -17104,8 +17104,8 @@
     "github_url": "",
     "keywords": [
       "3d gaussian",
-      "ar",
-      "localization"
+      "localization",
+      "ar"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -17167,13 +17167,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "high-fidelity",
-      "ar",
       "robotics",
-      "motion",
-      "3d gaussian",
+      "high-fidelity",
       "gaussian splatting",
-      "semantic"
+      "ar",
+      "semantic",
+      "3d gaussian",
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -17214,10 +17214,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "dynamic",
-      "efficient",
+      "ar",
       "3d gaussian",
+      "efficient",
       "fast"
     ],
     "citations": 0,
@@ -17249,10 +17249,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "3d reconstruction",
-      "3d gaussian",
       "compact",
+      "3d reconstruction",
+      "ar",
+      "3d gaussian",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -17314,11 +17314,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
       "head",
-      "3d gaussian",
-      "compression",
       "compact",
+      "compression",
+      "ar",
+      "3d gaussian",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -17350,11 +17350,11 @@
     "github_url": "",
     "keywords": [
       "dynamic",
-      "ar",
-      "efficient",
       "3d reconstruction",
+      "ar",
       "mapping",
       "3d gaussian",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -17384,14 +17384,14 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
-      "lighting",
-      "nerf",
       "3d reconstruction",
       "segmentation",
+      "ar",
+      "semantic",
+      "nerf",
       "3d gaussian",
-      "gaussian splatting",
-      "semantic"
+      "lighting",
+      "gaussian splatting"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -17428,13 +17428,13 @@
     ],
     "github_url": "",
     "keywords": [
-      "ar",
+      "relighting",
       "4d",
+      "gaussian splatting",
+      "ar",
       "efficient",
       "lighting",
-      "relighting",
-      "motion",
-      "gaussian splatting"
+      "motion"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -17464,9 +17464,9 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "ar",
-      "face",
       "medical",
+      "face",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -17510,10 +17510,10 @@
     "github_url": "",
     "keywords": [
       "high-fidelity",
-      "body",
-      "ar",
       "face",
+      "body",
       "avatar",
+      "ar",
       "3d gaussian",
       "gaussian splatting"
     ],
@@ -17542,11 +17542,11 @@
     "github_url": "",
     "keywords": [
       "dynamic",
-      "lightweight",
-      "efficient",
-      "ar",
       "vr",
+      "lightweight",
       "avatar",
+      "ar",
+      "efficient",
       "gaussian splatting"
     ],
     "citations": 0,
@@ -17577,10 +17577,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "3d gaussian",
       "3d reconstruction",
-      "fast",
-      "ar"
+      "3d gaussian",
+      "ar",
+      "fast"
     ],
     "citations": 0,
     "semantic_url": "",
