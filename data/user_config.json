@@ -2,26 +2,58 @@
   "search": {
     "keywords": {
       "both_abstract_and_title": [
-        "gaussian splatting",
-        "3d gaussian",
-        "gaussian splat",
-        "3dgs",
-        "4d gaussian"
+        "3d generator",
+        "3D scene reconstruction",
+        "text-to-3D",
+        "image-to-3D",
+        "single-view reconstruction",
+        "multi-view synthesis",
+        "3D asset generation",
+        "controllable 3D generation",
+        "articulated object generation",
+        "texture synthesis"
       ],
       "abstract_only": [
-        "neural radiance field gaussian",
-        "volumetric rendering gaussian",
-        "point cloud gaussian"
+        "3d generator",
+        "3D scene reconstruction",
+        "text-to-3D",
+        "image-to-3D",
+        "single-view reconstruction",
+        "multi-view synthesis",
+        "3D asset generation",
+        "controllable 3D generation",
+        "articulated object generation",
+        "texture synthesis"
       ],
       "title_only": [
+        "3d generator",
         "3D scene reconstruction",
-        "neural rendering"
+        "text-to-3D",
+        "image-to-3D",
+        "single-view reconstruction",
+        "multi-view synthesis",
+        "3D asset generation",
+        "controllable 3D generation",
+        "articulated object generation",
+        "texture synthesis"
       ]
     },
-    "domains": [],
+    "domains": [
+      "cs.CV",
+      "cs.GR",
+      "cs.AI",
+      "cs.LG",
+      "cs.CL",
+      "cs.RO",
+      "cs.MM",
+      "cs.NE",
+      "eess.IV",
+      "eess.SP",
+      "stat.ML"
+    ],
     "time_range": {
       "mode": "relative",
-      "relative": "1y",
+      "relative": "9m",
       "start_date": null,
       "end_date": null
     },
