@@ -626,8 +626,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "3d scene reconstruction",
-      "novel view synthesis"
+      "novel view synthesis",
+      "3d scene reconstruction"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -687,8 +687,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "texture synthesis",
-      "text-to-3d"
+      "text-to-3d",
+      "texture synthesis"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -1818,8 +1818,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "3d scene reconstruction",
-      "novel view synthesis"
+      "novel view synthesis",
+      "3d scene reconstruction"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -1880,8 +1880,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "image-to-3d",
-      "3d generator"
+      "3d generator",
+      "image-to-3d"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -2010,8 +2010,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "image-to-3d",
-      "3d generator"
+      "3d generator",
+      "image-to-3d"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -2148,8 +2148,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "image-to-3d",
-      "3d generator"
+      "3d generator",
+      "image-to-3d"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -3350,8 +3350,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "3d scene reconstruction",
-      "novel view synthesis"
+      "novel view synthesis",
+      "3d scene reconstruction"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -3490,8 +3490,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "image-to-3d",
-      "text-to-3d"
+      "text-to-3d",
+      "image-to-3d"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -4291,8 +4291,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "texture synthesis",
-      "text-to-3d"
+      "text-to-3d",
+      "texture synthesis"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -4813,8 +4813,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "image-to-3d",
-      "texture synthesis"
+      "texture synthesis",
+      "image-to-3d"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -6597,8 +6597,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "image-to-3d",
-      "text-to-3d"
+      "text-to-3d",
+      "image-to-3d"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -6814,8 +6814,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "3d scene reconstruction",
-      "novel view synthesis"
+      "novel view synthesis",
+      "3d scene reconstruction"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -7516,8 +7516,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "texture synthesis",
       "pbr materials",
+      "texture synthesis",
       "3d asset generation"
     ],
     "citations": 0,
@@ -7683,8 +7683,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "image-to-3d",
-      "uv mapping"
+      "uv mapping",
+      "image-to-3d"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -8307,8 +8307,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "image-to-3d",
-      "text-to-3d"
+      "text-to-3d",
+      "image-to-3d"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -8750,8 +8750,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "rigging",
-      "text-to-3d"
+      "text-to-3d",
+      "rigging"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -9034,8 +9034,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "3d scene reconstruction",
-      "novel view synthesis"
+      "novel view synthesis",
+      "3d scene reconstruction"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -9347,8 +9347,8 @@
     ],
     "github_url": "https://github.com/HorizonRobotics/Uni3R",
     "keywords": [
-      "3d scene reconstruction",
-      "novel view synthesis"
+      "novel view synthesis",
+      "3d scene reconstruction"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -9430,8 +9430,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "image-to-3d",
-      "text-to-3d"
+      "text-to-3d",
+      "image-to-3d"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -9997,8 +9997,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "3d scene reconstruction",
-      "novel view synthesis"
+      "novel view synthesis",
+      "3d scene reconstruction"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -10254,8 +10254,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "image-to-3d",
-      "3d asset generation"
+      "3d asset generation",
+      "image-to-3d"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -10285,8 +10285,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "single-view reconstruction",
-      "novel view synthesis"
+      "novel view synthesis",
+      "single-view reconstruction"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -10368,8 +10368,8 @@
     ],
     "github_url": "https://github.com/richardmarcus/PBNLiDAR",
     "keywords": [
-      "3d scene reconstruction",
-      "novel view synthesis"
+      "novel view synthesis",
+      "3d scene reconstruction"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -11358,8 +11358,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "novel view synthesis",
-      "text-to-3d"
+      "text-to-3d",
+      "novel view synthesis"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -11605,8 +11605,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "3d scene reconstruction",
-      "novel view synthesis"
+      "novel view synthesis",
+      "3d scene reconstruction"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -11799,8 +11799,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "3d scene reconstruction",
-      "novel view synthesis"
+      "novel view synthesis",
+      "3d scene reconstruction"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -12079,9 +12079,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "image-to-3d",
+      "text-to-3d",
       "articulated object generation",
-      "text-to-3d"
+      "image-to-3d"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -12541,8 +12541,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "3d scene reconstruction",
-      "novel view synthesis"
+      "novel view synthesis",
+      "3d scene reconstruction"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -12853,8 +12853,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "image-to-3d",
-      "rigging"
+      "rigging",
+      "image-to-3d"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -12995,8 +12995,8 @@
     ],
     "github_url": "https://github.com/azhuantou/MixGS",
     "keywords": [
-      "3d scene reconstruction",
-      "novel view synthesis"
+      "novel view synthesis",
+      "3d scene reconstruction"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -13028,8 +13028,8 @@
     ],
     "github_url": "https://github.com/YixunLiang/UniTEX",
     "keywords": [
-      "uv mapping",
-      "texture synthesis"
+      "texture synthesis",
+      "uv mapping"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -13207,8 +13207,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "3d scene reconstruction",
-      "novel view synthesis"
+      "novel view synthesis",
+      "3d scene reconstruction"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -13328,8 +13328,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "3d asset generation",
-      "text-to-3d"
+      "text-to-3d",
+      "3d asset generation"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -13582,8 +13582,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "3d scene reconstruction",
-      "novel view synthesis"
+      "novel view synthesis",
+      "3d scene reconstruction"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -13776,8 +13776,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "3d scene reconstruction",
-      "novel view synthesis"
+      "novel view synthesis",
+      "3d scene reconstruction"
     ],
     "citations": 0,
     "semantic_url": "",
@@ -13861,8 +13861,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "image-to-3d",
-      "text-to-3d"
+      "text-to-3d",
+      "image-to-3d"
     ],
     "citations": 0,
     "semantic_url": "",
