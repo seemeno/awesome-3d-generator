@@ -10,8 +10,7 @@
       "multi-view synthesis",
       "3d asset generation",
       "controllable 3d generation",
-      "articulated object generation",
-      "texture synthesis"
+      "articulated object generation"
     ]
   },
   "expanded_keywords": [
@@ -40,21 +39,37 @@
   },
   "search_config": {
     "both_abstract_and_title": [
-      "3d asset generation",
-      "text-to-3d",
-      "image-to-3d",
-      "single-view reconstruction"
+        "3d generator",
+        "3D scene reconstruction",
+        "text-to-3D",
+        "image-to-3D",
+        "single-view reconstruction",
+        "multi-view synthesis",
+        "3D asset generation",
+        "controllable 3D generation",
+        "articulated object generation"
     ],
     "abstract_only": [
-      "score distillation sampling",
-      "diffusion priors",
-      "differentiable rendering"
+        "3d generator",
+        "3D scene reconstruction",
+        "text-to-3D",
+        "image-to-3D",
+        "single-view reconstruction",
+        "multi-view synthesis",
+        "3D asset generation",
+        "controllable 3D generation",
+        "articulated object generation"
     ],
     "title_only": [
-      "3d generator",
-      "3dgs",
-      "articulated objects",
-      "texture synthesis"
+        "3d generator",
+        "3D scene reconstruction",
+        "text-to-3D",
+        "image-to-3D",
+        "single-view reconstruction",
+        "multi-view synthesis",
+        "3D asset generation",
+        "controllable 3D generation",
+        "articulated object generation"
     ]
   }
 }
