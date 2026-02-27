@@ -2,7 +2,7 @@
 
 A curated list of latest research papers, projects and resources related to Gaussian Splatting. Content is automatically updated daily.
 
-> Last Update: 2026-02-26 00:57:15
+> Last Update: 2026-02-27 00:58:34
 
 ## 📰 Latest Updates
 
@@ -29,7 +29,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
 - [Cross-Modal Generation](#cross-modal-generation) (84 papers) - Methods transforming text or 2D images into 3D assets.
 - [Dynamic & Articulated Modeling](#dynamic-&-articulated-modeling) (9 papers) - Creation of 3D objects with moving parts or controllable skeletal structures.
-- [Scene & View Synthesis](#scene-&-view-synthesis) (110 papers) - Focus on reconstructing complex scenes or synthesizing new perspectives from limited data.
+- [Scene & View Synthesis](#scene-&-view-synthesis) (111 papers) - Focus on reconstructing complex scenes or synthesizing new perspectives from limited data.
 - [Surface & Appearance Modeling](#surface-&-appearance-modeling) (25 papers) - Techniques for generating realistic textures, materials, and surface details.
 
 
@@ -405,7 +405,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   The labor- and experience-intensive creation of 3D assets with physically based rendering (PBR) materials demands an autonomous 3D asset creation pipeline. However, most existing 3D generation methods focus on geometry modeling, either baking textures into simple vertex colors or leaving texture synthesis to post-processing with image diffusion models. To achieve end-to-end PBR-ready 3D asset generation, we present Lightweight Gaussian Asset Adapter (LGAA), a novel framework that unifies the modeling of geometry and PBR materials by exploiting multi-view (MV) diffusion priors from a novel perspective. The LGAA features a modular design with three components. Specifically, the LGAA Wrapper reuses and adapts network layers from MV diffusion models, which encapsulate knowledge acquired from billions of images, enabling better convergence in a data-efficient manner. To incorporate multiple diffusion priors for geometry and PBR synthesis, the LGAA Switcher aligns multiple LGAA Wrapper layers encapsulating different knowledge. Then, a tamed variational autoencoder (VAE), termed LGAA...
   </details>  
-  Keywords: pbr materials, texture synthesis, 3d asset generation  
+  Keywords: texture synthesis, pbr materials, 3d asset generation  
 - **[SynthDrive: Scalable Real2Sim2Real Sensor Simulation Pipeline for High-Fidelity Asset Generation and Driving Data Synthesis](https://arxiv.org/abs/2509.06798v1)**  
   Authors: Zhengqing Chen, Ruohong Mei, Xiaoyang Guo, Qingjie Wang, Yubin Hu, Wei Yin, Weiqiang Ren, Qian Zhang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2509.06798v1.pdf)  
@@ -450,7 +450,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   High-quality textures are critical for realistic 3D content creation, yet existing generative methods are slow, rely on UV maps, and often fail to remain faithful to a reference image. To address these challenges, we propose a transformer-based framework that predicts a 3D texture field directly from a single image and a mesh, eliminating the need for UV mapping and differentiable rendering, and enabling faster texture generation. Our method integrates a triplane representation with depth-based backprojection losses, enabling efficient training and faster inference. Once trained, it generates high-fidelity textures in a single forward pass, requiring only 0.2s per shape. Extensive qualitative, quantitative, and user preference evaluations demonstrate that our method outperforms state-of-the-art baselines on single-image texture reconstruction in terms of both fidelity to the input image and perceptual quality, highlighting its practicality for scalable, high-quality, and controllable 3D content creation.
   </details>  
-  Keywords: image-to-3d, uv mapping  
+  Keywords: uv mapping, image-to-3d  
 - **[Few-step Flow for 3D Generation via Marginal-Data Transport Distillation](https://arxiv.org/abs/2509.04406v1)**  
   Authors: Zanwei Zhou, Taoran Yi, Jiemin Fang, Chen Yang, Lingxi Xie, Xinggang Wang, Wei Shen, Qi Tian  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2509.04406v1.pdf)  
@@ -1339,7 +1339,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Cultural heritage restoration in Bangladesh faces a dual challenge of limited resources and scarce technical expertise. Traditional 3D digitization methods, such as photogrammetry or LiDAR scanning, require expensive hardware, expert operators, and extensive on-site access, which are often infeasible in developing contexts. As a result, many of Bangladesh's architectural treasures, from the Paharpur Buddhist Monastery to Ahsan Manzil, remain vulnerable to decay and inaccessible in digital form. This paper introduces Oitijjo-3D, a cost-free generative AI framework that democratizes 3D cultural preservation. By using publicly available Google Street View imagery, Oitijjo-3D reconstructs faithful 3D models of heritage structures through a two-stage pipeline - multimodal visual reasoning with Gemini 2.5 Flash Image for structure-texture synthesis, and neural image-to-3D generation through Hexagen for geometry recovery. The system produces photorealistic, metrically coherent reconstructions in seconds, achieving significant speedups compared to conventional Structure-from-Motion pipelines, without requiring any specialized hardware or expert supervision. Experiments on landmarks...
   </details>  
-  Keywords: image-to-3d, texture synthesis  
+  Keywords: texture synthesis, image-to-3d  
 
 ### June 2025
 - **[SCORP: Scene-Consistent Object Refinement via Proxy Generation and Tuning](https://arxiv.org/abs/2506.23835v2)**  
@@ -1618,7 +1618,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Constructing a physically realistic and accurately scaled simulated 3D world is crucial for the training and evaluation of embodied intelligence tasks. The diversity, realism, low cost accessibility and affordability of 3D data assets are critical for achieving generalization and scalability in embodied AI. However, most current embodied intelligence tasks still rely heavily on traditional 3D computer graphics assets manually created and annotated, which suffer from high production costs and limited realism. These limitations significantly hinder the scalability of data driven approaches. We present EmbodiedGen, a foundational platform for interactive 3D world generation. It enables the scalable generation of high-quality, controllable and photorealistic 3D assets with accurate physical properties and real-world scale in the Unified Robotics Description Format (URDF) at low cost. These assets can be directly imported into various physics simulation engines for fine-grained physical control, supporting downstream tasks in training and evaluation. EmbodiedGen is an easy-to-use, full-featured toolkit composed...
   </details>  
-  Keywords: articulated object generation, image-to-3d, text-to-3d  
+  Keywords: image-to-3d, text-to-3d, articulated object generation  
 - **[J-DDL: Surface Damage Detection and Localization System for Fighter Aircraft](https://arxiv.org/abs/2506.10505v1)**  
   Authors: Jin Huang, Mingqiang Wei, Zikuan Li, Hangyu Qu, Wei Zhao, Xinyu Bai  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.10505v1.pdf)  
@@ -2372,6 +2372,21 @@ A curated list of latest research papers, projects and resources related to Gaus
   Keywords: 3d generator  
 
 ### February 2026
+- **[SF3D-RGB: Scene Flow Estimation from Monocular Camera and Sparse LiDAR](https://arxiv.org/abs/2602.21699v1)**  
+  Authors: Rajai Alhimdiat, Ramy Battrawy, René Schuster, Didier Stricker, Wesam Ashour  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2602.21699v1.pdf)  
+  <details><summary>Abstract</summary>
+
+  Scene flow estimation is an extremely important task in computer vision to support the perception of dynamic changes in the scene. For robust scene flow, learning-based approaches have recently achieved impressive results using either image-based or LiDAR-based modalities. However, these methods have tended to focus on the use of a single modality. To tackle these problems, we present a deep learning architecture, SF3D-RGB, that enables sparse scene flow estimation using 2D monocular images and 3D point clouds (e.g., acquired by LiDAR) as inputs. Our architecture is an end-to-end model that first encodes information from each modality into features and fuses them together. Then, the fused features enhance a graph matching module for better and more robust mapping matrix computation to generate an initial scene flow. Finally, a residual scene flow module further refines the initial scene flow. Our model is designed to strike a balance between accuracy and efficiency. Furthermore,...
+  </details>  
+- **[Pseudo-View Enhancement via Confidence Fusion for Unposed Sparse-View Reconstruction](https://arxiv.org/abs/2602.21535v1)**  
+  Authors: Beizhen Zhao, Sicheng Yu, Guanzhi Ding, Yu Hu, Hao Wang  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2602.21535v1.pdf)  
+  <details><summary>Abstract</summary>
+
+  3D scene reconstruction under unposed sparse viewpoints is a highly challenging yet practically important problem, especially in outdoor scenes due to complex lighting and scale variation. With extremely limited input views, directly utilizing diffusion model to synthesize pseudo frames will introduce unreasonable geometry, which will harm the final reconstruction quality. To address these issues, we propose a novel framework for sparse-view outdoor reconstruction that achieves high-quality results through bidirectional pseudo frame restoration and scene perception Gaussian management. Specifically, we introduce a bidirectional pseudo frame restoration method that restores missing content by diffusion-based synthesis guided by adjacent frames with a lightweight pseudo-view deblur model and confidence mask inference algorithm. Then we propose a scene perception Gaussian management strategy that optimize Gaussians based on joint depth-density information. These designs significantly enhance reconstruction completeness, suppress floating artifacts and improve overall geometric consistency under extreme view sparsity. Experiments on outdoor benchmarks demonstrate substantial gains...
+  </details>  
+  Keywords: 3d scene reconstruction  
 - **[Human Video Generation from a Single Image with 3D Pose and View Control](https://arxiv.org/abs/2602.21188v1)**  
   Authors: Tiantian Wang, Chun-Han Yao, Tao Hu, Mallikarjun Byrasandra Ramalinga Reddy, Ming-Hsuan Yang, Varun Jampani  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2602.21188v1.pdf)  
@@ -2482,7 +2497,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Articulated objects are central to interactive 3D applications, including embodied AI, robotics, and VR/AR, where functional part decomposition and kinematic motion are essential. Yet producing high-fidelity articulated assets remains difficult to scale because it requires reliable part decomposition and kinematic rigging. Existing approaches largely fall into two paradigms: optimization-based reconstruction or distillation, which can be accurate but often takes tens of minutes to hours per instance, and inference-time methods that rely on template or part retrieval, producing plausible results that may not match the specific structure and appearance in the input observation. We introduce a part-centric generative framework for articulated object creation that synthesizes part geometry, composition, and articulation under explicit part-aware conditioning. Our representation models an object as a set of movable parts, each encoded by latent tokens augmented with part identity and articulation cues. Conditioned on a single image, the model generates articulated 3D assets that preserve instance-level...
   </details>  
-  Keywords: articulated object generation, rigging  
+  Keywords: rigging, articulated object generation  
 - **[VAR-3D: View-aware Auto-Regressive Model for Text-to-3D Generation via a 3D Tokenizer](https://arxiv.org/abs/2602.13818v1)**  
   Authors: Zongcheng Han, Dongyan Cao, Haoran Sun, Yu Hong  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2602.13818v1.pdf)  
@@ -3594,7 +3609,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Articulated objects are central to interactive 3D applications, including embodied AI, robotics, and VR/AR, where functional part decomposition and kinematic motion are essential. Yet producing high-fidelity articulated assets remains difficult to scale because it requires reliable part decomposition and kinematic rigging. Existing approaches largely fall into two paradigms: optimization-based reconstruction or distillation, which can be accurate but often takes tens of minutes to hours per instance, and inference-time methods that rely on template or part retrieval, producing plausible results that may not match the specific structure and appearance in the input observation. We introduce a part-centric generative framework for articulated object creation that synthesizes part geometry, composition, and articulation under explicit part-aware conditioning. Our representation models an object as a set of movable parts, each encoded by latent tokens augmented with part identity and articulation cues. Conditioned on a single image, the model generates articulated 3D assets that preserve instance-level...
   </details>  
-  Keywords: articulated object generation, rigging  
+  Keywords: rigging, articulated object generation  
 - **[Stroke3D: Lifting 2D strokes into rigged 3D model via latent diffusion models](https://arxiv.org/abs/2602.09713v2)**  
   Authors: Ruisi Zhao, Haoren Zheng, Zongxin Yang, Hehe Fan, Yi Yang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2602.09713v2.pdf)  
@@ -3658,12 +3673,20 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Constructing a physically realistic and accurately scaled simulated 3D world is crucial for the training and evaluation of embodied intelligence tasks. The diversity, realism, low cost accessibility and affordability of 3D data assets are critical for achieving generalization and scalability in embodied AI. However, most current embodied intelligence tasks still rely heavily on traditional 3D computer graphics assets manually created and annotated, which suffer from high production costs and limited realism. These limitations significantly hinder the scalability of data driven approaches. We present EmbodiedGen, a foundational platform for interactive 3D world generation. It enables the scalable generation of high-quality, controllable and photorealistic 3D assets with accurate physical properties and real-world scale in the Unified Robotics Description Format (URDF) at low cost. These assets can be directly imported into various physics simulation engines for fine-grained physical control, supporting downstream tasks in training and evaluation. EmbodiedGen is an easy-to-use, full-featured toolkit composed...
   </details>  
-  Keywords: articulated object generation, image-to-3d, text-to-3d  
+  Keywords: image-to-3d, text-to-3d, articulated object generation  
 
 ### Scene & View Synthesis
 
-*Showing the latest 50 out of 110 papers*
+*Showing the latest 50 out of 111 papers*
 
+- **[Pseudo-View Enhancement via Confidence Fusion for Unposed Sparse-View Reconstruction](https://arxiv.org/abs/2602.21535v1)**  
+  Authors: Beizhen Zhao, Sicheng Yu, Guanzhi Ding, Yu Hu, Hao Wang  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2602.21535v1.pdf)  
+  <details><summary>Abstract</summary>
+
+  3D scene reconstruction under unposed sparse viewpoints is a highly challenging yet practically important problem, especially in outdoor scenes due to complex lighting and scale variation. With extremely limited input views, directly utilizing diffusion model to synthesize pseudo frames will introduce unreasonable geometry, which will harm the final reconstruction quality. To address these issues, we propose a novel framework for sparse-view outdoor reconstruction that achieves high-quality results through bidirectional pseudo frame restoration and scene perception Gaussian management. Specifically, we introduce a bidirectional pseudo frame restoration method that restores missing content by diffusion-based synthesis guided by adjacent frames with a lightweight pseudo-view deblur model and confidence mask inference algorithm. Then we propose a scene perception Gaussian management strategy that optimize Gaussians based on joint depth-density information. These designs significantly enhance reconstruction completeness, suppress floating artifacts and improve overall geometric consistency under extreme view sparsity. Experiments on outdoor benchmarks demonstrate substantial gains...
+  </details>  
+  Keywords: 3d scene reconstruction  
 - **[Large-scale Photorealistic Outdoor 3D Scene Reconstruction from UAV Imagery Using Gaussian Splatting Techniques](https://arxiv.org/abs/2602.20342v1)**  
   Authors: Christos Maikos, Georgios Angelidis, Georgios Th. Papadopoulos  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2602.20342v1.pdf)  
@@ -3736,14 +3759,6 @@ A curated list of latest research papers, projects and resources related to Gaus
   3D Gaussian Splatting (3DGS) has recently emerged as a promising contender to Neural Radiance Fields (NeRF) in 3D scene reconstruction and real-time novel view synthesis. 3DGS outperforms NeRF in training and inference speed but has substantially higher storage requirements. To remedy this downside, we propose POTR, a post-training 3DGS codec built on two novel techniques. First, POTR introduces a novel pruning approach that uses a modified 3DGS rasterizer to efficiently calculate every splat's individual removal effect simultaneously. This technique results in 2-4x fewer splats than other post-training pruning techniques and as a result also significantly accelerates inference with experiments demonstrating 1.5-2x faster inference than other compressed models. Second, we propose a novel method to recompute lighting coefficients, significantly reducing their entropy without using any form of training. Our fast and highly parallel approach especially increases AC lighting coefficient sparsity, with experiments demonstrating increases from 70% to 97%, with minimal loss...
   </details>  
   Keywords: novel view synthesis, 3d scene reconstruction  
-- **[studentSplat: Your Student Model Learns Single-view 3D Gaussian Splatting](https://arxiv.org/abs/2601.11772v1)**  
-  Authors: Yimu Pan, Hongda Mao, Qingshuang Chen, Yelin Kim  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2601.11772v1.pdf)  
-  <details><summary>Abstract</summary>
-
-  Recent advance in feed-forward 3D Gaussian splatting has enable remarkable multi-view 3D scene reconstruction or single-view 3D object reconstruction but single-view 3D scene reconstruction remain under-explored due to inherited ambiguity in single-view. We present \textbf{studentSplat}, a single-view 3D Gaussian splatting method for scene reconstruction. To overcome the scale ambiguity and extrapolation problems inherent in novel-view supervision from a single input, we introduce two techniques: 1) a teacher-student architecture where a multi-view teacher model provides geometric supervision to the single-view student during training, addressing scale ambiguity and encourage geometric validity; and 2) an extrapolation network that completes missing scene context, enabling high-quality extrapolation. Extensive experiments show studentSplat achieves state-of-the-art single-view novel-view reconstruction quality and comparable performance to multi-view methods at the scene level. Furthermore, studentSplat demonstrates competitive performance as a self-supervised single-view depth estimation method, highlighting its potential for general single-view 3D understanding tasks.
-  </details>  
-  Keywords: 3d scene reconstruction  
 
 ### Surface & Appearance Modeling
 
@@ -3826,7 +3841,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Cultural heritage restoration in Bangladesh faces a dual challenge of limited resources and scarce technical expertise. Traditional 3D digitization methods, such as photogrammetry or LiDAR scanning, require expensive hardware, expert operators, and extensive on-site access, which are often infeasible in developing contexts. As a result, many of Bangladesh's architectural treasures, from the Paharpur Buddhist Monastery to Ahsan Manzil, remain vulnerable to decay and inaccessible in digital form. This paper introduces Oitijjo-3D, a cost-free generative AI framework that democratizes 3D cultural preservation. By using publicly available Google Street View imagery, Oitijjo-3D reconstructs faithful 3D models of heritage structures through a two-stage pipeline - multimodal visual reasoning with Gemini 2.5 Flash Image for structure-texture synthesis, and neural image-to-3D generation through Hexagen for geometry recovery. The system produces photorealistic, metrically coherent reconstructions in seconds, achieving significant speedups compared to conventional Structure-from-Motion pipelines, without requiring any specialized hardware or expert supervision. Experiments on landmarks...
   </details>  
-  Keywords: image-to-3d, texture synthesis  
+  Keywords: texture synthesis, image-to-3d  
 
 
 
