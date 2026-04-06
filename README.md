@@ -2,7 +2,7 @@
 
 A curated list of latest research papers, projects and resources related to Gaussian Splatting. Content is automatically updated daily.
 
-> Last Update: 2026-04-05 01:10:22
+> Last Update: 2026-04-06 01:10:30
 
 ## 📰 Latest Updates
 
@@ -29,7 +29,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
 - [Cross-Modal Generation](#cross-modal-generation) (85 papers) - Methods transforming text or 2D images into 3D assets.
 - [Dynamic & Articulated Modeling](#dynamic-&-articulated-modeling) (10 papers) - Creation of 3D objects with moving parts or controllable skeletal structures.
-- [Scene & View Synthesis](#scene-&-view-synthesis) (109 papers) - Focus on reconstructing complex scenes or synthesizing new perspectives from limited data.
+- [Scene & View Synthesis](#scene-&-view-synthesis) (110 papers) - Focus on reconstructing complex scenes or synthesizing new perspectives from limited data.
 - [Surface & Appearance Modeling](#surface-&-appearance-modeling) (22 papers) - Techniques for generating realistic textures, materials, and surface details.
 
 
@@ -154,7 +154,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   In the field of 3D content generation, single image scene reconstruction methods still struggle to simultaneously ensure the quality of individual assets and the coherence of the overall scene in complex environments, while texture editing techniques often fail to maintain both local continuity and multi-view consistency. In this paper, we propose a novel system ZeroScene, which leverages the prior knowledge of large vision models to accomplish both single image-to-3D scene reconstruction and texture editing in a zero-shot manner. ZeroScene extracts object-level 2D segmentation and depth information from input images to infer spatial relationships within the scene. It then jointly optimizes 3D and 2D projection losses of the point cloud to update object poses for precise scene alignment, ultimately constructing a coherent and complete 3D scene that encompasses both foreground and background. Moreover, ZeroScene supports texture editing of objects in the scene. By imposing constraints on the diffusion model and introducing...
   </details>  
-  Keywords: image-to-3d, 3d scene reconstruction  
+  Keywords: 3d scene reconstruction, image-to-3d  
 - **[FM-SIREN & FM-FINER: Nyquist-Informed Frequency Multiplier for Implicit Neural Representation with Periodic Activation](https://arxiv.org/abs/2509.23438v2)**  
   Authors: Mohammed Alsakabi, Wael Mobeirek, John M. Dolan, Ozan K. Tonguz  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2509.23438v2.pdf)  
@@ -185,7 +185,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   We introduce Drag4D, an interactive framework that integrates object motion control within text-driven 3D scene generation. This framework enables users to define 3D trajectories for the 3D objects generated from a single image, seamlessly integrating them into a high-quality 3D background. Our Drag4D pipeline consists of three stages. First, we enhance text-to-3D background generation by applying 2D Gaussian Splatting with panoramic images and inpainted novel views, resulting in dense and visually complete 3D reconstructions. In the second stage, given a reference image of the target object, we introduce a 3D copy-and-paste approach: the target instance is extracted in a full 3D mesh using an off-the-shelf image-to-3D model and seamlessly composited into the generated 3D scene. The object mesh is then positioned within the 3D scene via our physics-aware object position learning, ensuring precise spatial alignment. Lastly, the spatially aligned object is temporally animated along a user-defined 3D trajectory. To mitigate...
   </details>  
-  Keywords: image-to-3d, text-to-3d  
+  Keywords: text-to-3d, image-to-3d  
 - **[SRHand: Super-Resolving Hand Images and 3D Shapes via View/Pose-aware Neural Image Representations and Explicit 3D Meshes](https://arxiv.org/abs/2509.21859v1)**  
   Authors: Minje Kim, Tae-Kyun Kim  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2509.21859v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://yunminjin2.github.io/projects/srhand)  
@@ -405,7 +405,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   The labor- and experience-intensive creation of 3D assets with physically based rendering (PBR) materials demands an autonomous 3D asset creation pipeline. However, most existing 3D generation methods focus on geometry modeling, either baking textures into simple vertex colors or leaving texture synthesis to post-processing with image diffusion models. To achieve end-to-end PBR-ready 3D asset generation, we present Lightweight Gaussian Asset Adapter (LGAA), a novel framework that unifies the modeling of geometry and PBR materials by exploiting multi-view (MV) diffusion priors from a novel perspective. The LGAA features a modular design with three components. Specifically, the LGAA Wrapper reuses and adapts network layers from MV diffusion models, which encapsulate knowledge acquired from billions of images, enabling better convergence in a data-efficient manner. To incorporate multiple diffusion priors for geometry and PBR synthesis, the LGAA Switcher aligns multiple LGAA Wrapper layers encapsulating different knowledge. Then, a tamed variational autoencoder (VAE), termed LGAA...
   </details>  
-  Keywords: texture synthesis, 3d asset generation, pbr materials  
+  Keywords: pbr materials, texture synthesis, 3d asset generation  
 - **[SynthDrive: Scalable Real2Sim2Real Sensor Simulation Pipeline for High-Fidelity Asset Generation and Driving Data Synthesis](https://arxiv.org/abs/2509.06798v1)**  
   Authors: Zhengqing Chen, Ruohong Mei, Xiaoyang Guo, Qingjie Wang, Yubin Hu, Wei Yin, Weiqiang Ren, Qian Zhang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2509.06798v1.pdf)  
@@ -450,7 +450,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   High-quality textures are critical for realistic 3D content creation, yet existing generative methods are slow, rely on UV maps, and often fail to remain faithful to a reference image. To address these challenges, we propose a transformer-based framework that predicts a 3D texture field directly from a single image and a mesh, eliminating the need for UV mapping and differentiable rendering, and enabling faster texture generation. Our method integrates a triplane representation with depth-based backprojection losses, enabling efficient training and faster inference. Once trained, it generates high-fidelity textures in a single forward pass, requiring only 0.2s per shape. Extensive qualitative, quantitative, and user preference evaluations demonstrate that our method outperforms state-of-the-art baselines on single-image texture reconstruction in terms of both fidelity to the input image and perceptual quality, highlighting its practicality for scalable, high-quality, and controllable 3D content creation.
   </details>  
-  Keywords: image-to-3d, uv mapping  
+  Keywords: uv mapping, image-to-3d  
 - **[Few-step Flow for 3D Generation via Marginal-Data Transport Distillation](https://arxiv.org/abs/2509.04406v1)**  
   Authors: Zanwei Zhou, Taoran Yi, Jiemin Fang, Chen Yang, Lingxi Xie, Xinggang Wang, Wei Shen, Qi Tian  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2509.04406v1.pdf)  
@@ -983,7 +983,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   World Generation Models are emerging as a cornerstone of next-generation multimodal intelligence systems. Unlike traditional 2D visual generation, World Models aim to construct realistic, dynamic, and physically consistent 3D/4D worlds from images, videos, or text. These models not only need to produce high-fidelity visual content but also maintain coherence across space, time, physics, and instruction control, enabling applications in virtual reality, autonomous driving, embodied intelligence, and content creation. However, prior benchmarks emphasize different evaluation dimensions and lack a unified assessment of world-realism capability. To systematically evaluate World Models, we introduce the 4DWorldBench, which measures models across four key dimensions: Perceptual Quality, Condition-4D Alignment, Physical Realism, and 4D Consistency. The benchmark covers tasks such as Image-to-3D/4D, Video-to-4D, Text-to-3D/4D. Beyond these, we innovatively introduce adaptive conditioning across multiple modalities, which not only integrates but also extends traditional evaluation paradigms. To accommodate different modality-conditioned inputs, we map all modality conditions into a unified...
   </details>  
-  Keywords: image-to-3d, text-to-3d  
+  Keywords: text-to-3d, image-to-3d  
 - **[Ref-SAM3D: Bridging SAM3D with Text for Reference 3D Reconstruction](https://arxiv.org/abs/2511.19426v1)**  
   Authors: Yun Zhou, Yaoting Wang, Guangquan Jie, Jinyu Liu, Henghui Ding  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.19426v1.pdf) | [![GitHub](https://img.shields.io/github/stars/FudanCVL/Ref-SAM3D?style=social)](https://github.com/FudanCVL/Ref-SAM3D)  
@@ -1185,7 +1185,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   The rise of 3D generative models has enabled automatic 3D geometry and texture synthesis from multimodal inputs (e.g., text or images). However, these methods often ignore physical constraints and manufacturability considerations. In this work, we address the challenge of producing 3D designs that are both lightweight and self-supporting. We present DensiCrafter, a framework for generating lightweight, self-supporting 3D hollow structures by optimizing the density field. Starting from coarse voxel grids produced by Trellis, we interpret these as continuous density fields to optimize and introduce three differentiable, physically constrained, and simulation-free loss terms. Additionally, a mass regularization penalizes unnecessary material, while a restricted optimization domain preserves the outer surface. Our method seamlessly integrates with pretrained Trellis-based models (e.g., Trellis, DSO) without any architectural changes. In extensive evaluations, we achieve up to 43% reduction in material mass on the text-to-3D task. Compared to state-of-the-art baselines, our method could improve the stability and...
   </details>  
-  Keywords: texture synthesis, text-to-3d  
+  Keywords: text-to-3d, texture synthesis  
 - **[AnchorDS: Anchoring Dynamic Sources for Semantically Consistent Text-to-3D Generation](https://arxiv.org/abs/2511.11692v1)**  
   Authors: Jiayin Zhu, Linlin Yang, Yicong Li, Angela Yao  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.11692v1.pdf)  
@@ -1331,7 +1331,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Cultural heritage restoration in Bangladesh faces a dual challenge of limited resources and scarce technical expertise. Traditional 3D digitization methods, such as photogrammetry or LiDAR scanning, require expensive hardware, expert operators, and extensive on-site access, which are often infeasible in developing contexts. As a result, many of Bangladesh's architectural treasures, from the Paharpur Buddhist Monastery to Ahsan Manzil, remain vulnerable to decay and inaccessible in digital form. This paper introduces Oitijjo-3D, a cost-free generative AI framework that democratizes 3D cultural preservation. By using publicly available Google Street View imagery, Oitijjo-3D reconstructs faithful 3D models of heritage structures through a two-stage pipeline - multimodal visual reasoning with Gemini 2.5 Flash Image for structure-texture synthesis, and neural image-to-3D generation through Hexagen for geometry recovery. The system produces photorealistic, metrically coherent reconstructions in seconds, achieving significant speedups compared to conventional Structure-from-Motion pipelines, without requiring any specialized hardware or expert supervision. Experiments on landmarks...
   </details>  
-  Keywords: image-to-3d, texture synthesis  
+  Keywords: texture synthesis, image-to-3d  
 
 ### March 2026
 - **[Extend3D: Town-Scale 3D Generation](https://arxiv.org/abs/2603.29387v1)**  
@@ -1355,7 +1355,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Achieving precise, object-level control in image editing remains challenging: 2D methods lack 3D awareness and often yield ambiguous or implausible results, while existing 3D-aware approaches rely on heavy optimization or incomplete monocular reconstructions. We present ObjectMorpher, a unified, interactive framework that converts ambiguous 2D edits into geometry-grounded operations. ObjectMorpher lifts target instances with an image-to-3D generator into editable 3D Gaussian Splatting (3DGS), enabling fast, identity-preserving manipulation. Users drag control points; a graph-based non-rigid deformation with as-rigid-as-possible (ARAP) constraints ensures physically sensible shape and pose changes. A composite diffusion module harmonizes lighting, color, and boundaries for seamless reintegration. Across diverse categories, ObjectMorpher delivers fine-grained, photorealistic edits with superior controllability and efficiency, outperforming 2D drag and 3D-aware baselines on KID, LPIPS, SIFID, and user preference.
   </details>  
-  Keywords: image-to-3d, 3d generator  
+  Keywords: 3d generator, image-to-3d  
 - **[SVGS: Single-View to 3D Object Editing via Gaussian Splatting](https://arxiv.org/abs/2603.28126v1)**  
   Authors: Pengcheng Xue, Yan Tian, Qiutao Song, Ziyi Wang, Linyang He, Weiping Ding, Mahmoud Hassaballah, Karen Egiazarian, Wei-Fa Yang, Leszek Rutkowski  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2603.28126v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://amateurc.github.io/svgs.github.io)  
@@ -1802,7 +1802,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Current compositional image-to-3D scene generation approaches construct 3D scenes by time-consuming iterative layout optimization or inflexible joint object-layout generation. Moreover, most methods rely on limited field-of-view perspective images, hindering the creation of complete 360-degree environments. To address these limitations, we design Pano3DComposer, an efficient feed-forward framework for panoramic images. To decouple object generation from layout estimation, we propose a plug-and-play Object-World Transformation Predictor. This module converts the 3D objects generated by off-the-shelf image-to-3D models from local to world coordinates. To achieve this, we adapt the VGGT architecture to Alignment-VGGT by using target object crop, multi-view object renderings and camera parameters to predict the transformation. The predictor is trained using pseudo-geometric supervision to address the shape discrepancy between generated and ground-truth objects. For input images from unseen domains, we further introduce a Coarse-to-Fine (C2F) alignment mechanism for Pano3DComposer that iteratively refines geometric consistency with feedback of scene rendering. Our method achieves...
   </details>  
-  Keywords: image-to-3d, text-to-3d  
+  Keywords: text-to-3d, image-to-3d  
 - **[Cog2Gen3D: Sculpturing 3D Semantic-Geometric Cognition for 3D Generation](https://arxiv.org/abs/2603.05845v1)**  
   Authors: Haonan Wang, Hanyu Zhou, Haoyue Liu, Tao Gu, Luxin Yan  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2603.05845v1.pdf)  
@@ -2177,13 +2177,6 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Humans can naturally identify and mentally complete occluded objects in cluttered environments. However, imparting similar cognitive ability to robotics remains challenging even with advanced reconstruction techniques, which models scenes as undifferentiated wholes and fails to recognize complete object from partial observations. In this paper, we propose InstaScene, a new paradigm towards holistic 3D perception of complex scenes with a primary goal: decomposing arbitrary instances while ensuring complete reconstruction. To achieve precise decomposition, we develop a novel spatial contrastive learning by tracing rasterization of each instance across views, significantly enhancing semantic supervision in cluttered scenes. To overcome incompleteness from limited observations, we introduce in-situ generation that harnesses valuable observations and geometric cues, effectively guiding 3D generative models to reconstruct complete instances that seamlessly align with the real world. Experiments on scene decomposition and object completion across complex real-world and synthetic scenes demonstrate that our method achieves superior decomposition accuracy while producing...
   </details>  
-- **[DiffSpectra: Molecular Structure Elucidation from Spectra using Diffusion Models](https://arxiv.org/abs/2507.06853v2)**  
-  Authors: Liang Wang, Yu Rong, Tingyang Xu, Zhenyi Zhong, Zhiyuan Liu, Pengju Wang, Deli Zhao, Qiang Liu, Shu Wu, Liang Wang, Yang Zhang  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2507.06853v2.pdf)  
-  <details><summary>Abstract</summary>
-
-  Molecular structure elucidation from spectra is a fundamental challenge in molecular science. Conventional approaches rely heavily on expert interpretation and lack scalability, while retrieval-based machine learning approaches remain constrained by limited reference libraries. Generative models offer a promising alternative, yet most adopt autoregressive architectures that overlook 3D geometry and struggle to integrate diverse spectral modalities. In this work, we present DiffSpectra, a generative framework that formulates molecular structure elucidation as a conditional generation process, directly inferring 2D and 3D molecular structures from multi-modal spectra using diffusion models. Its denoising network is parameterized by the Diffusion Molecule Transformer, an SE(3)-equivariant architecture for geometric modeling, conditioned by SpecFormer, a Transformer-based spectral encoder capturing multi-modal spectral dependencies. Extensive experiments demonstrate that DiffSpectra accurately elucidates molecular structures, achieving 40.76% top-1 and 99.49% top-10 accuracy. Its performance benefits substantially from 3D geometric modeling, SpecFormer pre-training, and multi-modal conditioning. To our knowledge, DiffSpectra is the first...
-  </details>  
 
 ### January 2026
 - **[Gaussian-Constrained LeJEPA Representations for Unsupervised Scene Discovery and Pose Consistency](https://arxiv.org/abs/2602.07016v1)**  
@@ -2306,7 +2299,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   A fundamental challenge in text-to-3D face generation is achieving high-quality geometry. The core difficulty lies in the arbitrary and intricate distribution of vertices in 3D space, making it challenging for existing models to establish clean connectivity and resulting in suboptimal geometry. To address this, our core insight is to simplify the underlying geometric structure by constraining the distribution onto a simple and regular manifold, a topological sphere. Building on this, we first propose the Spherical Geometry Representation, a novel face representation that anchors geometric signals to uniform spherical coordinates. This guarantees a regular point distribution, from which the mesh connectivity can be robustly reconstructed. Critically, this canonical sphere can be seamlessly unwrapped into a 2D map, creating a perfect synergy with powerful 2D generative models. We then introduce Spherical Geometry Diffusion, a conditional diffusion framework built upon this 2D map. It enables diverse and controllable generation by jointly modeling geometry...
   </details>  
-  Keywords: texture synthesis, text-to-3d  
+  Keywords: text-to-3d, texture synthesis  
 - **[Generalizable and Animatable 3D Full-Head Gaussian Avatar from a Single Image](https://arxiv.org/abs/2601.12770v1)**  
   Authors: Shuling Zhao, Dan Xu  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2601.12770v1.pdf)  
@@ -2591,7 +2584,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Articulated objects are central to interactive 3D applications, including embodied AI, robotics, and VR/AR, where functional part decomposition and kinematic motion are essential. Yet producing high-fidelity articulated assets remains difficult to scale because it requires reliable part decomposition and kinematic rigging. Existing approaches largely fall into two paradigms: optimization-based reconstruction or distillation, which can be accurate but often takes tens of minutes to hours per instance, and inference-time methods that rely on template or part retrieval, producing plausible results that may not match the specific structure and appearance in the input observation. We introduce a part-centric generative framework for articulated object creation that synthesizes part geometry, composition, and articulation under explicit part-aware conditioning. Our representation models an object as a set of movable parts, each encoded by latent tokens augmented with part identity and articulation cues. Conditioned on a single image, the model generates articulated 3D assets that preserve instance-level...
   </details>  
-  Keywords: rigging, articulated object generation  
+  Keywords: articulated object generation, rigging  
 - **[VAR-3D: View-aware Auto-Regressive Model for Text-to-3D Generation via a 3D Tokenizer](https://arxiv.org/abs/2602.13818v1)**  
   Authors: Zongcheng Han, Dongyan Cao, Haoran Sun, Yu Hong  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2602.13818v1.pdf)  
@@ -2947,7 +2940,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Despite significant progress in 4D content generation, the conversion of monocular videos into high-quality animated 3D assets with explicit 4D meshes remains considerably challenging. The scarcity of large-scale, naturally captured 4D mesh datasets further limits the ability to train generalizable video-to-4D models from scratch in a purely data-driven manner. Meanwhile, advances in image-to-3D generation, supported by extensive datasets, offer powerful prior models that can be leveraged. To better utilize these priors while minimizing reliance on 4D supervision, we introduce SWiT-4D, a Sliding-Window Transformer for lossless, parameter-free temporal 4D mesh generation. SWiT-4D integrates seamlessly with any Diffusion Transformer (DiT)-based image-to-3D generator, adding spatial-temporal modeling across video frames while preserving the original single-image forward process, enabling 4D mesh reconstruction from videos of arbitrary length. To recover global translation, we further introduce an optimization-based trajectory module tailored for static-camera monocular videos. SWiT-4D demonstrates strong data efficiency: with only a single short (<10s) video...
   </details>  
-  Keywords: image-to-3d, 3d generator  
+  Keywords: 3d generator, image-to-3d  
 - **[UniPart: Part-Level 3D Generation with Unified 3D Geom-Seg Latents](https://arxiv.org/abs/2512.09435v3)**  
   Authors: Xufan He, Yushuang Wu, Xiaoyang Guo, Chongjie Ye, Jiaqing Zhou, Tianlei Hu, Xiaoguang Han, Dong Du  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2512.09435v3.pdf)  
@@ -2984,7 +2977,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Generating high-quality, textured 3D scenes from a single image remains a fundamental challenge in vision and graphics. Recent image-to-3D generators recover reasonable geometry from single views, but their object-centric training limits generalization to complex, large-scale scenes with faithful structure and texture. We present EvoScene, a self-evolving, training-free framework that progressively reconstructs complete 3D scenes from single images. The key idea is combining the complementary strengths of existing models: geometric reasoning from 3D generation models and visual knowledge from video generation models. Through three iterative stages--Spatial Prior Initialization, Visual-guided 3D Scene Mesh Generation, and Spatial-guided Novel View Generation--EvoScene alternates between 2D and 3D domains, gradually improving both structure and appearance. Experiments on diverse scenes demonstrate that EvoScene achieves superior geometric stability, view-consistent textures, and unseen-region completion compared to strong baselines, producing ready-to-use 3D meshes for practical applications.
   </details>  
-  Keywords: image-to-3d, 3d generator  
+  Keywords: 3d generator, image-to-3d  
 - **[Photo3D: Advancing Photorealistic 3D Generation through Structure-Aligned Detail Enhancement](https://arxiv.org/abs/2512.08535v3)**  
   Authors: Xinyue Liang, Zhinyuan Ma, Lingchen Sun, Yanjun Guo, Lei Zhang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2512.08535v3.pdf)  
@@ -3263,7 +3256,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Text-to-3D generation approaches have advanced significantly by leveraging pretrained 2D diffusion priors, producing high-quality and 3D-consistent outputs. However, they often fail to produce out-of-domain (OOD) or rare concepts, yielding inconsistent or inaccurate results. To this end, we propose MV-RAG, a novel text-to-3D pipeline that first retrieves relevant 2D images from a large in-the-wild 2D database and then conditions a multiview diffusion model on these images to synthesize consistent and accurate multiview outputs. Training such a retrieval-conditioned model is achieved via a novel hybrid strategy bridging structured multiview data and diverse 2D image collections. This involves training on multiview data using augmented conditioning views that simulate retrieval variance for view-specific reconstruction, alongside training on sets of retrieved real-world 2D images using a distinctive held-out view prediction objective: the model predicts the held-out view from the other views to infer 3D consistency from 2D data. To facilitate a rigorous OOD evaluation, we...
   </details>  
-  Keywords: image-to-3d, text-to-3d  
+  Keywords: text-to-3d, image-to-3d  
 - **[Text-Driven 3D Hand Motion Generation from Sign Language Data](https://arxiv.org/abs/2508.15902v1)**  
   Authors: Léore Bensabath, Mathis Petrovich, Gül Varol  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2508.15902v1.pdf)  
@@ -3368,7 +3361,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Despite their potential to enhance children's learning experiences, AI-enabled AR technologies are predominantly used in ways that position children as consumers rather than creators. We introduce Capybara, an AR-based and AI-powered visual programming environment that empowers children to create, customize, and program 3D characters overlaid onto the physical world. Capybara enables children to create virtual characters and accessories using text-to-3D generative AI models, and to animate these characters through auto-rigging and body tracking. In addition, our system employs vision-based AI models to recognize physical objects, allowing children to program interactive behaviors between virtual characters and their physical surroundings. We demonstrate the expressiveness of Capybara through a set of novel AR experiences. We conducted user studies with 20 children in the United States and Argentina. Our findings suggest that Capybara can empower children to harness AI in authoring personalized and engaging AR experiences that seamlessly bridge the virtual and physical worlds.
   </details>  
-  Keywords: rigging, text-to-3d  
+  Keywords: text-to-3d, rigging  
 - **[Enhanced Liver Tumor Detection in CT Images Using 3D U-Net and Bat Algorithm for Hyperparameter Optimization](https://arxiv.org/abs/2508.08452v1)**  
   Authors: Nastaran Ghorbani, Bitasadat Jamshidi, Mohsen Rostamy-Malkhalifeh  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2508.08452v1.pdf)  
@@ -3543,7 +3536,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   3D generation has made significant progress, however, it still largely remains at the object-level. Feedforward 3D scene-level generation has been rarely explored due to the lack of models capable of scaling-up latent representation learning on 3D scene-level data. Unlike object-level generative models, which are trained on well-labeled 3D data in a bounded canonical space, scene-level generations with 3D scenes represented by 3D Gaussian Splatting (3DGS) are unbounded and exhibit scale inconsistency across different scenes, making unified latent representation learning for generative purposes extremely challenging. In this paper, we introduce Can3Tok, the first 3D scene-level variational autoencoder (VAE) capable of encoding a large number of Gaussian primitives into a low-dimensional latent embedding, which effectively captures both semantic and spatial information of the inputs. Beyond model design, we propose a general pipeline for 3D scene data processing to address scale inconsistency issue. We validate our method on the recent scene-level 3D dataset...
   </details>  
-  Keywords: image-to-3d, text-to-3d  
+  Keywords: text-to-3d, image-to-3d  
 - **[MeshLLM: Empowering Large Language Models to Progressively Understand and Generate 3D Mesh](https://arxiv.org/abs/2508.01242v2)**  
   Authors: Shuangkang Fang, I-Chao Shen, Yufeng Wang, Yi-Hsuan Tsai, Yi Yang, Shuchang Zhou, Wenrui Ding, Takeo Igarashi, Ming-Hsuan Yang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2508.01242v2.pdf)  
@@ -3592,6 +3585,21 @@ A curated list of latest research papers, projects and resources related to Gaus
   Keywords: image-to-3d  
 
 ### April 2026
+- **[Adaptive Local Frequency Filtering for Fourier-Encoded Implicit Neural Representations](https://arxiv.org/abs/2604.02846v1)**  
+  Authors: Ligen Shi, Jun Qiu, Yuhang Zheng, Chang Liu  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2604.02846v1.pdf)  
+  <details><summary>Abstract</summary>
+
+  Fourier-encoded implicit neural representations (INRs) have shown strong capability in modeling continuous signals from discrete samples. However, conventional Fourier feature mappings use a fixed set of frequencies over the entire spatial domain, making them poorly suited to signals with spatially varying local spectra and often leading to slow convergence of high-frequency details. To address this issue, we propose an adaptive local frequency filtering method for Fourier-encoded INRs. The proposed method introduces a spatially varying parameter $α(\mathbf{x})$ to modulate encoded Fourier components, enabling a smooth transition among low-pass, band-pass, and high-pass behaviors at different spatial locations. We further analyze the effect of the proposed filter from the neural tangent kernel (NTK) perspective and provide an NTK-inspired interpretation of how it reshapes the effective kernel spectrum. Experiments on 2D image fitting, 3D shape representation, and sparse data reconstruction demonstrate that the proposed method consistently improves reconstruction quality and leads to faster optimization...
+  </details>  
+- **[NavCrafter: Exploring 3D Scenes from a Single Image](https://arxiv.org/abs/2604.02828v1)**  
+  Authors: Hongbo Duan, Peiyu Zhuang, Yi Liu, Zhengyang Zhang, Yuxin Zhang, Pengting Luo, Fangming Liu, Xueqian Wang  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2604.02828v1.pdf)  
+  <details><summary>Abstract</summary>
+
+  Creating flexible 3D scenes from a single image is vital when direct 3D data acquisition is costly or impractical. We introduce NavCrafter, a novel framework that explores 3D scenes from a single image by synthesizing novel-view video sequences with camera controllability and temporal-spatial consistency. NavCrafter leverages video diffusion models to capture rich 3D priors and adopts a geometry-aware expansion strategy to progressively extend scene coverage. To enable controllable multi-view synthesis, we introduce a multi-stage camera control mechanism that conditions diffusion models with diverse trajectories via dual-branch camera injection and attention modulation. We further propose a collision-aware camera trajectory planner and an enhanced 3D Gaussian Splatting (3DGS) pipeline with depth-aligned supervision, structural regularization and refinement. Extensive experiments demonstrate that NavCrafter achieves state-of-the-art novel-view synthesis under large viewpoint shifts and substantially improves 3D reconstruction fidelity.
+  </details>  
+  Keywords: multi-view synthesis  
 - **[Omni123: Exploring 3D Native Foundation Models with Limited 3D Data by Unifying Text to 2D and 3D Generation](https://arxiv.org/abs/2604.02289v1)**  
   Authors: Chongjie Ye, Cheng Cao, Chuanyu Pan, Yiming Hao, Yihao Zhi, Yuanming Hu, Xiaoguang Han  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2604.02289v1.pdf)  
@@ -3608,12 +3616,12 @@ A curated list of latest research papers, projects and resources related to Gaus
   Neural Radiance Fields (NeRF) enables 3D scene reconstruction from several 2D images but incurs high rendering latency via its point-sampling design. 3D Gaussian Splatting (3DGS) improves on NeRF with explicit scene representation and an optimized pipeline yet still fails to meet practical real-time demands. Existing acceleration works overlook the evolving Tensor Cores of modern GPUs because 3DGS pipeline lacks General Matrix Multiplication (GEMM) operations. This paper proposes GEMM-GS, an acceleration approach utilizing tensor cores on GPUs via GEMM-friendly blending transformation. It equivalently reformulates the 3DGS blending process into a GEMM-compatible form to utilize Tensor Cores. A high-performance CUDA kernel is designed, integrating a three-stage double-buffered pipeline that overlaps computation and memory access. Extensive experiments show that GEMM-GS achieves $1.42\times$ speedup over vanilla 3DGS and provides an additional $1.47\times$ speedup on average when combining with existing acceleration approaches. Code is released at https://github.com/shieldforever/GEMM-GS.
   </details>  
   Keywords: 3d scene reconstruction  
-- **[SDesc3D: Towards Layout-Aware 3D Indoor Scene Generation from Short Descriptions](https://arxiv.org/abs/2604.01972v1)**  
+- **[SDesc3D: Towards Layout-Aware 3D Indoor Scene Generation from Short Descriptions](https://arxiv.org/abs/2604.01972v2)**  
   Authors: Jie Feng, Jiawei Shen, Junjia Huang, Junpeng Zhang, Mingtao Feng, Weisheng Dong, Guanbin Li  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2604.01972v1.pdf)  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2604.01972v2.pdf)  
   <details><summary>Abstract</summary>
 
-  3D indoor scene generation conditioned on short textual descriptions provides a promising avenue for interactive 3D environment construction without the need for labor-intensive layout specification. Despite recent progress in text-conditioned 3D scene generation, existing works suffer from poor physical plausibility and insufficient detail richness in such semantic condensation cases, largely due to their reliance on explicit semantic cues about compositional objects and their spatial relationships. This limitation highlights the need for enhanced 3D reasoning capabilities, particularly in terms of prior integration and spatial anchoring.Motivated by this, we propose SDesc3D, a short-text conditioned 3D indoor scene generation framework, that leverages multi-view structural priors and regional functionality implications to enable 3D layout reasoning under sparse textual guidance.Specifically, we introduce a Multi-view scene prior augmentation that enriches underspecified textual inputs with aggregated multi-view structural knowledge, shifting from inaccessible semantic relation cues to multi-view relational prior aggregation. Building on this, we design a Functionality-aware...
+  3D indoor scene generation conditioned on short textual descriptions provides a promising avenue for interactive 3D environment construction without the need for labor-intensive layout specification. Despite recent progress in text-conditioned 3D scene generation, existing works suffer from poor physical plausibility and insufficient detail richness in such semantic condensation cases, largely due to their reliance on explicit semantic cues about compositional objects and their spatial relationships. This limitation highlights the need for enhanced 3D reasoning capabilities, particularly in terms of prior integration and spatial anchoring. Motivated by this, we propose SDesc3D, a short-text conditioned 3D indoor scene generation framework, that leverages multi-view structural priors and regional functionality implications to enable 3D layout reasoning under sparse textual guidance. Specifically, we introduce a Multi-view scene prior augmentation that enriches underspecified textual inputs with aggregated multi-view structural knowledge, shifting from inaccessible semantic relation cues to multi-view relational prior aggregation. Building on this, we design...
   </details>  
 - **[Control-DINO: Feature Space Conditioning for Controllable Image-to-Video Diffusion](https://arxiv.org/abs/2604.01761v1)**  
   Authors: Edoardo A. Dominici, Thomas Deixelberger, Konstantinos Vardis, Markus Steinberger  
@@ -3623,9 +3631,9 @@ A curated list of latest research papers, projects and resources related to Gaus
   Video models have recently been applied with success to problems in content generation, novel view synthesis, and, more broadly, world simulation. Many applications in generation and transfer rely on conditioning these models, typically through perceptual, geometric, or simple semantic signals, fundamentally using them as generative renderers. At the same time, high-dimensional features obtained from large-scale self-supervised learning on images or point clouds are increasingly used as a general-purpose interface for vision models. The connection between the two has been explored for subject specific editing, aligning and training video diffusion models, but not in the role of a more general conditioning signal for pretrained video diffusion models. Features obtained through self-supervised learning like DINO, contain a lot of entangled information about style, lighting and semantics of the scene. This makes them great at reconstruction tasks but limits their generative capabilities. In this paper, we show how we can use the features...
   </details>  
   Keywords: novel view synthesis  
-- **[Satellite-Free Training for Drone-View Geo-Localization](https://arxiv.org/abs/2604.01581v1)**  
+- **[Satellite-Free Training for Drone-View Geo-Localization](https://arxiv.org/abs/2604.01581v2)**  
   Authors: Tao Liu, Yingzhi Zhang, Kan Ren, Xiaoqi Zhao  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2604.01581v1.pdf)  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2604.01581v2.pdf)  
   <details><summary>Abstract</summary>
 
   Drone-view geo-localization (DVGL) aims to determine the location of drones in GPS-denied environments by retrieving the corresponding geotagged satellite tile from a reference gallery given UAV observations of a location. In many existing formulations, these observations are represented by a single oblique UAV image. In contrast, our satellite-free setting is designed for multi-view UAV sequences, which are used to construct a geometry-normalized UAV-side location representation before cross-view retrieval. Existing approaches rely on satellite imagery during training, either through paired supervision or unsupervised alignment, which limits practical deployment when satellite data are unavailable or restricted. In this paper, we propose a satellite-free training (SFT) framework that converts drone imagery into cross-view compatible representations through three main stages: drone-side 3D scene reconstruction, geometry-based pseudo-orthophoto generation, and satellite-free feature aggregation for retrieval. Specifically, we first reconstruct dense 3D scenes from multi-view drone images using 3D Gaussian splatting and project the reconstructed geometry into...
@@ -3663,7 +3671,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Achieving precise, object-level control in image editing remains challenging: 2D methods lack 3D awareness and often yield ambiguous or implausible results, while existing 3D-aware approaches rely on heavy optimization or incomplete monocular reconstructions. We present ObjectMorpher, a unified, interactive framework that converts ambiguous 2D edits into geometry-grounded operations. ObjectMorpher lifts target instances with an image-to-3D generator into editable 3D Gaussian Splatting (3DGS), enabling fast, identity-preserving manipulation. Users drag control points; a graph-based non-rigid deformation with as-rigid-as-possible (ARAP) constraints ensures physically sensible shape and pose changes. A composite diffusion module harmonizes lighting, color, and boundaries for seamless reintegration. Across diverse categories, ObjectMorpher delivers fine-grained, photorealistic edits with superior controllability and efficiency, outperforming 2D drag and 3D-aware baselines on KID, LPIPS, SIFID, and user preference.
   </details>  
-  Keywords: image-to-3d, 3d generator  
+  Keywords: 3d generator, image-to-3d  
 - **[Which Reconstruction Model Should a Robot Use? Routing Image-to-3D Models for Cost-Aware Robotic Manipulation](https://arxiv.org/abs/2603.27797v1)**  
   Authors: Akash Anand, Aditya Agarwal, Leslie Pack Kaelbling  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2603.27797v1.pdf)  
@@ -3719,7 +3727,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Current compositional image-to-3D scene generation approaches construct 3D scenes by time-consuming iterative layout optimization or inflexible joint object-layout generation. Moreover, most methods rely on limited field-of-view perspective images, hindering the creation of complete 360-degree environments. To address these limitations, we design Pano3DComposer, an efficient feed-forward framework for panoramic images. To decouple object generation from layout estimation, we propose a plug-and-play Object-World Transformation Predictor. This module converts the 3D objects generated by off-the-shelf image-to-3D models from local to world coordinates. To achieve this, we adapt the VGGT architecture to Alignment-VGGT by using target object crop, multi-view object renderings and camera parameters to predict the transformation. The predictor is trained using pseudo-geometric supervision to address the shape discrepancy between generated and ground-truth objects. For input images from unseen domains, we further introduce a Coarse-to-Fine (C2F) alignment mechanism for Pano3DComposer that iteratively refines geometric consistency with feedback of scene rendering. Our method achieves...
   </details>  
-  Keywords: image-to-3d, text-to-3d  
+  Keywords: text-to-3d, image-to-3d  
 - **[RelaxFlow: Text-Driven Amodal 3D Generation](https://arxiv.org/abs/2603.05425v1)**  
   Authors: Jiayin Zhu, Guoji Fu, Xiaolu Liu, Qiyuan He, Yicong Li, Angela Yao  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2603.05425v1.pdf)  
@@ -3754,7 +3762,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Articulated objects are central to interactive 3D applications, including embodied AI, robotics, and VR/AR, where functional part decomposition and kinematic motion are essential. Yet producing high-fidelity articulated assets remains difficult to scale because it requires reliable part decomposition and kinematic rigging. Existing approaches largely fall into two paradigms: optimization-based reconstruction or distillation, which can be accurate but often takes tens of minutes to hours per instance, and inference-time methods that rely on template or part retrieval, producing plausible results that may not match the specific structure and appearance in the input observation. We introduce a part-centric generative framework for articulated object creation that synthesizes part geometry, composition, and articulation under explicit part-aware conditioning. Our representation models an object as a set of movable parts, each encoded by latent tokens augmented with part identity and articulation cues. Conditioned on a single image, the model generates articulated 3D assets that preserve instance-level...
   </details>  
-  Keywords: rigging, articulated object generation  
+  Keywords: articulated object generation, rigging  
 - **[Stroke3D: Lifting 2D strokes into rigged 3D model via latent diffusion models](https://arxiv.org/abs/2602.09713v2)**  
   Authors: Ruisi Zhao, Haoren Zheng, Zongxin Yang, Hehe Fan, Yi Yang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2602.09713v2.pdf)  
@@ -3794,7 +3802,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Despite their potential to enhance children's learning experiences, AI-enabled AR technologies are predominantly used in ways that position children as consumers rather than creators. We introduce Capybara, an AR-based and AI-powered visual programming environment that empowers children to create, customize, and program 3D characters overlaid onto the physical world. Capybara enables children to create virtual characters and accessories using text-to-3D generative AI models, and to animate these characters through auto-rigging and body tracking. In addition, our system employs vision-based AI models to recognize physical objects, allowing children to program interactive behaviors between virtual characters and their physical surroundings. We demonstrate the expressiveness of Capybara through a set of novel AR experiences. We conducted user studies with 20 children in the United States and Argentina. Our findings suggest that Capybara can empower children to harness AI in authoring personalized and engaging AR experiences that seamlessly bridge the virtual and physical worlds.
   </details>  
-  Keywords: rigging, text-to-3d  
+  Keywords: text-to-3d, rigging  
 - **[Guiding Diffusion-Based Articulated Object Generation by Partial Point Cloud Alignment and Physical Plausibility Constraints](https://arxiv.org/abs/2508.00558v1)**  
   Authors: Jens U. Kreber, Joerg Stueckler  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2508.00558v1.pdf)  
@@ -3814,8 +3822,16 @@ A curated list of latest research papers, projects and resources related to Gaus
 
 ### Scene & View Synthesis
 
-*Showing the latest 50 out of 109 papers*
+*Showing the latest 50 out of 110 papers*
 
+- **[NavCrafter: Exploring 3D Scenes from a Single Image](https://arxiv.org/abs/2604.02828v1)**  
+  Authors: Hongbo Duan, Peiyu Zhuang, Yi Liu, Zhengyang Zhang, Yuxin Zhang, Pengting Luo, Fangming Liu, Xueqian Wang  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2604.02828v1.pdf)  
+  <details><summary>Abstract</summary>
+
+  Creating flexible 3D scenes from a single image is vital when direct 3D data acquisition is costly or impractical. We introduce NavCrafter, a novel framework that explores 3D scenes from a single image by synthesizing novel-view video sequences with camera controllability and temporal-spatial consistency. NavCrafter leverages video diffusion models to capture rich 3D priors and adopts a geometry-aware expansion strategy to progressively extend scene coverage. To enable controllable multi-view synthesis, we introduce a multi-stage camera control mechanism that conditions diffusion models with diverse trajectories via dual-branch camera injection and attention modulation. We further propose a collision-aware camera trajectory planner and an enhanced 3D Gaussian Splatting (3DGS) pipeline with depth-aligned supervision, structural regularization and refinement. Extensive experiments demonstrate that NavCrafter achieves state-of-the-art novel-view synthesis under large viewpoint shifts and substantially improves 3D reconstruction fidelity.
+  </details>  
+  Keywords: multi-view synthesis  
 - **[GEMM-GS: Accelerating 3D Gaussian Splatting on Tensor Cores with GEMM-Compatible Blending](https://arxiv.org/abs/2604.02120v1)**  
   Authors: Haomin Li, Bowen Zhu, Fangxin Liu, Zongwu Wang, Xinran Liang, Li Jiang, Haibing Guan  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2604.02120v1.pdf) | [![GitHub](https://img.shields.io/github/stars/shieldforever/GEMM-GS?style=social)](https://github.com/shieldforever/GEMM-GS)  
@@ -3832,9 +3848,9 @@ A curated list of latest research papers, projects and resources related to Gaus
   Video models have recently been applied with success to problems in content generation, novel view synthesis, and, more broadly, world simulation. Many applications in generation and transfer rely on conditioning these models, typically through perceptual, geometric, or simple semantic signals, fundamentally using them as generative renderers. At the same time, high-dimensional features obtained from large-scale self-supervised learning on images or point clouds are increasingly used as a general-purpose interface for vision models. The connection between the two has been explored for subject specific editing, aligning and training video diffusion models, but not in the role of a more general conditioning signal for pretrained video diffusion models. Features obtained through self-supervised learning like DINO, contain a lot of entangled information about style, lighting and semantics of the scene. This makes them great at reconstruction tasks but limits their generative capabilities. In this paper, we show how we can use the features...
   </details>  
   Keywords: novel view synthesis  
-- **[Satellite-Free Training for Drone-View Geo-Localization](https://arxiv.org/abs/2604.01581v1)**  
+- **[Satellite-Free Training for Drone-View Geo-Localization](https://arxiv.org/abs/2604.01581v2)**  
   Authors: Tao Liu, Yingzhi Zhang, Kan Ren, Xiaoqi Zhao  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2604.01581v1.pdf)  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2604.01581v2.pdf)  
   <details><summary>Abstract</summary>
 
   Drone-view geo-localization (DVGL) aims to determine the location of drones in GPS-denied environments by retrieving the corresponding geotagged satellite tile from a reference gallery given UAV observations of a location. In many existing formulations, these observations are represented by a single oblique UAV image. In contrast, our satellite-free setting is designed for multi-view UAV sequences, which are used to construct a geometry-normalized UAV-side location representation before cross-view retrieval. Existing approaches rely on satellite imagery during training, either through paired supervision or unsupervised alignment, which limits practical deployment when satellite data are unavailable or restricted. In this paper, we propose a satellite-free training (SFT) framework that converts drone imagery into cross-view compatible representations through three main stages: drone-side 3D scene reconstruction, geometry-based pseudo-orthophoto generation, and satellite-free feature aggregation for retrieval. Specifically, we first reconstruct dense 3D scenes from multi-view drone images using 3D Gaussian splatting and project the reconstructed geometry into...
@@ -3886,14 +3902,6 @@ A curated list of latest research papers, projects and resources related to Gaus
   <details><summary>Abstract</summary>
 
   We introduce a novel, training-free system for reconstructing, understanding, and rendering 3D indoor scenes from a sparse set of unposed RGB images. Unlike traditional radiance field approaches that require dense views and per-scene optimization, our pipeline achieves high-fidelity results without any training or pose preprocessing. The system integrates three key innovations: (1) A robust point cloud reconstruction module that filters unreliable geometry using a warping-based anomaly removal strategy; (2) A warping-guided 2D-to-3D instance lifting mechanism that propagates 2D segmentation masks into a consistent, instance-aware 3D representation; and (3) A novel rendering approach that projects the point cloud into new views and refines the renderings with a 3D-aware diffusion model. Our method leverages the generative power of diffusion to compensate for missing geometry and enhances realism, especially under sparse input conditions. We further demonstrate that object-level scene editing such as instance removal can be naturally supported in our pipeline by modifying...
-  </details>  
-  Keywords: 3d scene reconstruction  
-- **[Memory Over Maps: 3D Object Localization Without Reconstruction](https://arxiv.org/abs/2603.20530v1)**  
-  Authors: Rui Zhou, Xander Yap, Jianwen Cao, Allison Lau, Boyang Sun, Marc Pollefeys  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2603.20530v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://ruizhou-cn.github.io/memory-over-maps)  
-  <details><summary>Abstract</summary>
-
-  Target localization is a prerequisite for embodied tasks such as navigation and manipulation. Conventional approaches rely on constructing explicit 3D scene representations to enable target localization, such as point clouds, voxel grids, or scene graphs. While effective, these pipelines incur substantial mapping time, storage overhead, and scalability limitations. Recent advances in vision-language models suggest that rich semantic reasoning can be performed directly on 2D observations, raising a fundamental question: is a complete 3D scene reconstruction necessary for object localization? In this work, we revisit object localization and propose a map-free pipeline that stores only posed RGB-D keyframes as a lightweight visual memory--without constructing any global 3D representation of the scene. At query time, our method retrieves candidate views, re-ranks them with a vision-language model, and constructs a sparse, on-demand 3D estimate of the queried target through depth backprojection and multi-view fusion. Compared to reconstruction-based pipelines, this design drastically reduces preprocessing...
   </details>  
   Keywords: 3d scene reconstruction  
 
@@ -3962,7 +3970,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   A fundamental challenge in text-to-3D face generation is achieving high-quality geometry. The core difficulty lies in the arbitrary and intricate distribution of vertices in 3D space, making it challenging for existing models to establish clean connectivity and resulting in suboptimal geometry. To address this, our core insight is to simplify the underlying geometric structure by constraining the distribution onto a simple and regular manifold, a topological sphere. Building on this, we first propose the Spherical Geometry Representation, a novel face representation that anchors geometric signals to uniform spherical coordinates. This guarantees a regular point distribution, from which the mesh connectivity can be robustly reconstructed. Critically, this canonical sphere can be seamlessly unwrapped into a 2D map, creating a perfect synergy with powerful 2D generative models. We then introduce Spherical Geometry Diffusion, a conditional diffusion framework built upon this 2D map. It enables diverse and controllable generation by jointly modeling geometry...
   </details>  
-  Keywords: texture synthesis, text-to-3d  
+  Keywords: text-to-3d, texture synthesis  
 - **[OSCAR: Optical-aware Semantic Control for Aleatoric Refinement in Sar-to-Optical Translation](https://arxiv.org/abs/2601.06835v1)**  
   Authors: Hyunseo Lee, Sang Min Kim, Ho Kyung Shin, Taeheon Kim, Woo-Jeoung Nam  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2601.06835v1.pdf)  
