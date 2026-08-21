@@ -2,7 +2,7 @@
 
 A curated list of latest research papers, projects and resources related to Gaussian Splatting. Content is automatically updated daily.
 
-> Last Update: 2026-08-20 00:27:24
+> Last Update: 2026-08-21 00:30:19
 
 ## 📰 Latest Updates
 
@@ -27,7 +27,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
 ## Categories
 
-- [Cross-Modal Generation](#cross-modal-generation) (89 papers) - Methods transforming text or 2D images into 3D assets.
+- [Cross-Modal Generation](#cross-modal-generation) (90 papers) - Methods transforming text or 2D images into 3D assets.
 - [Dynamic & Articulated Modeling](#dynamic-&-articulated-modeling) (14 papers) - Creation of 3D objects with moving parts or controllable skeletal structures.
 - [Scene & View Synthesis](#scene-&-view-synthesis) (103 papers) - Focus on reconstructing complex scenes or synthesizing new perspectives from limited data.
 - [Surface & Appearance Modeling](#surface-&-appearance-modeling) (22 papers) - Techniques for generating realistic textures, materials, and surface details.
@@ -47,15 +47,6 @@ A curated list of latest research papers, projects and resources related to Gaus
 
 ## Latest Papers
 > 🔄 Updated Daily
-
-### November 2025
-- **[LISA-3D: Lifting Language-Image Segmentation to 3D via Multi-View Consistency](https://arxiv.org/abs/2512.01008v2)**  
-  Authors: Zhongbin Guo, Jiahe Liu, Wenyu Gao, Yushan Li, Xiaomin He, Chengzhi Li, Ping Jian  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2512.01008v2.pdf)  
-  <details><summary>Abstract</summary>
-
-  Text-driven 3D reconstruction requires masks that understand free-form instructions and remain stable under viewpoint changes. We present LISA-3D, a two-stage framework that adapts the instruction-following segmenter LISA with geometry-aware Low-Rank Adaptation (LoRA) layers while keeping the SAM-3D reconstructor frozen. During training, paired RGB-D frames and camera poses define a differentiable reprojection loss that enforces cross-view agreement without additional 3D-text annotations. At deployment, the adapted segmenter can produce an RGBA prompt for SAM-3D from one RGB image; when registered RGB-D views are available, optional logit fusion further improves the prompt. On ScanRefer and Nr3D, geometry-aware tuning improves both 2D masks and lifted 3D reconstructions while updating only 11.6M parameters. Our results separate geometry-aware training gains from optional multi-view inference gains, providing a modular route from language grounding to object-centric 3D reconstruction.
-  </details>  
 
 ### May 2026
 - **[Towards Interactive Video World Modeling: Frontiers, Challenges, Benchmarks, and Future Trends](https://arxiv.org/abs/2606.01164v1)**  
@@ -126,9 +117,9 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Robot manipulation critically depends on perception that preserves the action-relevant aspects of a scene. Yet most robot learning pipelines are built upon visual encoders pre-trained for static recognition or vision-language alignment, leaving motion understanding to downstream policies. We introduce DynaFLIP, a dynamics-aware multimodal pre-training framework that pushes motion understanding upstream into perception. We construct image-language-3D flow triplets from heterogeneous human and robot videos, and use these triplets as training-time supervision to shape an image-only encoder. Our key idea is to encourage the three modalities to span a small simplex volume in the shared hyperspherical space -- a smaller simplex volume indicating stronger alignment. To avoid the geometric ambiguity and trivial collapse of naive volume minimization, we combine simplex-volume minimization with a cosine regularizer and a contrastive objective. Our analyses show that DynaFLIP focuses on control-relevant regions critical for manipulation. The resulting dynamics-aware representations serve as reusable visual backbones and consistently...
   </details>  
-- **[REST3D: Reconstructing Physically Stable 3D Scenes from a Single Image](https://arxiv.org/abs/2605.30338v1)**  
+- **[REST3D: Reconstructing Physically Stable 3D Scenes from a Single Image](https://arxiv.org/abs/2605.30338v2)**  
   Authors: Xiaoxuan Ma, Jiashun Wang, Nicolas Ugrinovic, Yehonathan Litman, Kris Kitani  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2605.30338v1.pdf)  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2605.30338v2.pdf)  
   <details><summary>Abstract</summary>
 
   Reconstructing physically stable 3D scenes from a single RGB image enables casual images to be converted into simulation-ready digital assets for applications such as immersive interaction and content creation. However, existing single-image reconstruction methods fall short in capturing the physical structure of a scene. As a result, they often produce geometrically plausible but physically inconsistent results, including object floating and penetration, which lead to unstable behavior in physics simulations. Image-conditioned scene generation methods improve physical plausibility but often rely on strong scene priors, yielding plausible yet inaccurate object arrangements that fail to match the input image. We propose REST3D, a single-image reconstruction framework that can reconstruct physically stable 3D scenes by integrating physical scene understanding with physics-constrained refinement. We first introduce an agentic physical scene understanding technique that constructs a scene-tree representation capturing object physical states and inter-object relationships from a gravity-support perspective, providing a structural prior for reconstruction. Leveraging...
@@ -217,7 +208,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Large-scale controllable 3D assets are critical for computer graphics, embodied AI, robotics, and interactive content creation, yet creating diverse 3D assets remains challenging due to the high cost of manual modeling and rigging. Shape deformation offers a natural way to generate variations from existing meshes, but existing data-driven methods often rely on sparse user inputs, while parametric editing frameworks require manually designed control structures and category-specific configurations. Inspired by natural creatures, where a central spine governs global shape and cross-sectional ribs control local variation, we introduce Fishbone, a unified rib-spine representation for general shapes that supports controllable parametric mesh deformation, reduced-space dynamics, and animation. Given an input mesh, Fishbone computes a geodesic scalar field with an adaptive heat method, extracts iso-contours as cross-sectional ribs, constructs a smooth geometry-aware spine through rib centers, and associates surface vertices with nearby rib and spine structures using Gaussian-weighted skinning. The resulting representation enables real-time...
   </details>  
-  Keywords: controllable 3d generation, rigging  
+  Keywords: rigging, controllable 3d generation  
 - **[Artiverse: A Diverse and Physically Grounded Dataset for Articulated Objects](https://arxiv.org/abs/2605.24403v1)**  
   Authors: Denys Iliash, Jiayi Liu, Egor Fokin, Qirui Wu, Ali Mahdavi-Amiri, Manolis Savva, Angel X. Chang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2605.24403v1.pdf)  
@@ -351,7 +342,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Automatic 3D content creation seeks to replace labor-intensive modeling and scanning pipelines with systems that can synthesize or recover 3D assets directly from text or images. Its applications span video games, virtual reality, robotics, and simulation, enabling rapid asset prototyping, diverse interactive world generation, and efficient 3D data collection for training foundation models. Contemporary solutions largely follow two complementary paradigms: (i) text- or image-to-3D generation, which learns priors over 3D geometry and appearance to create novel assets from natural language or a single view image; and (ii) 3D reconstruction, which estimates camera poses and geometry from RGB images. This thesis advances both directions. On the generation side, I introduce Instant3D, which combines multi-view diffusion with feed-forward sparse-view 3D reconstruction to produce high-quality assets in 5-20 seconds. On the reconstruction side, I develop FastMap, a structure-from-motion pipeline that achieves up to 10x speedup over prior state-of-the-art by using first-order optimization with...
   </details>  
-  Keywords: image-to-3d, novel view synthesis  
+  Keywords: novel view synthesis, image-to-3d  
 - **[PanoWorld: A Generative Spatial World Model for Consistent Whole-House Panorama Synthesis](https://arxiv.org/abs/2605.17916v2)**  
   Authors: Jinrang Jia, Zhenjia Li, Yijiang Hu, Yifeng Shi  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2605.17916v2.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://jjrcn.github.io/PanoWorld-project-home)  
@@ -1156,7 +1147,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Current compositional image-to-3D scene generation approaches construct 3D scenes by time-consuming iterative layout optimization or inflexible joint object-layout generation. Moreover, most methods rely on limited field-of-view perspective images, hindering the creation of complete 360-degree environments. To address these limitations, we design Pano3DComposer, an efficient feed-forward framework for panoramic images. To decouple object generation from layout estimation, we propose a plug-and-play Object-World Transformation Predictor. This module converts the 3D objects generated by off-the-shelf image-to-3D models from local to world coordinates. To achieve this, we adapt the VGGT architecture to Alignment-VGGT by using target object crop, multi-view object renderings and camera parameters to predict the transformation. The predictor is trained using pseudo-geometric supervision to address the shape discrepancy between generated and ground-truth objects. For input images from unseen domains, we further introduce a Coarse-to-Fine (C2F) alignment mechanism for Pano3DComposer that iteratively refines geometric consistency with feedback of scene rendering. Our method achieves...
   </details>  
-  Keywords: image-to-3d, text-to-3d  
+  Keywords: text-to-3d, image-to-3d  
 - **[Cog2Gen3D: Sculpturing 3D Semantic-Geometric Cognition for 3D Generation](https://arxiv.org/abs/2603.05845v1)**  
   Authors: Haonan Wang, Hanyu Zhou, Haoyue Liu, Tao Gu, Luxin Yan  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2603.05845v1.pdf)  
@@ -1629,7 +1620,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Multimodal large language models can write code to produce complex programs as well as use programs to do 3D modeling, which opens up a new avenue for 3D generation powered by their priors, world knowledge and reasoning. Yet existing benchmarks rarely evaluate 3D modeling through code. Such modeling demands more than runnable code: from a text or visual specification, a model must generate a parametric 3D program that is geometrically precise, semantically aligned and assembly-consistent. We introduce P3D-Bench, a benchmark for parametric 3D generation. Unlike a 3D mesh, a parametric 3D program exposes explicit dimensions, construction operations and part relations, revealing whether a model recovers a design's structure, not just its appearance. Under a unified protocol, P3D-Bench covers three task families (Text-to-3D, Image-to-3D and Assembly-3D) and scores each output for executability, geometric fidelity, topology, text-grounded constraints, multiview semantic alignment and part-level structure. We evaluate frontier MLLMs and text-only LLMs on...
   </details>  
-  Keywords: image-to-3d, text-to-3d  
+  Keywords: text-to-3d, image-to-3d  
 - **[DB-3DME: From Dataset to Benchmark for Human-aligned Automatic 3D Mesh Evaluation](https://arxiv.org/abs/2606.10142v1)**  
   Authors: Nanshan Jia, Zhenyu Zhao, Sui Huang, Jingshen Wang, Zeyu Zheng  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2606.10142v1.pdf)  
@@ -2019,7 +2010,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Unified 3D foundation models aspire to generate 3D assets and reason about them in language within a single backbone, but their text-3D interaction remains largely implicit. Existing methods concatenate text and 3D tokens into a flat sequence and rely on self-attention, collapsing coarse structural cues and fine geometric details into one undifferentiated representation. We introduce ELSA3D, a unified 3D model that addresses this with elastic semantic anchoring, structuring language and geometric reasoning jointly along matched abstraction scales. ELSA3D represents geometry with a scale-aware octree tokenizer and introduces Anchor Tokens, sparse cross-modal units that select semantic cues, route them to the most relevant 3D scale, retrieve scale-specific geometric evidence, and write the fused signal back into the unified representation, keeping interaction sparse yet precise. A lightweight per-block router makes both computation and reasoning elastic, choosing which text tokens instantiate anchors at which geometric scale so that cross-modal capacity concentrates where alignment...
   </details>  
-  Keywords: image-to-3d, text-to-3d  
+  Keywords: text-to-3d, image-to-3d  
 - **[VaseMuseum: Digital Intelligent Museum for Ancient Greek Pottery](https://arxiv.org/abs/2607.06374v1)**  
   Authors: Jiazi Wang, Nonghai Zhang, Qiushi Xie, Zeyu Zhang, Yufeng Chen, Yang Zhao, Ling Shao, Hao Tang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2607.06374v1.pdf)  
@@ -2112,7 +2103,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Precise control of 3D facial expressions from text is crucial for virtual avatars, animation, and human-computer interaction, yet existing text-to-3D methods jointly generate identity, expression, and texture, making fine-grained expression control difficult. We instead formulate text-driven expression synthesis as a regression problem in the disentangled parameter space of a 3D Morphable Model (3DMM). This setting, however, requires paired data linking detailed language to precise expression parameters, which are missing from existing resources. To fill this gap, we introduce Txt2Emote, a benchmark of diverse 3D facial expressions with fine-grained textual annotations obtained from GPT-4o and a high-fidelity face tracker, providing both explicit descriptions detailing facial features and implicit descriptions referencing the situational context behind the expression. Leveraging this dataset, we present EmoteGPT, a text-to-3D expression framework based on a Multimodal Large Language Model (MLLM) with a dedicated <Expr> token to semantically ground expression representations, which are then decoded into 3DMM parameters....
   </details>  
-  Keywords: image-to-3d, text-to-3d  
+  Keywords: text-to-3d, image-to-3d  
 - **[Text-Driven 3D Indoor Scene Synthesis in Non-Manhattan Environments](https://arxiv.org/abs/2607.02407v1)**  
   Authors: Xianhui Meng, Zirui Song, Yuchen Zhang, Li Zhang, Yongxuan Lv, Xiuying Chen, Kun Wang, Yan Luo, Kai Chen, Hangjun Ye, Long Chen, Jun Liu, Xiaoshuai Hao  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2607.02407v1.pdf)  
@@ -2273,7 +2264,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   A fundamental challenge in text-to-3D face generation is achieving high-quality geometry. The core difficulty lies in the arbitrary and intricate distribution of vertices in 3D space, making it challenging for existing models to establish clean connectivity and resulting in suboptimal geometry. To address this, our core insight is to simplify the underlying geometric structure by constraining the distribution onto a simple and regular manifold, a topological sphere. Building on this, we first propose the Spherical Geometry Representation, a novel face representation that anchors geometric signals to uniform spherical coordinates. This guarantees a regular point distribution, from which the mesh connectivity can be robustly reconstructed. Critically, this canonical sphere can be seamlessly unwrapped into a 2D map, creating a perfect synergy with powerful 2D generative models. We then introduce Spherical Geometry Diffusion, a conditional diffusion framework built upon this 2D map. It enables diverse and controllable generation by jointly modeling geometry...
   </details>  
-  Keywords: texture synthesis, text-to-3d  
+  Keywords: text-to-3d, texture synthesis  
 - **[One-Shot Feed-Forward 360$^{\circ}$ Animatable Avatar via Inpainted UV-Space Gaussian Modeling](https://arxiv.org/abs/2601.12770v2)**  
   Authors: Shuling Zhao, Dan Xu  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2601.12770v2.pdf)  
@@ -2558,7 +2549,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Articulated objects are central to interactive 3D applications, including embodied AI, robotics, and VR/AR, where functional part decomposition and kinematic motion are essential. Yet producing high-fidelity articulated assets remains difficult to scale because it requires reliable part decomposition and kinematic rigging. Existing approaches largely fall into two paradigms: optimization-based reconstruction or distillation, which can be accurate but often takes tens of minutes to hours per instance, and inference-time methods that rely on template or part retrieval, producing plausible results that may not match the specific structure and appearance in the input observation. We introduce a part-centric generative framework for articulated object creation that synthesizes part geometry, composition, and articulation under explicit part-aware conditioning. Our representation models an object as a set of movable parts, each encoded by latent tokens augmented with part identity and articulation cues. Conditioned on a single image, the model generates articulated 3D assets that preserve instance-level...
   </details>  
-  Keywords: rigging, articulated object generation  
+  Keywords: articulated object generation, rigging  
 - **[VAR-3D: View-aware Auto-Regressive Model for Text-to-3D Generation via a 3D Tokenizer](https://arxiv.org/abs/2602.13818v1)**  
   Authors: Zongcheng Han, Dongyan Cao, Haoran Sun, Yu Hong  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2602.13818v1.pdf)  
@@ -3117,15 +3108,23 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   We introduce Material Coating, a novel image editing task that simulates applying a thin material layer onto an object while preserving its underlying coarse and fine geometry. Material coating is fundamentally different from existing "material transfer" methods, which are designed to replace an object's intrinsic material, often overwriting fine details. To address this new task, we construct a large-scale synthetic dataset (110K images) of 3D objects with varied, physically-based coatings, named DataCoat110K. We then propose CoatFusion, a novel architecture that enables this task by conditioning a diffusion model on both a 2D albedo texture and granular, PBR-style parametric controls, including roughness, metalness, transmission, and a key thickness parameter. Experiments and user studies show CoatFusion produces realistic, controllable coatings and significantly outperforms existing material editing and transfer methods on this new task.
   </details>  
-- **[SRAM: Shape-Realism Alignment Metric for No Reference 3D Shape Evaluation](https://arxiv.org/abs/2512.01373v1)**  
-  Authors: Sheng Liu, Tianyu Luan, Phani Nuney, Xuelu Feng, Junsong Yuan  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2512.01373v1.pdf)  
-  <details><summary>Abstract</summary>
-
-  3D generation and reconstruction techniques have been widely used in computer games, film, and other content creation areas. As the application grows, there is a growing demand for 3D shapes that look truly realistic. Traditional evaluation methods rely on a ground truth to measure mesh fidelity. However, in many practical cases, a shape's realism does not depend on having a ground truth reference. In this work, we propose a Shape-Realism Alignment Metric that leverages a large language model (LLM) as a bridge between mesh shape information and realism evaluation. To achieve this, we adopt a mesh encoding approach that converts 3D shapes into the language token space. A dedicated realism decoder is designed to align the language model's output with human perception of realism. Additionally, we introduce a new dataset, RealismGrading, which provides human-annotated realism scores without the need for ground truth shapes. Our dataset includes shapes generated by 16...
-  </details>  
 
 ### August 2026
+- **[CL4D: Contrastive Language-4D Pretraining for Vision-Language Reasoning in Dynamic Scenes](https://arxiv.org/abs/2608.18734v1)**  
+  Authors: Kumal Hewagamage, Isuranga Senavirathne, Sasika Amarasinghe, Hasitha Gallella, Dulanga Weerakoon, Vigneshwaran Subbaraju, Ranga Rodrigo  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2608.18734v1.pdf)  
+  <details><summary>Abstract</summary>
+
+  4D understanding and reasoning is a fundamental capability for embodied AI agents operating in dynamic physical environments. However, existing vision encoders are largely limited to static 2D images or 3D point clouds without temporal modeling, or to 2D videos that lack accurate geometric depth reasoning. Consequently, current approaches fail to jointly capture spatial structure and motion evolution in dynamic scenes. We present CL4D, the first foundational 4D vision encoder that directly operates on dynamic point clouds, trained with a contrastive learning objective to align spatio-temporal geometric representations with natural language descriptions. By learning a shared embedding space between text and 4D scene dynamics, CL4D enables zero-shot motion-to-text and text-to-motion retrieval in dynamic environments and serves as a foundational 4D vision encoder for downstream 4D vision-language tasks. Building on this encoder, we introduce 4DVLM, a 4D vision-language model that conditions language generation on dynamic geometric representations. 4DVLM is the first VLM...
+  </details>  
+- **[SemanticSlider3D: Training-Free Continuous Semantic Editing for 3D Objects](https://arxiv.org/abs/2608.18560v1)**  
+  Authors: Ru Wang, Rahul Jain, Koichiro Niinuma, Aakar Gupta  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2608.18560v1.pdf)  
+  <details><summary>Abstract</summary>
+
+  Fine-grained control over continuous semantic attributes of 3D objects is essential for 3D content creation, but is not well supported by conventional 3D modeling workflows or prompt-based interaction with existing generative AI tools. While slider-based methods have proven effective for fine-grained semantic control in 2D image generation, no equivalent approach exists for 3D. Extending these 2D methods to 3D is non-trivial due to challenges unique to 3D, including geometric integrity and cross-view coherence. We present SemanticSlider3D, a technique for continuous semantic attribute editing of 3D objects that requires no per-attribute training. Given a user-specified attribute, our pipeline constructs a semantic editing direction in the latent space of a state-of-the-art 3D generation model, presenting a diverse and coherent spectrum of 3D variations. A technical validation on a dataset of 50 3D object-attribute pairs shows our method was preferred by all five human assessors across variation range, consistency, 3D object quality, and...
+  </details>  
+  Keywords: image-to-3d  
 - **[GS-Voxel: Fitting-Free Structured Latents for Large-Scale 3DGS Generation](https://arxiv.org/abs/2608.17988v1)**  
   Authors: Ming Qian, Zijian Wang, Minchao Sun, Jincheng Xiong, Hang Zhang, Mu Xu, Chi Wang, Baoquan Chen  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2608.17988v1.pdf)  
@@ -3192,7 +3191,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Realistic 3D human generation plays a crucial role in many graphics applications. However, current methods still struggle to generate high-quality human geometry and texture while maintaining 3D consistency and inference efficiency. In this work, we address these limitations by introducing TGRHuman, a novel approach for generating realistic 3D humans from text. Our method decouples geometry and texture generation to alleviate the issues commonly encountered in NeRF-based methods. Instead of relying on slow, implicit score-distillation-based optimization, we directly use explicit multi-view observation generation and optimization for efficient 3D synthesis. For geometry generation, we propose a high-resolution generative module for multi-view normals together with a geometry-carving strategy that preserves view consistency and supports loose clothing. For texture generation, we produce spatially consistent RGB observations from densely sampled surrounding views using a carefully designed texture-prior acquisition strategy and a diffusion renderer, enabling detailed human texture synthesis. Experiments show that our method can generate...
   </details>  
-  Keywords: texture synthesis, text-to-3d  
+  Keywords: text-to-3d, texture synthesis  
 - **[Compact Feed-Forward 3D Gaussians via Saliency-Guided Primitive Merging](https://arxiv.org/abs/2608.10712v1)**  
   Authors: Tim-Felix Fassch, Jochen Kall, Cyrill Stachniss  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2608.10712v1.pdf)  
@@ -3827,8 +3826,16 @@ A curated list of latest research papers, projects and resources related to Gaus
 
 ### Cross-Modal Generation
 
-*Showing the latest 50 out of 89 papers*
+*Showing the latest 50 out of 90 papers*
 
+- **[SemanticSlider3D: Training-Free Continuous Semantic Editing for 3D Objects](https://arxiv.org/abs/2608.18560v1)**  
+  Authors: Ru Wang, Rahul Jain, Koichiro Niinuma, Aakar Gupta  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2608.18560v1.pdf)  
+  <details><summary>Abstract</summary>
+
+  Fine-grained control over continuous semantic attributes of 3D objects is essential for 3D content creation, but is not well supported by conventional 3D modeling workflows or prompt-based interaction with existing generative AI tools. While slider-based methods have proven effective for fine-grained semantic control in 2D image generation, no equivalent approach exists for 3D. Extending these 2D methods to 3D is non-trivial due to challenges unique to 3D, including geometric integrity and cross-view coherence. We present SemanticSlider3D, a technique for continuous semantic attribute editing of 3D objects that requires no per-attribute training. Given a user-specified attribute, our pipeline constructs a semantic editing direction in the latent space of a state-of-the-art 3D generation model, presenting a diverse and coherent spectrum of 3D variations. A technical validation on a dataset of 50 3D object-attribute pairs shows our method was preferred by all five human assessors across variation range, consistency, 3D object quality, and...
+  </details>  
+  Keywords: image-to-3d  
 - **[PixSDS: Why Latent SDS Makes Noisy Pixels](https://arxiv.org/abs/2608.12997v1)**  
   Authors: Vsevolod Skorokhodov  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2608.12997v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://sevashasla.github.io/pixsds-webpage)  
@@ -3844,7 +3851,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Realistic 3D human generation plays a crucial role in many graphics applications. However, current methods still struggle to generate high-quality human geometry and texture while maintaining 3D consistency and inference efficiency. In this work, we address these limitations by introducing TGRHuman, a novel approach for generating realistic 3D humans from text. Our method decouples geometry and texture generation to alleviate the issues commonly encountered in NeRF-based methods. Instead of relying on slow, implicit score-distillation-based optimization, we directly use explicit multi-view observation generation and optimization for efficient 3D synthesis. For geometry generation, we propose a high-resolution generative module for multi-view normals together with a geometry-carving strategy that preserves view consistency and supports loose clothing. For texture generation, we produce spatially consistent RGB observations from densely sampled surrounding views using a carefully designed texture-prior acquisition strategy and a diffusion renderer, enabling detailed human texture synthesis. Experiments show that our method can generate...
   </details>  
-  Keywords: texture synthesis, text-to-3d  
+  Keywords: text-to-3d, texture synthesis  
 - **[OccAnyScene: Towards Unified Indoor-Outdoor 3D Occupancy Prediction](https://arxiv.org/abs/2608.08696v2)**  
   Authors: Junjie Liu, Wanshui Gan, Zitong Dai, Guiping Cao, Yan Li, Ke Chen, Dongmei Jiang, Xiangyuan Lan, Jianguo Zhang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2608.08696v2.pdf)  
@@ -3901,14 +3908,6 @@ A curated list of latest research papers, projects and resources related to Gaus
   Creating photorealistic 3D assets requires bridging the appearance gap between real-world observations and synthetic models. A promising approach is to transfer visual attributes from real images onto synthetic 3D surfaces. Traditional methods struggle with resolution mismatch and the inherent discreteness of point correspondences. In contrast, resolution-robust functional maps enable smooth attribute propagation but rely on near-isometry assumptions and topological consistency. To address these limitations, we propose RealSkin, a self-supervised framework that performs correspondence optimization in a learned spectral domain, guided by spatial correspondences. We first introduce a spatial-guided registration algorithm to establish coarse correspondences under severe topological discrepancies. To relax strict isometric assumptions and handle partial correspondences, we further design a spectral-aware neural adjoint network that incorporates partial correspondences into a neural function space and models non-isometric residuals for correspondence refinement. Experimental results demonstrate that our method achieves state-of-the-art performance on challenging real-to-synthetic scenarios. The code will be publicly released.
   </details>  
   Keywords: image-to-3d  
-- **[ELSA3D: Elastic Semantic Anchoring for Unified 3D Understanding and Generation](https://arxiv.org/abs/2607.06565v1)**  
-  Authors: Tianjiao Yu, Xinzhuo Li, Yifan Shen, Onkar Susladkar, Yuanzhe Liu, Xiaona Zhou, Ismini Lourentzou  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2607.06565v1.pdf)  
-  <details><summary>Abstract</summary>
-
-  Unified 3D foundation models aspire to generate 3D assets and reason about them in language within a single backbone, but their text-3D interaction remains largely implicit. Existing methods concatenate text and 3D tokens into a flat sequence and rely on self-attention, collapsing coarse structural cues and fine geometric details into one undifferentiated representation. We introduce ELSA3D, a unified 3D model that addresses this with elastic semantic anchoring, structuring language and geometric reasoning jointly along matched abstraction scales. ELSA3D represents geometry with a scale-aware octree tokenizer and introduces Anchor Tokens, sparse cross-modal units that select semantic cues, route them to the most relevant 3D scale, retrieve scale-specific geometric evidence, and write the fused signal back into the unified representation, keeping interaction sparse yet precise. A lightweight per-block router makes both computation and reasoning elastic, choosing which text tokens instantiate anchors at which geometric scale so that cross-modal capacity concentrates where alignment...
-  </details>  
-  Keywords: image-to-3d, text-to-3d  
 
 ### Dynamic & Articulated Modeling
 
@@ -3935,7 +3934,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Large-scale controllable 3D assets are critical for computer graphics, embodied AI, robotics, and interactive content creation, yet creating diverse 3D assets remains challenging due to the high cost of manual modeling and rigging. Shape deformation offers a natural way to generate variations from existing meshes, but existing data-driven methods often rely on sparse user inputs, while parametric editing frameworks require manually designed control structures and category-specific configurations. Inspired by natural creatures, where a central spine governs global shape and cross-sectional ribs control local variation, we introduce Fishbone, a unified rib-spine representation for general shapes that supports controllable parametric mesh deformation, reduced-space dynamics, and animation. Given an input mesh, Fishbone computes a geodesic scalar field with an adaptive heat method, extracts iso-contours as cross-sectional ribs, constructs a smooth geometry-aware spine through rib centers, and associates surface vertices with nearby rib and spine structures using Gaussian-weighted skinning. The resulting representation enables real-time...
   </details>  
-  Keywords: controllable 3d generation, rigging  
+  Keywords: rigging, controllable 3d generation  
 - **[Artiverse: A Diverse and Physically Grounded Dataset for Articulated Objects](https://arxiv.org/abs/2605.24403v1)**  
   Authors: Denys Iliash, Jiayi Liu, Egor Fokin, Qirui Wu, Ali Mahdavi-Amiri, Manolis Savva, Angel X. Chang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2605.24403v1.pdf)  
@@ -4087,7 +4086,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Realistic 3D human generation plays a crucial role in many graphics applications. However, current methods still struggle to generate high-quality human geometry and texture while maintaining 3D consistency and inference efficiency. In this work, we address these limitations by introducing TGRHuman, a novel approach for generating realistic 3D humans from text. Our method decouples geometry and texture generation to alleviate the issues commonly encountered in NeRF-based methods. Instead of relying on slow, implicit score-distillation-based optimization, we directly use explicit multi-view observation generation and optimization for efficient 3D synthesis. For geometry generation, we propose a high-resolution generative module for multi-view normals together with a geometry-carving strategy that preserves view consistency and supports loose clothing. For texture generation, we produce spatially consistent RGB observations from densely sampled surrounding views using a carefully designed texture-prior acquisition strategy and a diffusion renderer, enabling detailed human texture synthesis. Experiments show that our method can generate...
   </details>  
-  Keywords: texture synthesis, text-to-3d  
+  Keywords: text-to-3d, texture synthesis  
 - **[A Dual Path Framework with Hotspot Guided Fusion for Three Dimensional CT to PET Synthesis in Head and Neck Cancer](https://arxiv.org/abs/2607.21800v1)**  
   Authors: Mohd Maaz Khan, Oluwaseyi Oderinde  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2607.21800v1.pdf)  
