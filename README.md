@@ -2,7 +2,7 @@
 
 A curated list of latest research papers, projects and resources related to Gaussian Splatting. Content is automatically updated daily.
 
-> Last Update: 2026-10-16 01:49:13
+> Last Update: 2026-10-17 01:43:49
 
 ## 📰 Latest Updates
 
@@ -27,7 +27,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
 ## Categories
 
-- [Cross-Modal Generation](#cross-modal-generation) (103 papers) - Methods transforming text or 2D images into 3D assets.
+- [Cross-Modal Generation](#cross-modal-generation) (101 papers) - Methods transforming text or 2D images into 3D assets.
 - [Dynamic & Articulated Modeling](#dynamic-&-articulated-modeling) (13 papers) - Creation of 3D objects with moving parts or controllable skeletal structures.
 - [Scene & View Synthesis](#scene-&-view-synthesis) (100 papers) - Focus on reconstructing complex scenes or synthesizing new perspectives from limited data.
 - [Surface & Appearance Modeling](#surface-&-appearance-modeling) (20 papers) - Techniques for generating realistic textures, materials, and surface details.
@@ -492,7 +492,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Diverse and simulation-ready indoor scenes are essential for interactive entertainment and embodied AI, yet their scalable generation remains challenging. Recent agentic text-to-3D scene pipelines that rely on vision-language models (VLMs) can generate scenes of high fidelity but require costly iterative object placement and refinement. Another mainstream paradigm, parametric image-to-3D scene models, produces scenes efficiently from strong priors learned from 2D images but often leads to imprecise and physically invalid scenes. More importantly, both paradigms struggle to output diverse scenes for a single input, making it hard for them to reflect the dynamically changing nature of real scenes. In this paper we propose \textbf{SceneMosaic}, a framework that combines the merits of both paradigms. It obtains the initial candidate from the learned image-based prior, and subsequently evolves the result through VLM agents, ensuring both efficiency and physical validity. Within the evolution process, SceneMosaic exploits the locality of natural scenes and decomposes a...
   </details>  
-  Keywords: text-to-3d, image-to-3d  
+  Keywords: image-to-3d, text-to-3d  
 - **[Learning 3D Editing without Paired Supervision via Generative Prior Distillation](https://arxiv.org/abs/2609.04942v1)**  
   Authors: Hao Wen, Weibin Yun, Hongxing Fan, Haotian Lu, Rui Chen, Zehuan Huang, Lu Sheng  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2609.04942v1.pdf) | [![GitHub](https://img.shields.io/github/stars/thiamine128/PriorEdit3D?style=social)](https://github.com/thiamine128/PriorEdit3D)  
@@ -531,6 +531,28 @@ A curated list of latest research papers, projects and resources related to Gaus
   </details>  
 
 ### October 2026
+- **[Grounding Generative Verification in 3D Content](https://arxiv.org/abs/2610.22360v1)**  
+  Authors: Shuanglin Li, Jiaying Lin, Shuquan Ye  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2610.22360v1.pdf)  
+  <details><summary>Abstract</summary>
+
+  Recent advances in multimodal large language models (MLLMs) and 3D generation have expanded 3D understanding and synthesis. However, beyond visual fidelity, task-specific correctness grounded in 3D evidence remains a major challenge. We argue that building reliable 3D systems requires not only stronger generation and reasoning, but also verification feedback that identifies unmet requirements and explains their violations, allowing systems to reflect on and refine their outputs. Such feedback must integrate multi-view observations and distinguish genuine inconsistencies from projection-dependent appearances. We make three contributions. First, we introduce 3DVerifierBench, a benchmark spanning 10 tasks that evaluates decisions, rejection explanations, and responses to controlled changes in specifications and candidates. A human study reveals a 21.6 percentage-point gap between humans and the strongest tested model, GPT-6 Astra, while explanation-aware analysis exposes weaknesses in rejection reliability. Second, we analyze verification across fine-grained factual categories, exposing errors in values and target binding. We develop a scalable...
+  </details>  
+- **[SUPRA-TEX: 3D Generation with Super-Aligned Texture](https://arxiv.org/abs/2610.22352v1)**  
+  Authors: Chen Yang, Jiemin Fang, Fanpeng Meng, Zihao Huang, Jichen Pang, Guanjun Wu, Zhikuan Bao, Qi Tian  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2610.22352v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://supra-3d.github.io/supratex)  
+  <details><summary>Abstract</summary>
+
+  Single image 3D generation aims to dress a given 3D mesh with relightable materials while faithfully preserving the visual details of a reference image. Existing methods either introduce artifacts when fusing inconsistent multi-view predictions or struggle to preserve fine details through implicit image-feature conditioning. To resolve these challenges, we introduce SUPRA-Tex, built on the principle of decoupling visible-material estimation, surface alignment, and observation-guided 3D completion. This division of labor allows the 3D generator, trained on limited 3D data, to focus its capacity on preserving visible evidence and completing unobserved surfaces. Specifically, we first train an MLLM-based image editing model to predict lighting-separated PBR maps in the reference view. We then project these maps onto the visible surface and encode them with the pretrained material VAE encoder into native observation latents that share the generation target's latent space. An interleaved flow transformer holds these latents as fixed, read-only anchors while alternating...
+  </details>  
+  Keywords: 3d generator  
+- **[Seeing Both the Forest and the Trees: Reusing Holistic 3D Priors for Part-Decomposed Generation](https://arxiv.org/abs/2610.21850v1)**  
+  Authors: Yiqun Zhao, Binbin Huang, Haobin Duan, Zibo Zhao, Shenghua Gao  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2610.21850v1.pdf)  
+  <details><summary>Abstract</summary>
+
+  Generating 3D assets with explicit parts requires two properties at once: geometric detail inside each part and structural coherence across the whole object. Recent image-conditioned 3D generation models adopt a structured 3D representation that anchors tokens to explicit spatial positions, capturing both properties, but their output remains a single fused mesh. We ask how a part-decomposed generation model can inherit both properties of these holistic priors, and answer with STRUCTPARTS, a framework whose core technical contribution is a dual-frame coordinate interleaving mechanism: each shape latent is interpreted under both a part-local and an object-global reference frame, and processed through a global-local inter-leaved transformer that simultaneously reuses the prior's geometric detail at the part scale and its structural coherence at the whole-object scale. As its structural input, STRUCTPARTS uses a segmented mesh scaffold, a coarse mesh paired with a face-level segmentation mask kept entirely within the prior's native 3D representation. With...
+  </details>  
 - **[VascuSR: Iterative Anatomy-Aware Diffusion for CT Super-Resolution](https://arxiv.org/abs/2610.20509v1)**  
   Authors: Hairong Ni, Jiahe Huang, Minghao Guo, Wojciech Matusik, Rose Yu  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2610.20509v1.pdf)  
@@ -545,7 +567,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Geometry foundation models estimate camera poses and 3D scene structure from video sequences, but maintaining consistent reconstructions over long horizons remains challenging. Feed-forward models process long sequences as independent, fixed-length frame windows and align their predictions, causing pose and reconstruction errors to accumulate across windows. Streaming models retain information from past frames to inform future predictions, but cannot revise earlier estimates when later observations reveal errors. To address this, we introduce Scaffold MemOry for Revision (SMORE), a framework equipping frozen geometry foundation models with a revisable external memory for long-horizon inference. Inspired by hippocampal associative memory in biological brains, which links spatial context with sensory experience, SMORE associates where an observer is with what it observes, enabling past observations to be stored, retrieved, verified against new evidence, and revised when inconsistencies are detected. We evaluate SMORE with eight competitive geometry models on five datasets spanning camera pose estimation, multi-view depth...
   </details>  
-  Keywords: 3d scene reconstruction, novel view synthesis  
+  Keywords: novel view synthesis, 3d scene reconstruction  
 - **[MagicGarment: Benchmarking Single-Image Standalone 3D Garment Reconstruction](https://arxiv.org/abs/2610.19623v1)**  
   Authors: Jia Chen, Ruyang Zhao, Jun Bai, Chao Huang, Saishang Zhong, Xinrong Hu  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2610.19623v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://1019538157.github.io/MagicGarment)  
@@ -695,7 +717,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Image-to-3D generation has become increasingly capable of producing objects that closely resemble the input image, and an outstanding challenge is to reproduce the depicted object itself, including the specific geometry that defines it. Inscriptions, brand marks, and repeated structures are frequently distorted or lost, despite being critical to object identity. We present Hi3D 3.0, an image-to-3D generation system targeting object-specific fidelity, with Twinkle3D as its geometry model for generating watertight triangle meshes at $2048^{3}$ resolution. Twinkle3D advances high-fidelity geometry generation along four dimensions. First, while O-Voxel/FaithC offers high representational precision, it often suffers from poor surface quality and non-watertight geometry. We address both issues while retaining its $2048^{3}$-level precision. Second, we scale diffusion generation to sequences of up to 300K geometric tokens through a redesigned DiT architecture and large-scale distributed training optimizations, reducing training time per step from approximately ten minutes to ten seconds. Third, subsequent refinement cannot fully compensate...
   </details>  
-  Keywords: image-to-3d, 3d asset generation  
+  Keywords: 3d asset generation, image-to-3d  
 - **[Tetris3D: 3D Scene Generation With Objects That Fit Together](https://arxiv.org/abs/2610.10539v1)**  
   Authors: Jaeyeong Kim, Jinhyuk Jang, Jongmin Lee, Kyehong Park, Seungryong Kim  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2610.10539v1.pdf)  
@@ -778,7 +800,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Inspired by cognitive science, we present CREATIVEFLOW, an analogical generation framework that explicitly models analogical divergent thinking to mitigate creative homogenization in text-to-3D pipelines. Our method derives a series of meaningful yet relationally similar source-target asset pairs, each featuring distinct geometric configurations. Expert evaluations demonstrate that our framework substantially enhances creative novelty and visual fascination. This workflow and its resulting assets establish a foundational dataset and benchmark for future relation-aware 3D model training.
   </details>  
-  Keywords: text-to-3d, 3d asset generation  
+  Keywords: 3d asset generation, text-to-3d  
 - **[NAMVIS: Next-Scale Autoregressive Multi-View Image Synthesis](https://arxiv.org/abs/2610.04722v1)**  
   Authors: Ramil Khafizov, Ilya Statsenko, Ruslan Rakhimov, Artem Komarichev, Peter Wonka, Evgeny Burnaev  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2610.04722v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://corl-team.github.io/namvis)  
@@ -855,7 +877,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Recent advances in rectified flow-based image-to-3D generative models have enabled high-fidelity 3D asset generation. Building on this, a growing line of work has exploited these strong 3D priors for training-free stylization, transferring visual attributes from a reference image onto a generated 3D asset. However, existing methods enforce an all-or-nothing paradigm: color and texture are transferred jointly, with no mechanism to control them independently -- a limitation we formalize as Disentangled 3D Stylization(Disen3D). To address this, we propose DiDE, the first training-free framework for Disen3D. Key to our approach is the observation that the structured latent space of image-to-3D models is overcomplete with respect to texture: texture information occupies only a small subset of the style-significant channels, leaving a free subspace available for independent color encoding. DiDE exploits this via a channel partition mechanism that processes a content image, a texture reference, and a color reference through dedicated branches and composes...
   </details>  
-  Keywords: image-to-3d, 3d asset generation  
+  Keywords: 3d asset generation, image-to-3d  
 - **[STAGE: Subspace-Targeted Affine Generative Erasure for Text-to-3D Models](https://arxiv.org/abs/2610.01302v1)**  
   Authors: Karol Dziekan, Przemysław Spurek, Dawid Malarz  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2610.01302v1.pdf) | [![GitHub](https://img.shields.io/github/stars/gmum/STAGE?style=social)](https://github.com/gmum/STAGE) | [![Project](https://img.shields.io/badge/-Project-blue)](https://gmum.github.io/STAGE)  
@@ -1080,7 +1102,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   We present LangFlash, a feed-forward framework for 3D Language Gaussian Splatting that reconstructs 3D scenes parameterized by Gaussian primitives enriched with language-aligned semantic features from sparse unposed multi-view images. Unlike optimization-based 3D methods, LangFlash directly predicts the geometry and semantics in a single forward pass, enabling low-latency 3D reconstruction and language-consistent scene understanding. To support large-scale training, we enriched the RealEstate10k dataset with coherent and dense semantic information for 3D semantic supervision. Furthermore, we propose a sparse semantic encoding scheme that combines a global semantic dictionary with locally varying per-primitive weights, preserving high-level linguistic information, while reducing representation complexity. Experimental results show that LangFlash achieves superior novel view synthesis and semantic consistency compared with previous methods. This study establishes a new paradigm for pose-free, language-grounded 3D scene reconstruction, advancing generalizable 3D vision and multimodal scene understanding. Demo is available at https://liylo.github.io/langflash.github.io/.
   </details>  
-  Keywords: 3d scene reconstruction, novel view synthesis  
+  Keywords: novel view synthesis, 3d scene reconstruction  
 - **[AssetGen: Deployable 3D Asset Generation at Interactive Speed](https://arxiv.org/abs/2605.26137v1)**  
   Authors: Dilin Wang, Xiaoyu Xiang, Kihyuk Sohn, Tom Monnier, Yu-Ying Yeh, Thu Nguyen-Phuoc, Jiawen Zhang, Yuchen Fan, Antoine Toisoul, Hyunyoung Jung, Prithviraj Dhar, Michael Bunnell, Nikolaos Sarafianos, Chuhang Zou, Roman Shapovalov, Andrea Vedaldi, Rakesh Ranjan  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2605.26137v1.pdf)  
@@ -1585,7 +1607,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   We present ViewSplat, a view-adaptive 3D Gaussian splatting network for novel view synthesis from unposed images. While recent feed-forward 3D Gaussian splatting has significantly accelerated 3D scene reconstruction by bypassing per-scene optimization, a fundamental fidelity gap remains. We attribute this gap to the limited capacity of single-step feed-forward networks to regress static Gaussian primitives that satisfy all viewpoints. To address this limitation, we shift the paradigm from static primitive regression to view-adaptive splatting. Instead of a rigid Gaussian representation, our pipeline learns a view-adaptive latent representation. Specifically, ViewSplat initially predicts base Gaussian primitives alongside the weights of scene-conditioned View MLPs. During rendering, these MLPs take target-view coordinates as input and predict view-dependent residual updates for each Gaussian attribute (i.e., 3D position, scale, rotation, opacity, and color). This mechanism, which we term view-adaptive splatting, allows each primitive to rectify initial estimation errors, effectively capturing high-fidelity appearances. Extensive experiments demonstrate that ViewSplat...
   </details>  
-  Keywords: 3d scene reconstruction, novel view synthesis  
+  Keywords: novel view synthesis, 3d scene reconstruction  
 - **[Teacher-Student Diffusion Model for Text-Driven 3D Hand Motion Generation](https://arxiv.org/abs/2603.24407v1)**  
   Authors: Ching-Lam Cheng, Bin Zhu, Shengfeng He  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2603.24407v1.pdf)  
@@ -1935,7 +1957,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   3D Gaussian Splatting (3DGS) has demonstrated remarkable performance in novel view synthesis and 3D scene reconstruction, but its quality often degrades in real-world environments due to transient distractors, such as moving objects and varying shadows. Existing methods commonly introduce semantic priors from pre-trained vision models either to group pixels into coherent regions or to define perceptual error metrics. However, semantic grouping is often misaligned with the binary static/transient distinction, while perceptual features can be fragile under appearance perturbations introduced during 3DGS optimization. We propose 3DGS-HPC, a framework that addresses these issues by combining two complementary principles: a patch-wise classification strategy that leverages local spatial consistency for robust region-level decisions, and a hybrid classification metric that adaptively integrates photometric and perceptual cues for more reliable separation. Extensive experiments demonstrate the superiority and robustness of our method in mitigating distractors to improve 3DGS-based novel view synthesis. Our project page is https://cnhaox.github.io/3DGS-HPC/ .
   </details>  
-  Keywords: 3d scene reconstruction, novel view synthesis  
+  Keywords: novel view synthesis, 3d scene reconstruction  
 - **[DogWeave: High-Fidelity 3D Canine Reconstruction from a Single Image via Normal Fusion and Conditional Inpainting](https://arxiv.org/abs/2603.07441v1)**  
   Authors: Shufan Sun, Chenchen Wang, Zongfu Yu  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2603.07441v1.pdf)  
@@ -1972,7 +1994,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Current compositional image-to-3D scene generation approaches construct 3D scenes by time-consuming iterative layout optimization or inflexible joint object-layout generation. Moreover, most methods rely on limited field-of-view perspective images, hindering the creation of complete 360-degree environments. To address these limitations, we design Pano3DComposer, an efficient feed-forward framework for panoramic images. To decouple object generation from layout estimation, we propose a plug-and-play Object-World Transformation Predictor. This module converts the 3D objects generated by off-the-shelf image-to-3D models from local to world coordinates. To achieve this, we adapt the VGGT architecture to Alignment-VGGT by using target object crop, multi-view object renderings and camera parameters to predict the transformation. The predictor is trained using pseudo-geometric supervision to address the shape discrepancy between generated and ground-truth objects. For input images from unseen domains, we further introduce a Coarse-to-Fine (C2F) alignment mechanism for Pano3DComposer that iteratively refines geometric consistency with feedback of scene rendering. Our method achieves...
   </details>  
-  Keywords: text-to-3d, image-to-3d  
+  Keywords: image-to-3d, text-to-3d  
 - **[Cog2Gen3D: Sculpturing 3D Semantic-Geometric Cognition for 3D Generation](https://arxiv.org/abs/2603.05845v1)**  
   Authors: Haonan Wang, Hanyu Zhou, Haoyue Liu, Tao Gu, Luxin Yan  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2603.05845v1.pdf)  
@@ -2056,7 +2078,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Recent advances in generalizable 3D Gaussian Splatting (3DGS) have enabled rapid 3D scene reconstruction within seconds, eliminating the need for per-scene optimization. However, existing methods primarily follow an offline reconstruction paradigm, lacking the capacity for continuous reconstruction, which limits their applicability to online scenarios such as robotics and VR/AR. In this paper, we introduce OnlineX, a feed-forward framework that reconstructs both 3D visual appearance and language fields in an online manner using only streaming images. A key challenge in online formulation is the cumulative drift issue, which is rooted in the fundamental conflict between two opposing roles of the memory state: an active role that constantly refreshes to capture high-frequency local geometry, and a stable role that conservatively accumulates and preserves the long-term global structure. To address this, we introduce a decoupled active-to-stable state evolution paradigm. Our framework decouples the memory state into a dedicated active state and a persistent...
   </details>  
-  Keywords: 3d scene reconstruction, novel view synthesis  
+  Keywords: novel view synthesis, 3d scene reconstruction  
 - **[Tiny-DroNeRF: Tiny Neural Radiance Fields aboard Federated Learning-enabled Nano-drones](https://arxiv.org/abs/2603.01850v1)**  
   Authors: Ilenia Carboni, Elia Cereda, Lorenzo Lamberti, Daniele Malpetti, Francesco Conti, Daniele Palossi  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2603.01850v1.pdf)  
@@ -2065,29 +2087,6 @@ A curated list of latest research papers, projects and resources related to Gaus
   Sub-30g nano-sized aerial robots can leverage their agility and form factor to autonomously explore cluttered and narrow environments, like in industrial inspection and search and rescue missions. However, the price for their tiny size is a strong limit in their resources, i.e., sub-100 mW microcontroller units (MCUs) delivering $\sim$100 GOps/s at best, and memory budgets well below 100 MB. Despite these strict constraints, we aim to enable complex vision-based tasks aboard nano-drones, such as dense 3D scene reconstruction: a key robotic task underlying fundamental capabilities like spatial awareness and motion planning. Top-performing 3D reconstruction methods leverage neural radiance fields (NeRF) models, which require GBs of memory and massive computation, usually delivered by high-end GPUs consuming 100s of Watts. Our work introduces Tiny-DroNeRF, a lightweight NeRF model, based on Instant-NGP, and optimized for running on a GAP9 ultra-low-power (ULP) MCU aboard our nano-drones. Then, we further empower our Tiny-DroNeRF by leveraging...
   </details>  
   Keywords: 3d scene reconstruction  
-- **[Dehallu3D: Hallucination-Mitigated 3D Generation from Single Image via Cyclic View Consistency Refinement](https://arxiv.org/abs/2603.01601v2)**  
-  Authors: Xiwen Wang, Shichao Zhang, Hailun Zhang, Ruowei Wang, Mao Li, Chenyu Zhou, Qijun Zhao, Ji-Zhe Zhou  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2603.01601v2.pdf)  
-  <details><summary>Abstract</summary>
-
-  Large 3D reconstruction models have revolutionized the 3D content generation field, enabling broad applications in virtual reality and gaming. Just like other large models, large 3D reconstruction models suffer from hallucinations as well, introducing structural outliers (e.g., odd holes or protrusions) that deviate from the input data. However, unlike other large models, hallucinations in large 3D reconstruction models remain severely underexplored, leading to malformed 3D-printed objects or insufficient immersion in virtual scenes. Such hallucinations majorly originate from that existing methods reconstruct 3D content from sparsely generated multi-view images which suffer from large viewpoint gaps and discontinuities. To mitigate hallucinations by eliminating the outliers, we propose Dehallu3D for 3D mesh generation. Our key idea is to design a balanced multi-view continuity constraint to enforce smooth transitions across dense intermediate viewpoints, while avoiding over-smoothing that could erase sharp geometric features. Therefore, Dehallu3D employs a plug-and-play optimization module with two key constraints: (i)...
-  </details>  
-- **[Preference Score Distillation: Leveraging 2D Rewards to Align Text-to-3D Generation with Human Preference](https://arxiv.org/abs/2603.01594v1)**  
-  Authors: Jiaqi Leng, Shuyuan Tu, Haidong Cao, Sicheng Xie, Daoguo Dong, Zuxuan Wu, Yu-Gang Jiang  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2603.01594v1.pdf)  
-  <details><summary>Abstract</summary>
-
-  Human preference alignment presents a critical yet underexplored challenge for diffusion models in text-to-3D generation. Existing solutions typically require task-specific fine-tuning, posing significant hurdles in data-scarce 3D domains. To address this, we propose Preference Score Distillation (PSD), an optimization-based framework that leverages pretrained 2D reward models for human-aligned text-to-3D synthesis without 3D training data. Our key insight stems from the incompatibility of pixel-level gradients: due to the absence of noisy samples during reward model training, direct application of 2D reward gradients disturbs the denoising process. Noticing that similar issue occurs in the naive classifier guidance in conditioned diffusion models, we fundamentally rethink preference alignment as a classifier-free guidance (CFG)-style mechanism through our implicit reward model. Furthermore, recognizing that frozen pretrained diffusion models constrain performance, we introduce an adaptive strategy to co-optimize preference scores and negative text embeddings. By incorporating CFG during optimization, online refinement of negative text embeddings dynamically enhances...
-  </details>  
-  Keywords: text-to-3d  
-- **[TIMI: Training-Free Image-to-3D Multi-Instance Generation with Spatial Fidelity](https://arxiv.org/abs/2603.01371v2)**  
-  Authors: Xiao Cai, Pengpeng Zeng, Ji Zhang, Heng Tao Shen, Jingkuan Song, Lianli Gao  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2603.01371v2.pdf)  
-  <details><summary>Abstract</summary>
-
-  Precise spatial fidelity in Image-to-3D multi-instance generation is critical for downstream real-world applications. Recent work attempts to address this by fine-tuning pre-trained Image-to-3D (I23D) models on multi-instance datasets, which incurs substantial training overhead and struggles to guarantee spatial fidelity. In fact, we observe that pre-trained I23D models already possess meaningful spatial priors, which remain underutilized as evidenced by instance entanglement issues. Motivated by this, we propose TIMI, a novel Training-free framework for Image-to-3D Multi-Instance generation that achieves high spatial fidelity. Specifically, we first introduce an Instance-aware Separation Guidance (ISG) module, which facilitates instance disentanglement during the early denoising stage. Next, to stabilize the guidance introduced by ISG, we devise a Spatial-stabilized Geometry-adaptive Update (SGU) module that promotes the preservation of the geometric characteristics of instances while maintaining their relative relationships. Extensive experiments demonstrate that our method yields better performance in terms of both global layout and distinct local instances compared...
-  </details>  
-  Keywords: image-to-3d  
 
 ### June 2026
 - **[WarpHammer: Densifying Scene Warps with 3D Object Priors for Extreme View Synthesis](https://arxiv.org/abs/2606.31258v2)**  
@@ -2173,7 +2172,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   We present Home3D 1.0, a modular image-to-3D generation system that produces high-quality 3D assets from a single reference image, targeting interior design and e-commerce applications. Given a photograph of a furniture or decor item, the system outputs a mesh with physically-based rendering (PBR) materials, and the mesh can be decomposed into material-specific components. The pipeline is organized into four tightly coupled modules: Geometry reconstructs a watertight mesh through latent SDF modelling with a geometry VAE and a coarse-to-fine flow-matching DiT; Texture predicts multiview albedo observations, reprojects them onto the mesh, and completes unseen surface regions with a 3D texture field; Material uses MatWeaver to obtain component masks through video-based segmentation and UV-space voting, then retrieves and bakes PBR maps from a curated material library through hierarchical multi-modal matching; and Parts generates material-editable semantic part meshes with a PartVAE and PartDiT, decoding multi-head part-specific SDF fields in one pass. Each module...
   </details>  
-  Keywords: image-to-3d, 3d asset generation  
+  Keywords: 3d asset generation, image-to-3d  
 - **[Scene and Human in One World: Reconstruction in a Feedforward Pass](https://arxiv.org/abs/2606.27720v1)**  
   Authors: Boao Shi, Qiao Feng, Yiming Huang, Lingjie Liu  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2606.27720v1.pdf)  
@@ -2332,7 +2331,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Recently neural implicit rendering techniques have evolved rapidly and demonstrated significant advantages in novel view synthesis and 3D scene reconstruction. However, existing neural rendering methods for editing purposes offer limited functionalities, e.g., rigid transformation and category-specific editing. In this paper, we present a novel mesh-based representation by encoding the neural radiance field with disentangled geometry, texture, and semantic codes on mesh vertices, which empowers a set of efficient and comprehensive editing functionalities, including mesh-guided geometry editing, designated texture editing with texture swapping, filling and painting operations, and semantic-guided editing. To this end, we develop several techniques including a novel local space parameterization to enhance rendering quality and training stability, a learnable modification color on vertex to improve the fidelity of texture editing, a spatial-aware optimization strategy to realize precise texture editing, and a semantic-aided region selection to ease the laborious annotation of implicit field editing. Extensive experiments and editing examples...
   </details>  
-  Keywords: 3d scene reconstruction, novel view synthesis  
+  Keywords: novel view synthesis, 3d scene reconstruction  
 - **[FlowObject: Flow Steering for Bridging Generative Priors and Reconstruction Fidelity](https://arxiv.org/abs/2606.19019v1)**  
   Authors: Yuchen Rao, Xuqian Ren, Yinyu Nie, Sayan Deb Sarkar, Biao Zhang, Vincent Lepetit, Friedrich Fraundorfer  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2606.19019v1.pdf)  
@@ -2430,7 +2429,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Multimodal large language models can write code to produce complex programs as well as use programs to do 3D modeling, which opens up a new avenue for 3D generation powered by their priors, world knowledge and reasoning. Yet existing benchmarks rarely evaluate 3D modeling through code. Such modeling demands more than runnable code: from a text or visual specification, a model must generate a parametric 3D program that is geometrically precise, semantically aligned and assembly-consistent. We introduce P3D-Bench, a benchmark for parametric 3D generation. Unlike a 3D mesh, a parametric 3D program exposes explicit dimensions, construction operations and part relations, revealing whether a model recovers a design's structure, not just its appearance. Under a unified protocol, P3D-Bench covers three task families (Text-to-3D, Image-to-3D and Assembly-3D) and scores each output for executability, geometric fidelity, topology, text-grounded constraints, multiview semantic alignment and part-level structure. We construct P3D-Dataset, comprising 400 text cases, 400...
   </details>  
-  Keywords: text-to-3d, image-to-3d  
+  Keywords: image-to-3d, text-to-3d  
 - **[DB-3DME: From Dataset to Benchmark for Human-aligned Automatic 3D Mesh Evaluation](https://arxiv.org/abs/2606.10142v2)**  
   Authors: Nanshan Jia, Zhenyu Zhao, Junbo Peng, Sui Huang, Jingshen Wang, Zeyu Zheng  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2606.10142v2.pdf)  
@@ -2510,7 +2509,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Multi-modal novel view synthesis (NVS) combining RGB and thermal imagery enables precise 3D scene reconstruction with visual and thermal information. However, existing methods typically rely on precisely calibrated RGB-thermal image pairs or stereo setups, limiting scalability and practical deployment. To address this, we introduce a framework for unpaired RGB-thermal NVS that leverages VGGT, a 3D feed-forward transformer architecture, to independently estimate camera poses for each modality. The pose sets are then aligned using the Procrustes algorithm with a cross-modal feature matcher, enabling joint registration without paired calibration. Building on this alignment, we further propose a multi-modal 3D Gaussian Splatting approach that learns directly from unpaired RGB and thermal images. Experiments on diverse scenes demonstrate that our method achieves competitive performance in thermal view synthesis while maintaining RGB fidelity. Moreover, we show that existing reconstruction approaches can produce modality-specific reconstructions that lack cross-modal consistency. We thus introduce a benchmarking framework to...
   </details>  
-  Keywords: 3d scene reconstruction, novel view synthesis  
+  Keywords: novel view synthesis, 3d scene reconstruction  
 - **[MeshFlow: Efficient Artistic Mesh Generation via MeshVAE and Flow-based Diffusion Transformer](https://arxiv.org/abs/2606.04621v2)**  
   Authors: Weiyu Li, Antoine Toisoul, Tom Monnier, Roman Shapovalov, Rakesh Ranjan, Ping Tan, Andrea Vedaldi  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2606.04621v2.pdf) | [![GitHub](https://img.shields.io/github/stars/facebookresearch/meshflow?style=social)](https://github.com/facebookresearch/meshflow) | [![Project](https://img.shields.io/badge/-Project-blue)](https://mesh-flow.github.io)  
@@ -2580,7 +2579,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   3D Gaussian Splatting (3DGS) has emerged as an effective representation for novel view synthesis and 3D scene reconstruction, creating an increasing demand for reliable quality assessment. Unlike conventional image quality assessment (IQA), the quality of a 3DGS scene depends not only on the perceptual fidelity of rendered views, but also on scene-level factors such as spatial structure and cross-view consistency. Existing IQA methods are limited by their reliance on 2D perceptual cues, whereas general multimodal large language models (MLLMs) are not designed for stable quality regression and may produce unreliable judgments. To address these limitations, a multimodal quality assessment framework is developed for 3DGS scene understanding. First, a 3D-aware quality representation learning framework is introduced by augmenting a VGGT-based encoder with a dedicated quality head. Multi-view images are encoded into view-specific features and aggregated to capture cross-view consistency, while geometric cues are incorporated through joint modeling of depth and point-cloud-related...
   </details>  
-  Keywords: 3d scene reconstruction, novel view synthesis  
+  Keywords: novel view synthesis, 3d scene reconstruction  
 - **[DreamStyle3D: Efficient 3D Stylized Asset Generation via Dual-Attention Disentanglement](https://arxiv.org/abs/2607.24721v3)**  
   Authors: Kai Wang, Ziheng Ouyang, Xuying Zhang, Ming-Ming Cheng, Qibin Hou  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2607.24721v3.pdf) | [![GitHub](https://img.shields.io/github/stars/NK-JittorCV/nk-3D?style=social)](https://github.com/NK-JittorCV/nk-3D)  
@@ -2828,7 +2827,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Unified 3D foundation models aspire to generate 3D assets and reason about them in language within a single backbone, but their text-3D interaction remains largely implicit. Existing methods concatenate text and 3D tokens into a flat sequence and rely on self-attention, collapsing coarse structural cues and fine geometric details into one undifferentiated representation. We introduce ELSA3D, a unified 3D model that addresses this with elastic semantic anchoring, structuring language and geometric reasoning jointly along matched abstraction scales. ELSA3D represents geometry with a scale-aware octree tokenizer and introduces Anchor Tokens, sparse cross-modal units that select semantic cues, route them to the most relevant 3D scale, retrieve scale-specific geometric evidence, and write the fused signal back into the unified representation, keeping interaction sparse yet precise. A lightweight per-block router makes both computation and reasoning elastic, choosing which text tokens instantiate anchors at which geometric scale so that cross-modal capacity concentrates where alignment...
   </details>  
-  Keywords: text-to-3d, image-to-3d  
+  Keywords: image-to-3d, text-to-3d  
 - **[VaseMuseum: Digital Intelligent Museum for Ancient Greek Pottery](https://arxiv.org/abs/2607.06374v1)**  
   Authors: Jiazi Wang, Nonghai Zhang, Qiushi Xie, Zeyu Zhang, Yufeng Chen, Yang Zhao, Ling Shao, Hao Tang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2607.06374v1.pdf)  
@@ -2905,7 +2904,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Creating 3D assets for virtual reality requires modeling expertise, which restricts the authorship of immersive experiences. Existing generative AI tools rely on unconstrained, command-driven prompting, lacking the conversational scaffolding needed for users to articulate their intent and validate designs prior to rendering. To address this, we introduce CoGen3D, an agentic human-AI co-design pipeline that proactively guides users through conversational intent elicitation, a concept image confirmation, and image-to-3D generation that directly deploys to immersive scenes. We evaluated this system through a user study (N=120) across six affectively diverse immersive scenes, observing 60 Design group participants who co-created 3D assets for the scenes, and 60 Validation group participants who experienced the scenes with generated assets. Our findings show that co-designed assets are associated with higher scene engagement and shifted affective responses, while participants generally preferred concept images over the final 3D assets, with no increased leniency toward degradation in their own creations....
   </details>  
-  Keywords: image-to-3d, 3d asset generation  
+  Keywords: 3d asset generation, image-to-3d  
 - **[Property-Constrained 3D Porous Media Reconstruction from 2D Images via Conditional Generative Adversarial Networks](https://arxiv.org/abs/2607.02693v1)**  
   Authors: Ali Sadeghkhani, Brandon Bennett, Arash Rabbani  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2607.02693v1.pdf)  
@@ -2921,7 +2920,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Precise control of 3D facial expressions from text is crucial for virtual avatars, animation, and human-computer interaction, yet existing text-to-3D methods jointly generate identity, expression, and texture, making fine-grained expression control difficult. We instead formulate text-driven expression synthesis as a regression problem in the disentangled parameter space of a 3D Morphable Model (3DMM). This setting, however, requires paired data linking detailed language to precise expression parameters, which are missing from existing resources. To fill this gap, we introduce Txt2Emote, a benchmark of diverse 3D facial expressions with fine-grained textual annotations obtained from GPT-4o and a high-fidelity face tracker, providing both explicit descriptions detailing facial features and implicit descriptions referencing the situational context behind the expression. Leveraging this dataset, we present EmoteGPT, a text-to-3D expression framework based on a Multimodal Large Language Model (MLLM) with a dedicated <Expr> token to semantically ground expression representations, which are then decoded into 3DMM parameters....
   </details>  
-  Keywords: text-to-3d, image-to-3d  
+  Keywords: image-to-3d, text-to-3d  
 - **[Text-Driven 3D Indoor Scene Synthesis in Non-Manhattan Environments](https://arxiv.org/abs/2607.02407v1)**  
   Authors: Xianhui Meng, Zirui Song, Yuchen Zhang, Li Zhang, Yongxuan Lv, Xiuying Chen, Kun Wang, Yan Luo, Kai Chen, Hangjun Ye, Long Chen, Jun Liu, Xiaoshuai Hao  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2607.02407v1.pdf)  
@@ -3052,7 +3051,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance. However, preserving fine detail across the physically based rendering (PBR) modalities needed for relighting remains challenging. To address this, we propose Luce, a 3D representation that unifies geometry and PBR materials within a voxelized multimodal Gaussian cloud, using dedicated Gaussian primitives for albedo, metallic-roughness, and surface normals. A variational autoencoder compresses this representation into a unified material-aware latent space. A rectified-flow transformer generates this latent from a single image using multi-layer features from a pretrained image encoder that preserve both semantic context and fine spatial detail. The latent is then decoded into relightable PBR Gaussians and an optional textured mesh with a tangent-space normal map. On Toys4K, Luce achieves state-of-the-art single-image-to-3D generation, improving FID by 28% over the strongest baseline. We further evaluate Luce on a benchmark of AI-generated images depicting diverse subjects and materials, where it...
   </details>  
-  Keywords: pbr materials, image-to-3d, 3d asset generation  
+  Keywords: pbr materials, 3d asset generation, image-to-3d  
 - **[SceneReGen: Generative Reconstruction of 3D Scenes from a Single Image](https://arxiv.org/abs/2608.23930v1)**  
   Authors: Zefan Tian, Yuteng Ye, Yiheng Zhang, Yuhang Yang, Xueqiang Lv, Shizhou Zhang, Le Liu, Di Xu  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2608.23930v1.pdf)  
@@ -3677,7 +3676,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   3D Gaussian Splatting (3DGS) has demonstrated impressive performance in 3D scene reconstruction. Beyond novel view synthesis, it shows great potential for multi-view surface reconstruction. Existing methods employ optimization-based reconstruction pipelines that achieve precise and complete surface extractions. However, these approaches typically require dense input views and high time consumption for per-scene optimization. To address these limitations, we propose SurfelSplat, a feed-forward framework that generates efficient and generalizable pixel-aligned Gaussian surfel representations from sparse-view images. We observe that conventional feed-forward structures struggle to recover accurate geometric attributes of Gaussian surfels because the spatial frequency of pixel-aligned primitives exceeds Nyquist sampling rates. Therefore, we propose a cross-view feature aggregation module based on the Nyquist sampling theorem. Specifically, we first adapt the geometric forms of Gaussian surfels with spatial sampling rate-guided low-pass filters. We then project the filtered surfels across all input views to obtain cross-view feature correlations. By processing these correlations through...
   </details>  
-  Keywords: 3d scene reconstruction, novel view synthesis  
+  Keywords: novel view synthesis, 3d scene reconstruction  
 - **[Brain3D: EEG-to-3D Decoding of Visual Representations via Multimodal Reasoning](https://arxiv.org/abs/2604.08068v1)**  
   Authors: Emanuele Balloni, Emanuele Frontoni, Chiara Matti, Marina Paolanti, Roberto Pierdicca, Emiliano Santarnecchi  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2604.08068v1.pdf)  
@@ -3716,7 +3715,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Live-streaming Novel View Synthesis (NVS) from unposed multi-view video remains an open challenge in a wide range of applications. Existing methods for dynamic scene representation typically require ground-truth camera parameters and involve lengthy optimizations ($\approx 2.67$s), which makes them unsuitable for live streaming scenarios. To address this issue, we propose a novel viewpoint video live-streaming method (LiveStre4m), a feed-forward model for real-time NVS from unposed sparse multi-view inputs. LiveStre4m introduces a multi-view vision transformer for keyframe 3D scene reconstruction coupled with a diffusion-transformer interpolation module that ensures temporal consistency and stable streaming. In addition, a Camera Pose Predictor module is proposed to efficiently estimate both poses and intrinsics directly from RGB images, removing the reliance on known camera calibration information. Our approach enables temporally consistent novel-view video streaming in real-time using as few as two synchronized unposed input streams. LiveStre4m attains an average reconstruction time of $ 0.07$s per-frame at...
   </details>  
-  Keywords: 3d scene reconstruction, novel view synthesis  
+  Keywords: novel view synthesis, 3d scene reconstruction  
 - **[PoM: A Linear-Time Replacement for Attention with the Polynomial Mixer](https://arxiv.org/abs/2604.06129v1)**  
   Authors: David Picard, Nicolas Dufour, Lucas Degeorge, Arijit Ghosh, Davide Allegro, Tom Ravaud, Yohann Perron, Corentin Sautier, Zeynep Sonat Baltaci, Fei Meng, Syrine Kalleli, Marta López-Rauhut, Thibaut Loiseau, Ségolène Albouy, Raphael Baena, Elliot Vincent, Loic Landrieu  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2604.06129v1.pdf) | [![GitHub](https://img.shields.io/github/stars/davidpicard/pom?style=social)](https://github.com/davidpicard/pom)  
@@ -3837,7 +3836,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
 ### Cross-Modal Generation
 
-*Showing the latest 50 out of 103 papers*
+*Showing the latest 50 out of 101 papers*
 
 - **[MagicGarment: Benchmarking Single-Image Standalone 3D Garment Reconstruction](https://arxiv.org/abs/2610.19623v1)**  
   Authors: Jia Chen, Ruyang Zhao, Jun Bai, Chao Huang, Saishang Zhong, Xinrong Hu  
@@ -3886,7 +3885,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Image-to-3D generation has become increasingly capable of producing objects that closely resemble the input image, and an outstanding challenge is to reproduce the depicted object itself, including the specific geometry that defines it. Inscriptions, brand marks, and repeated structures are frequently distorted or lost, despite being critical to object identity. We present Hi3D 3.0, an image-to-3D generation system targeting object-specific fidelity, with Twinkle3D as its geometry model for generating watertight triangle meshes at $2048^{3}$ resolution. Twinkle3D advances high-fidelity geometry generation along four dimensions. First, while O-Voxel/FaithC offers high representational precision, it often suffers from poor surface quality and non-watertight geometry. We address both issues while retaining its $2048^{3}$-level precision. Second, we scale diffusion generation to sequences of up to 300K geometric tokens through a redesigned DiT architecture and large-scale distributed training optimizations, reducing training time per step from approximately ten minutes to ten seconds. Third, subsequent refinement cannot fully compensate...
   </details>  
-  Keywords: image-to-3d, 3d asset generation  
+  Keywords: 3d asset generation, image-to-3d  
 - **[DynaMesh: Dynamic 3D Texture Generation](https://arxiv.org/abs/2610.05529v1)**  
   Authors: Raj Hansini, Guan Chen, Rana Hanocka, Itai Lang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2610.05529v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://threedle.github.io/dynamesh)  
@@ -3902,7 +3901,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Inspired by cognitive science, we present CREATIVEFLOW, an analogical generation framework that explicitly models analogical divergent thinking to mitigate creative homogenization in text-to-3D pipelines. Our method derives a series of meaningful yet relationally similar source-target asset pairs, each featuring distinct geometric configurations. Expert evaluations demonstrate that our framework substantially enhances creative novelty and visual fascination. This workflow and its resulting assets establish a foundational dataset and benchmark for future relation-aware 3D model training.
   </details>  
-  Keywords: text-to-3d, 3d asset generation  
+  Keywords: 3d asset generation, text-to-3d  
 - **[UniBRep: Learning Unified Geometry and Topology for Image-conditioned B-Rep Generation](https://arxiv.org/abs/2610.04092v1)**  
   Authors: Haiyang Ying, Allen Tu, Jiaye Wu, Tom Goldstein, Matthias Zwicker  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2610.04092v1.pdf)  
@@ -4014,7 +4013,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   Geometry foundation models estimate camera poses and 3D scene structure from video sequences, but maintaining consistent reconstructions over long horizons remains challenging. Feed-forward models process long sequences as independent, fixed-length frame windows and align their predictions, causing pose and reconstruction errors to accumulate across windows. Streaming models retain information from past frames to inform future predictions, but cannot revise earlier estimates when later observations reveal errors. To address this, we introduce Scaffold MemOry for Revision (SMORE), a framework equipping frozen geometry foundation models with a revisable external memory for long-horizon inference. Inspired by hippocampal associative memory in biological brains, which links spatial context with sensory experience, SMORE associates where an observer is with what it observes, enabling past observations to be stored, retrieved, verified against new evidence, and revised when inconsistencies are detected. We evaluate SMORE with eight competitive geometry models on five datasets spanning camera pose estimation, multi-view depth...
   </details>  
-  Keywords: 3d scene reconstruction, novel view synthesis  
+  Keywords: novel view synthesis, 3d scene reconstruction  
 - **[Tetris3D: 3D Scene Generation With Objects That Fit Together](https://arxiv.org/abs/2610.10539v1)**  
   Authors: Jaeyeong Kim, Jinhyuk Jang, Jongmin Lee, Kyehong Park, Seungryong Kim  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2610.10539v1.pdf)  
@@ -4129,7 +4128,7 @@ A curated list of latest research papers, projects and resources related to Gaus
 
   High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance. However, preserving fine detail across the physically based rendering (PBR) modalities needed for relighting remains challenging. To address this, we propose Luce, a 3D representation that unifies geometry and PBR materials within a voxelized multimodal Gaussian cloud, using dedicated Gaussian primitives for albedo, metallic-roughness, and surface normals. A variational autoencoder compresses this representation into a unified material-aware latent space. A rectified-flow transformer generates this latent from a single image using multi-layer features from a pretrained image encoder that preserve both semantic context and fine spatial detail. The latent is then decoded into relightable PBR Gaussians and an optional textured mesh with a tangent-space normal map. On Toys4K, Luce achieves state-of-the-art single-image-to-3D generation, improving FID by 28% over the strongest baseline. We further evaluate Luce on a benchmark of AI-generated images depicting diverse subjects and materials, where it...
   </details>  
-  Keywords: pbr materials, image-to-3d, 3d asset generation  
+  Keywords: pbr materials, 3d asset generation, image-to-3d  
 - **[TGRHuman: Text-Guided Realistic 3D Human Generation via Diffusion Renderer](https://arxiv.org/abs/2608.12175v1)**  
   Authors: Muxin Zhang, Chaohui Yu, Yuanwang Yang, Min Wei, Zhuo Su, Kun Li  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2608.12175v1.pdf)  
